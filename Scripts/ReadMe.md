@@ -28,7 +28,7 @@ This script displays all of the game's info that you would want to see while TAS
 
 These are the necessary scripts to import and use the Individial Level (IL) TAS files in this repository, or create your own. 
   
-**To import a TAS file: **
+**To import a TAS file:**
 
 Copy the file you would like to import into your main Dolphin direcroy, and rename it to 'tas.txt'. Then, go to the specified level in-game, equip specified items, and enter the level. At any time while the level banner is displayed, start 'ImportIL.lua', and the TAS will play back once the level loads. It is recommended to pause the game on the level banner while you start the script, but is not required. If you are trying to understand/improve a level's TAS, it is strongly reccomended to use Data.lua to watch memory values during this process. 
   
