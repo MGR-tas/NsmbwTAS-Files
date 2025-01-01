@@ -1,4 +1,5 @@
 For use with Dolphin Lua Core 4.3, by MikeXander: https://github.com/MikeXander/Dolphin-Lua-Core/releases/tag/v4.3
+
 Dolphin Memory Engine (DME): https://github.com/aldelaro5/dolphin-memory-engine/releases/tag/v1.2.4
 
 --- Intro ---
