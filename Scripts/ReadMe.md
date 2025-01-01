@@ -1,10 +1,12 @@
 For use with Dolphin Lua Core 4.3, by MikeXander: https://github.com/MikeXander/Dolphin-Lua-Core/releases/tag/v4.3
 
-Dolphin Memory Engine (DME): https://github.com/aldelaro5/dolphin-memory-engine/releases/tag/v1.2.4
-
 # Intro
 
 These are a set of lua scripts for TASing New Super Mario Bros Wii. They provide important tools which are not normally available with Dolphin, such as displaying important memory values on-screen, exporting/importing inputs (useful for editing past work or testing routes), and controlled mashing (for level entry ease-of-use or penguin swimming). All scripts except for NSMBWii_Core.lua go in your dolphin directory -> sys -> scripts. To execute a script in Dolphin, select the Tools menu -> Execute Script. This will open a window to select the script you want to use. After starting a script, you must frame advance once or let dolphin play the emulation in order for it to actually start.
+
+## Tools
+
+Dolphin Memory Engine (DME): https://github.com/aldelaro5/dolphin-memory-engine/releases/tag/v1.2.4
 
 # Script Description
 
