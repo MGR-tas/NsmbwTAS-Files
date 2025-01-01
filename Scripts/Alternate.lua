@@ -14,7 +14,7 @@ function onScriptUpdate()
   --[[  This is what each button is stored as
     HOME = 32768
     C = 16384
-	Z = 8192
+    Z = 8192
     - = 4096
     A = 2048
     B = 1024	
