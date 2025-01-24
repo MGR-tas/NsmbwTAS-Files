@@ -51,3 +51,9 @@ The script is also easily-customizable to press any button for a different amoun
 ## SwimForMe.lua
 
 This is a slightly altered version of Alternate.lua, made specifically for penguin swimming. On the frame before you want to press A, start the script, then it will start Pressing A once every 19 frames. If you need to shoot an ice ball underwater or delay swimming by a frame, or anything that changes when your next stroke occurs, you will need to cancel and restart the script in order to resync it. To see how long it has been since the last A-press, uncomment the associated lines in Data.lua, as listed in a comment near the top of Data.lua.
+
+## PauseForMe.lua
+
+This is only useful when testing random things, optimizing for IGT, or rare applications elsewhere.
+
+By default, this script automatically starts a pause and exits the pause optimally, then cancels itself. By editing the first and second lines of the script, you can instead have it pause spam while letting x in-game frames elapse between each pause. Data.lua can display when you may hold an input for it to be read on the next frame. This feature uses the same file as SwimForMe.lua, so you must uncomment the associated lines in Data.lua to display it.
