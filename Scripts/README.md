@@ -1,4 +1,4 @@
-For use with Dolphin Lua Core 4.3, by MikeXander: https://github.com/MikeXander/Dolphin-Lua-Core/releases/tag/v4.3
+For use with Dolphin Lua Core 4.6, by MikeXander: https://github.com/MikeXander/Dolphin-Lua-Core/releases/tag/v4.6
 
 # Intro
 
