@@ -1,7 +1,7 @@
 # NsmbwTAS-Files
 New Super Mario Bros Wii TAS tools and inputs
 
-For use with Dolphin Lua Core 4.3, by MikeXander: https://github.com/MikeXander/Dolphin-Lua-Core/releases/tag/v4.3
+For use with Dolphin Lua Core 4.6, by MikeXander: https://github.com/MikeXander/Dolphin-Lua-Core/releases/tag/v4.6
 
 Anyone is welcome to download and replay these files, so if you want to learn how to TAS the game, see why we do certain things, or help find improvements, that can be a good way to do it!
 
