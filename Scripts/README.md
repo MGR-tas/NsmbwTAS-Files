@@ -1,12 +1,12 @@
 For use with Dolphin Lua Core 4.6, by MikeXander: https://github.com/MikeXander/Dolphin-Lua-Core/releases/tag/v4.6
 
-# Intro
-
-These are a set of lua scripts for TASing New Super Mario Bros Wii. They provide important tools which are not normally available with Dolphin, such as displaying important memory values on-screen, exporting/importing inputs (useful for editing past work or testing routes), and controlled mashing (for level entry ease-of-use or penguin swimming). All scripts except for NSMBWii_Core.lua go in your dolphin directory -> sys -> scripts. To execute a script in Dolphin, select the Tools menu -> Execute Script. This will open a window to select the script you want to use. After starting a script, you must frame advance once or let dolphin play the emulation in order for it to actually start.
-
 **BEFORE USING SCRIPTS:**
 
 Disable panic handlers in Dolphin's Config -> Interface. This is necessary to avoid dolphin randomly overloading you with a ton of "Unable to resolve read address..." errors for no reason.
+
+# Intro
+
+These are a set of lua scripts for TASing New Super Mario Bros Wii. They provide important tools which are not normally available with Dolphin, such as displaying important memory values on-screen, exporting/importing inputs (useful for editing past work or testing routes), and controlled mashing (for level entry ease-of-use or penguin swimming). All scripts except for NSMBWii_Core.lua go in your dolphin directory -> sys -> scripts. To execute a script in Dolphin, select the Tools menu -> Execute Script. This will open a window to select the script you want to use. After starting a script, you must frame advance once or let dolphin play the emulation in order for it to actually start.
 
 ## Tools
 
