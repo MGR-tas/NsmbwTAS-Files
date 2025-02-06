@@ -1,8 +1,6 @@
 For use with Dolphin Lua Core 4.6, by MikeXander: https://github.com/MikeXander/Dolphin-Lua-Core/releases/tag/v4.6
 
-**BEFORE USING SCRIPTS:**
-
-Disable panic handlers in Dolphin's Config -> Interface. This is necessary to avoid dolphin randomly overloading you with a ton of "Unable to resolve read address..." errors for no reason.
+**BEFORE USING SCRIPTS:** Disable panic handlers in Dolphin's Config -> Interface. This is necessary to avoid dolphin randomly overloading you with a ton of "Unable to resolve read address..." errors for no reason.
 
 # Intro
 
