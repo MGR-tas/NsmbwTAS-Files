@@ -18,7 +18,7 @@ This script goes in your main dolphin directory (the same as Dolphin.exe). This 
 
 ## Data.lua
 
-This script displays all of the game's info that you would want to see while TASing. It has precise IGT, Mario's speed/position and other stats, and the object list. While ImportIL.lua or ExportIL.lua are running, it will also display useful statistics to show that those scripts are working properly. This script also has the option to display the A-cycle produced by SwimForMe.lua, but you must uncomment a few lines (as specified near the top of the file) in order to use this feature.
+This script displays all of the game's info that you would want to see while TASing. It has precise IGT, Mario's speed/position and other stats, and the object list. While ImportIL.lua or ExportIL.lua are running, it will also display useful statistics to show that those scripts are working properly. This script also has the option to display the A-cycle produced by SwimForMe.lua and the pause cycle produced by PauseForMe.lua
   
   **Viewing the full object list:**
   
@@ -52,10 +52,10 @@ The script is also easily-customizable to press any button for a different amoun
 
 ## SwimForMe.lua
 
-This is a slightly altered version of Alternate.lua, made specifically for penguin swimming. On the frame before you want to press A, start the script, then it will start Pressing A once every 19 frames. If you need to shoot an ice ball underwater or delay swimming by a frame, or anything that changes when your next stroke occurs, you will need to cancel and restart the script in order to resync it. To see how long it has been since the last A-press, uncomment the associated lines in Data.lua, as listed in a comment near the top of Data.lua.
+This is a slightly altered version of Alternate.lua, made specifically for penguin swimming. On the frame before you want to press A, start the script, then it will start Pressing A once every 19 frames. If you need to shoot an ice ball underwater or delay swimming by a frame, or anything that changes when your next stroke occurs, you will need to cancel and restart the script in order to resync it.
 
 ## PauseForMe.lua
 
 This is only useful when testing random things, optimizing for IGT, or rare applications elsewhere.
 
-By default, this script automatically starts a pause and exits the pause optimally, then cancels itself. By editing the first and second lines of the script, you can instead have it pause spam while letting x in-game frames elapse between each pause. Data.lua can display when you may hold an input for it to be read on the next frame. This feature uses the same file as SwimForMe.lua, so you must uncomment the associated lines in Data.lua to display it.
+By default, this script automatically starts a pause and exits the pause optimally, then cancels itself. By editing the first and second lines of the script, you can instead have it pause spam while letting x in-game frames elapse between each pause. Data.lua can display when you may hold an input for it to be read on the next frame. This feature uses the same file as SwimForMe.lua, so if you want to use them at the same time you must manually make this script use a different file for communication or make a file for multiple systems to use. I might make that at some point
