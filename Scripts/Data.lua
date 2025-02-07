@@ -8,7 +8,7 @@ if io.open("swimForMe.txt", "r") == nil then
   file:close()
 end
 file = io.open("sharedSettings.txt", "r")  --used for sending text from the input import/export scripts to the lua script
-swimForMe = io.open("swimForMe.txt", "r")  --allows swimForMe.lua to add a row on the lua script. To use, uncomment this line and lines 114-115.
+swimForMe = io.open("swimForMe.txt", "r")
 
 function onScriptStart()
   if ReadValueString(0, 3) ~= 'SMN' then
