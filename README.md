@@ -1,3 +1,5 @@
+##New tools are currently in the works, so don't get too used to this input file format!
+
 # NsmbwTAS-Files
 New Super Mario Bros Wii TAS tools and inputs
 
