@@ -9,45 +9,40 @@ Enforce Legal
 #Start
  144
    1,J
-  75
 Insert Load, sequenceBGTextureLoad0
 
   61
    1,J
  127
    1,J
- 115
 Insert Load, MBLoad0
 
  720
-   2,R,N
+   2,R
   28
    1,J
  224
    1,J
-  35
 Insert Load, 01-01Load0
 Read, 01-01.tas
 
  429
-   2,R,N
+   2,R
   37
    1,J
  245
    1,J
-  35
 Insert Load, 01-02Load0
 Read, 01-02.tas
 
  416
-   2,R,N
+   2,R
   37
    1,J
  244
    1,J
-  35
 Insert Load, 01-03Load0
-Read, 01-03.tas
+Read, 01-03S.tas
 
  795
    1,J
@@ -61,104 +56,99 @@ Read, 01-03.tas
    1,J
  206
    1,J
-  34
 Insert Load, 01-36Load0
 Read, 01-36.tas
 
 1092
    1,G
   29
-   2,R,N
+   2,R
   28
    1,J
- 299
 Insert Load, 05-01Load0
-Read, 05-01.tas
+Read, 05-01N.tas
 
  827
-   2,R,N
+   2,R
   26
    2,U
  303
    1,J
-  34
 Insert Load, 05-33Load0
 Read, 05-33.tas
 
  139
    2,D
   43
-   1,R,N
+   1,R
    1
-   2,R,N
+   2,R
   35
    2,U
   43
-   2,R,N
+   2,R
   28
    1,J
  243
    1,J
-  35
 Insert Load, 05-02Load0
 Read, 05-02.tas
 
  504
-   1,L,N
+   1,L
    1
-   2,L,N
+   2,L
   26
-   1,L,N
+   1,L
   33
    2,D
   43
-   2,L,N
+   2,L
   22
-   1,R,N
+   1,R
    1
    1,J
  218
    1,J
-  34
 Insert Load, 05-27Load0
 Read, 05-27.tas
 
  131
    1,J
   64
-   1,R,N
+   1,R
    1
-   2,R,N
+   2,R
   22
    2,U
   43
-   2,R,N
+   2,R
   35
-   1,R,N
+   1,R
   24
-   1,R,N
+   1,R
   94
    1,U
    1
    1,J
  353
    1,J
-  34
 Insert Load, 05-22Load0
 Read, 05-22.tas
 
 1535
    1,G
   29
-   2,R,N
+   2,R
  129
+#Equip mini
    1,G
   54
-   1,R,N
+   1,R
    7
-   1,R,N
+   1,R
    7
-   1,R,N
+   1,R
    7
    1,J
   11
@@ -167,18 +157,18 @@ Read, 05-22.tas
    1,J
  233
    1,J
-  34
 Insert Load, 05-04Load0
 Read, 05-04.tas
 
  712
-   2,R,N
+   2,R
   71
+#Equip penguin
    1,G
   54
-   1,R,N
+   1,R
    7
-   1,R,N
+   1,R
    7
    1,J
   11
@@ -187,9 +177,8 @@ Read, 05-04.tas
    1,J
  395
    1,J
-  35
 Insert Load, 05-21Load0
-Read, 05-21.tas
+Read, 05-21N.tas
 
 1033
    1,J
@@ -197,7 +186,7 @@ Read, 05-21.tas
    1,J
   35
 Insert Load, 05-21Load6
-Read, 05-21 (1).tas
+Read, 05-21S.tas
 
  653
    2,L,N
@@ -205,7 +194,6 @@ Read, 05-21 (1).tas
    1,J
  206
    1,J
-  34
 Insert Load, 05-36Load0
 Read, 05-36.tas
 
@@ -217,7 +205,6 @@ Read, 05-36.tas
    1,J
  236
    1,J
-  34
 Insert Load, 08-01Load0
 Read, 08-01.tas
 
@@ -227,17 +214,15 @@ Read, 08-01.tas
    1,J
  239
    1,J
-  35
 Insert Load, 08-02Load0
-Read, 08-02.tas
+Read, 08-02N.tas
 
  526
-   2,R,N
+   2,R
  111
    1,J
  227
    1,J
-  34
 Insert Load, 08-03Load0
 Read, 08-03.tas
 
@@ -249,9 +234,8 @@ Read, 08-03.tas
    1,J
  239
    1,J
-  35
 Insert Load, 08-02Load4
-Read, 08-02 (1).tas
+Read, 08-02S.tas
 
  674
    2,U
@@ -259,17 +243,13 @@ Read, 08-02 (1).tas
    1,J
  223
    1,J
-  35
 Insert Load, 08-07Load0
 Read, 08-07.tas
 
-   6
-   1,O
- 799
+ 806
    2,U
  132
    1,J
- 346
 Insert Load, 08-38Load0
 Read, 08-38.tas
 
@@ -279,83 +259,76 @@ Read, 08-38.tas
   14,U
  148
    1,J
- 441
 Insert Load, 08-24Load0
 Read, 08-24.tas
 Read, 01-42.tas
 
  348
    1,J
-  77
 Insert Load, WS_W1Load0
 
+#Likely not needed? Leaving it for now
   12
 Insert Load, 01-40Load0
 
  144
    1,J
-  75
 Insert Load, sequenceBGTextureLoad1
 
   61
    1,J
  127
    1,J
- 116
 Insert Load, sequenceBGTextureLoad2
 
   29
-   2,R,N
+   2,R
   26
-   1,R,N
+   1,R
   33
-   1,R,N
+   1,R
   36
    1,J
  244
    1,J
-  35
 Insert Load, 01-03Load3
-Read, 01-03 (1).tas
+Read, 01-03N.tas
 
  479
-   2,R,N
+   2,R
   47
    1,J
  346
    1,J
-  34
 Insert Load, 01-22Load0
 Read, 01-22.tas
 
  999
-   2,R,N
+   2,R
   64
    1,J
  258
    1,J
-  35
 Insert Load, 01-04Load0
 Read, 01-04.tas
 
  559
-   2,R,N
+   2,R
   71
-   2,R,N
+   2,R
   57
-   2,R,N
+   2,R
   37
    1,J
  240
    1,J
-  34
 Insert Load, 01-06Load0
 Read, 01-06.tas
 
  427
-   1,L,N
+   1,L
    1
-   2,L,N
+   2,L
   71
    2,U
   36
@@ -364,7 +337,6 @@ Read, 01-06.tas
    1,J
  232
    1,J
-  34
 Insert Load, 01-05Load0
 Read, 01-05.tas
 
@@ -373,24 +345,22 @@ Read, 01-05.tas
    2,D
  108
    1,J
- 372
 Insert Load, 01-24Load0
 Read, 01-24.tas
 
  294
    1,J
- 110
+#World 1 Complete!
 Insert Load, CS_W1Load0
 
  406
    2,U
   26
-   2,L,N
+   2,L
   89
    1,J
  230
    1,J
-  34
 Insert Load, 02-01Load0
 Read, 02-01.tas
 
@@ -402,169 +372,155 @@ Read, 02-01.tas
    1,K
    1
    1,K
- 164
 Insert Load, 02-03Load0
 Read, 02-03.tas
 
  360
    2,U
   29
+#Equip prop
    1,G
   54
-   1,R,N
+   1,R
    7
    1,J
   11
    1,J
   33
    1,J
- 424
 Insert Load, 02-22Load0
 Read, 02-22.tas
 
 1294
-   2,L,N
+   2,L
   26
    2,U
   63
    1,J
  262
    1,J
-  35
 Insert Load, 02-04Load0
-Read, 02-04.tas
+Read, 02-04S.tas
 
  872
    1,J
  262
    1,J
-  35
 Insert Load, 02-04Load3
-Read, 02-04 (1).tas
+Read, 02-04N.tas
 
  450
    2,U
   45
-   2,L,N
+   2,L
   46
    1,J
  257
    1,J
-  35
 Insert Load, 02-05Load0
 Read, 02-05.tas
 
  546
-   2,R,N
+   2,R
   44
    1,D
    1
    2,D
   45
-   2,L,N
+   2,L
  385
    1,J
- 379
 Insert Load, 02-24Load0
 Read, 02-24.tas
-
- 319
 Insert Load, CS_W2Load0
 
  525
-   2,R,N
+   2,R
   37
    1,J
  238
    1,J
-  35
 Insert Load, 03-01Load0
 Read, 03-01.tas
 
  519
-   1,R,N
+   1,R
    1
-   2,R,N
+   2,R
   64
    1,J
  248
    1,J
-  34
 Insert Load, 03-02Load0
 Read, 03-02.tas
 
  798
-   2,R,N
+   2,R
   84
-   2,R,N
+   2,R
   28
    1,J
  256
    1,J
-  35
 Insert Load, 03-03Load0
 Read, 03-03.tas
 
  398
-   2,R,N
+   2,R
   26
-   1,R,N
+   1,R
   74
-   2,R,N
+   2,R
   42
    1,J
  374
    1,J
-  35
 Insert Load, 03-21Load0
-Read, 03-21.tas
+Read, 03-21N.tas
 
  616
-   2,R,N
+   2,R
   30
-   1,R,N
+   1,R
   27
    1,J
  218
    1,J
-  34
 Insert Load, 03-27Load0
 Read, 03-27.tas
 
  131
    1,J
   64
-   1,L,N
+   1,L
    1
-   2,L,N
+   2,L
   26
    2,U
   47
    1,J
  361
    1,J
-  35
 Insert Load, 03-22Load0
 Read, 03-22.tas
 
 1163
-   1,R,N
+   1,R
    1
-   2,R,N
- 192
+   2,R
 Insert Load, CS_W3Load0
 
   63
    1,J
  233
    1,J
-  35
 Insert Load, 03-04Load0
-Read, 03-04.tas
+Read, 03-04S.tas
 
  373
-   2,R,N
+   2,R
   41
+#Equip prop
    1,G
   54
    1,J
@@ -574,12 +530,11 @@ Read, 03-04.tas
    1,J
  252
    1,J
-  34
 Insert Load, 03-05Load0
-Read, 03-05.tas
+Read, 03-05N.tas
 
  384
-   2,R,N
+   2,R
   42
    2,U
  210
@@ -587,49 +542,46 @@ Read, 03-05.tas
   48
    2,D
   20
-   2,L,N
+   2,L
   42
    1,J
  252
    1,J
-  34
 Insert Load, 03-05Load3
-Read, 03-05 (1).tas
+Read, 03-05S.tas
 
  343
-   2,L,N
+   2,L
   42
    1,J
  233
    1,J
-  35
 Insert Load, 03-04Load2
-Read, 03-04 (1).tas
+Read, 03-04N.tas
 
  373
    2,U
   51
+#Equip mini
    1,G
   54
-   1,R,N
+   1,R
    7
-   1,R,N
+   1,R
    7
    1,J
   11
    1,J
   33
    1,J
- 378
 Insert Load, 03-24Load0
 Read, 03-24.tas
-
- 368
 Insert Load, CS_W3Load1
 
  431
    2,U
   27
+#Equip Mush
    1,G
   54
    1,J
@@ -637,16 +589,16 @@ Insert Load, CS_W3Load1
    1,J
   33
    1,J
- 299
 Insert Load, 04-01Load0
 Read, 04-01.tas
 
  502
+#Equip star
    1,G
   54
-   1,R,N
+   1,R
    7
-   1,R,N
+   1,R
    7
    1,J
   11
@@ -654,44 +606,40 @@ Read, 04-01.tas
   33
    2,U
   47
-   2,L,N
+   2,L
   30
    2,U
   68
    1,J
  224
    1,J
-  35
 Insert Load, 04-02Load0
 Read, 04-02.tas
 
  421
-   2,R,N
+   2,R
   43
    1,U
    1
    2,U
   50
    1,J
- 414
 Insert Load, 04-22Load0
-Read, 04-22.tas
+Read, 04-22N.tas
 
  474
  524,J
   23
    1,J
- 343
 Insert Load, 04-22Load6
-Read, 04-22 (1).tas
+Read, 04-22S.tas
 
  539
-   2,R,N
+   2,R
   85
    1,J
  255
    1,J
-  35
 Insert Load, 04-04Load0
 Read, 04-04.tas
 
@@ -701,25 +649,22 @@ Read, 04-04.tas
    1,J
  363
    1,J
-  35
 Insert Load, 04-21Load0
-Read, 04-21.tas
+Read, 04-21S.tas
 
  777
    1,J
  234
    1,J
-  35
 Insert Load, 04-21Load4
-Read, 04-21 (1).tas
+Read, 04-21N.tas
 
  517
-   2,R,N
+   2,R
   49
    1,J
  246
    1,J
-  34
 Insert Load, 04-05Load0
 Read, 04-05.tas
 
@@ -727,60 +672,55 @@ Read, 04-05.tas
    2,U
   84
    1,J
- 425
 Insert Load, 04-24Load0
 Read, 04-24.tas
 
  978
-   2,R,N
+   2,R
  195
    1,J
- 348
 Insert Load, 04-38Load0
 Read, 04-38.tas
-
- 257
 Insert Load, CS_W4Load0
 
  144
-   2,R,N
+   2,R
   26
-   1,R,N
+   1,R
   25
    2,D
   87
-   2,R,N
+   2,R
   35
-   1,R,N
+   1,R
   26
    1,J
  236
    1,J
-  34
 Insert Load, 05-03Load0
 Read, 05-03.tas
 
  424
-   2,R,N
+   2,R
   69
-   2,R,N
+   2,R
   26
-   1,R,N
+   1,R
  126
-   1,R,N
+   1,R
   33
-   1,R,N
+   1,R
   34
    2,D
   72
    1,J
  217
    1,J
-  34
 Insert Load, 05-05Load0
 Read, 05-05.tas
 
  434
+#Equip star
    1,G
   54
    1,J
@@ -789,22 +729,21 @@ Read, 05-05.tas
   33
    2,D
   75
-   2,R,N
+   2,R
   35
-   1,R,N
+   1,R
   33
-   1,R,N
+   1,R
   33
-   1,R,N
+   1,R
   63
    1,J
- 403
 Insert Load, 05-24Load0
 Read, 05-24.tas
 
  278
    1,J
- 110
+#World 5 Complete!
 Insert Load, CS_W5Load0
 
  459
@@ -813,109 +752,92 @@ Insert Load, CS_W5Load0
    1,J
  262
    1,J
-  35
 Insert Load, 06-01Load0
 Read, 06-01.tas
 
  418
-   2,R,N
+   2,R
   56
    1,J
  251
    1,J
-  35
 Insert Load, 06-03Load0
 Read, 06-03.tas
 
  603
    2,U
   49
-   1,L,N
+   1,L
+Repeat, 3
    2,D
-   2,R,N
+   2,R
    2,U
-   2,L,N
+   2,L
+EndRepeat
    2,D
-   2,R,N
-   2,U
-   2,L,N
-   2,D
-   2,R,N
-   2,U
-   2,L,N
-   2,D
-   1,R,N
+   1,R
    2,U
    1
    2,U
   62
-   2,L,N
+   2,L
  139
    1,J
- 421
 Insert Load, 06-22Load0
 Read, 06-22.tas
 
 1380
-   2,R,N
+   2,R
   46
    1,U
   96
    1,J
  231
    1,J
-  35
 Insert Load, 06-05Load0
-Read, 06-05.tas
+Read, 06-05S.tas
 
  879
    1,J
  231
    1,J
-  35
 Insert Load, 06-05Load3
-Read, 06-05 (1).tas
+Read, 06-05N.tas
 
  427
-   2,R,N
+   2,R
  363
    8,U
    1,U,J
    4,U
- 372
 Insert Load, 06-24Load0
 Read, 06-24.tas
 
  919
-  53,R,N
+  53,R
    2
-   2,R,N
+   2,R
  202
    1,J
- 331
 Insert Load, 06-38Load0
 Read, 06-38.tas
-
- 257
 Insert Load, CS_W6Load0
 
  398
-   2,R,N
+   2,R
   37
    1,J
  234
    1,J
-  35
 Insert Load, 07-01Load0
 Read, 07-01.tas
 
  432
-   2,R,N
+   2,R
   49
    1,J
  233
    1,J
-  34
 Insert Load, 07-02Load0
 Read, 07-02.tas
 
@@ -923,7 +845,6 @@ Read, 07-02.tas
    2,U
   80
    1,J
- 298
 Insert Load, 07-03Load0
 Read, 07-03.tas
 
@@ -931,25 +852,22 @@ Read, 07-03.tas
    2,R
   59
    1,J
- 422
 Insert Load, 07-22Load0
-Read, 07-22.tas
+Read, 07-22S.tas
 
 1455
    1,J
- 344
 Insert Load, 07-22Load4
-Read, 07-22 (1).tas
+Read, 07-22N.tas
 
  426
- 128,R,N
+ 128,R
    7
    2,R
  162
    1,J
  219
    1,J
-  34
 Insert Load, 07-06Load0
 Read, 07-06.tas
 
@@ -963,9 +881,8 @@ Read, 07-06.tas
    1,J
  381
    1,J
-  35
 Insert Load, 07-21Load0
-Read, 07-21.tas
+Read, 07-21S.tas
 
  874
    1,J
@@ -973,4 +890,4 @@ Read, 07-21.tas
    1,J
   35
 Insert Load, 07-21Load6
-Read, 07-21 (1).tas
+Read, 07-21N.tas

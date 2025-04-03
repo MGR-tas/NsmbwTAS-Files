@@ -3,8 +3,7 @@
 #Start 07-21
  110
    1,X
-   2,R
-  22,R
+  24,R
   32,L
   10,L,J
    9,R
@@ -23,20 +22,20 @@
   15,D
   44,L
    1,U
- 155
+#683
 Insert Load, 07-21Load1
 
  143
   18,R,J
-   3,R,J,X
-  12,R,J
+  15,R,J,X
   18,L
   12
    6,D
    4,L
   21,L,J
    2,L
-  31,L,J
+  12,L,J
+  19,L,J,X
    1,L
   58,L,J
    1,L
@@ -47,16 +46,17 @@ Insert Load, 07-21Load1
    4,L,J
   15,R,J
    1,R,J,X
-   2,R
-  64,R
+  66,R
   13,L
    1,R,J
   14,R
-  16,L
+  16,L,X
    1,L,J
+
   69,L
    1,R
    3
+
    5,J
   26
    1,D
@@ -76,14 +76,14 @@ Insert Load, 07-21Load1
    1,R
    5,D
   50,U
- 115
+#737
 Insert Load, 07-21Load2
 
  143
   14,L
   32
    1,U
- 155
+#282
 Insert Load, 07-21Load3
 
  143
@@ -115,7 +115,7 @@ Insert Load, 07-21Load3
    1,L,J
   39,L
    1,U
- 155
+#453
 Insert Load, 07-21Load4
 
  143
@@ -134,15 +134,8 @@ Insert Load, 07-21Load4
    1,R,J
   24,R
    1,L,J
- 369
-   4,D
-   4
-   4,D
-  15
-   6,D
-  68
-   5,U
-   5
-   3,U
-  60
+  10
+
+#821
+#468.499
 Insert Load, 07-21Load5

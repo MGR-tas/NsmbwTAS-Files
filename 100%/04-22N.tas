@@ -1,9 +1,9 @@
 #RNG: 0x2D3E3026
+#Write, 32, RNG, 0x2D3E3026
 
 #Start 04-22
-  16
-  16
-  43,R
+  61
+  14,R
    3,R,D
    2,R
   17,R,J
@@ -72,11 +72,10 @@
   20,R,D
    1,R,D,J
   19,U,J
-  90
+#706
 Insert Load, 04-22Load1
 
- 111
-   5,R
+ 116
    1,R,J,G
    5,R,J
    8,R
@@ -194,14 +193,12 @@ Insert Load, 04-22Load1
    1,L,D,J
   16,L,J
    1,L,U,J
-   3,L,J
-  70
-   1,L,J
-  18
+#944
 Insert Load, 04-22Load2
 
- 106
-  30,L
+Write, 32, RNG, 0x38973B7F
+ 116
+  20,L
    1,L,G
    2,L
    1,R
@@ -278,14 +275,11 @@ Insert Load, 04-22Load2
    8,U,J
    4,J
    1,U,J
-   4,J
-  35
-   6,R,N
-  44
+#692
 Insert Load, 04-22Load3
 
-  23
- 111,L
+ 116
+  18,L
    4,L,D
    3,L,D,X
    1,L,D
@@ -370,11 +364,12 @@ Insert Load, 04-22Load3
    1,U
    1,U,J
   62,U
- 299
+#940
 Insert Load, 04-22Load4
 
- 225
-  55,R
+#wendy
+ 264
+  16,R
    2,R,D
    6,R
    1,R,J
@@ -506,5 +501,6 @@ Insert Load, 04-22Load4
    1,L
    4
    1,R
- 761
+#2045
+#620.186
 Insert Load, 04-22Load5

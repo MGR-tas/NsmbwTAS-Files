@@ -1,7 +1,8 @@
 #RNG: 0xA02FA317
 
 #Start 06-05
-  47,R
+  31
+  16,R
    1,R,G
    4,R
   10,R,D
@@ -178,7 +179,7 @@
    7,U
    9,U,J
   40,U
-  63
+#1631
 Insert Load, 06-05Load1
 
  153
@@ -226,5 +227,6 @@ Insert Load, 06-05Load1
    3,J
   20
    3,X
- 536
+#1069
+#355.359
 Insert Load, 06-05Load2

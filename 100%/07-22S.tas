@@ -1,9 +1,8 @@
 #RNG: 0x3810669
 
 #Start 07-22
-   1
 Tilt, 530
-  60
+  61
    2,R
    1,R,J
   11,R
@@ -138,7 +137,7 @@ Tilt, 512
   28,R
    3,R,X
    1,R
-  76
+#1004
 Insert Load, 07-22Load1
 
  121
@@ -172,8 +171,7 @@ Insert Load, 07-22Load1
    1,L,D
    3,D
    1,D,X
-   2,L
-   5,L
+   7,L
    2,R
    4
   40,R
@@ -193,7 +191,7 @@ Insert Load, 07-22Load1
   11,R,J
    3,R,J,X
   53,R,J
-  73
+#512
 Insert Load, 07-22Load2
 
  105
@@ -215,5 +213,6 @@ Insert Load, 07-22Load2
    1,R
    1,R,J
    9,R
- 534
+#826
+#565.983
 Insert Load, 07-22Load3
