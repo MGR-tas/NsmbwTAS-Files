@@ -1,0 +1,207 @@
+#Category: Any% RTA Route
+#Authors: MGR
+
+#Start from pre-title screen load
+#Recorded Game Version: J2
+Write, 32, RNG, 0x47244A0C
+Enforce Legal
+
+#Start
+ 144
+   1,J
+  75
+Insert Load, sequenceBGTextureLoad0
+
+  61
+   1,J
+ 127
+   1,J
+ 115
+Insert Load, MBLoad0
+
+ 698
+  22
+   2,R
+  28
+   1,J
+ 224
+   1,J
+  35
+Insert Load, 01-01Load0
+Read, 01-01.tas
+
+ 429
+   2,R,N
+  37
+   1,J
+ 245
+   1,J
+  35
+Insert Load, 01-02Load0
+Read, 01-02.tas
+
+ 416
+   2,R,N
+  37
+   1,J
+ 244
+   1,J
+  35
+Insert Load, 01-03Load0
+Read, 01-03.tas
+
+ 795
+   1,J
+  32
+   1,J
+ 215
+   1,J
+ 479
+   2,D
+  82
+   1,R,N
+   1
+   1,J
+ 206
+   1,J
+  34
+Insert Load, 01-36Load0
+Read, 01-36.tas
+
+  17,R
+1075
+   1,G
+  29
+   2,R,N
+  28
+   1,J
+ 299
+Insert Load, 05-01Load0
+Read, 05-01.tas
+
+ 827
+   2,R,N
+  26
+   2,U
+ 303
+   1,J
+  34
+Insert Load, 05-33Load0
+Read, 05-33.tas
+
+ 139
+   2,D
+  43
+   1,R,N
+   1
+   2,R,N
+  35
+   2,D
+  43
+   2,R,N
+  28
+   1,J
+ 236
+   1,J
+  35
+Insert Load, 05-03Load0
+Read, 05-03.tas
+
+ 504
+   2,R,N
+  97
+   1,J
+ 353
+   1,J
+  34
+Insert Load, 05-22Load0
+Read, 05-22.tas
+
+1535
+   1,G
+  29
+   2,R,N
+ 130
+   1,J
+ 233
+   1,J
+  34
+Insert Load, 05-04Load0
+Read, 05-04.tas
+
+ 712
+   2,R,N
+  72
+   1,J
+ 395
+   1,J
+  35
+Insert Load, 05-21Load0
+Read, 05-21.tas
+
+ 255
+ 323,R
+  75
+   2,L
+  35
+   2,D
+  72
+   1,J
+ 206
+   2,J
+  33
+Insert Load, 05-36Load0
+Read, 05-36.tas
+
+ 932
+   1,G
+  29
+   2,U
+  28
+   1,J
+ 236
+   1,J
+  34
+Insert Load, 08-01Load0
+Read, 08-01.tas
+
+ 413
+   2,U
+  70
+   1,J
+ 239
+   1,J
+  35
+Insert Load, 08-02Load0
+Read, 08-02.tas
+
+ 511,R
+ 163
+   2,U
+ 143
+   1,D
+   1
+   1,J
+ 223
+   1,J
+  35
+Insert Load, 08-07Load0
+Read, 08-07.tas
+
+ 806
+   2,U
+ 132
+   1,J
+ 346
+Insert Load, 08-38Load0
+Read, 08-38.tas
+
+1498
+   1,G
+  29
+   2,U
+ 152
+   1,J
+ 441
+Insert Load, 08-24Load0
+Read, 08-24.tas

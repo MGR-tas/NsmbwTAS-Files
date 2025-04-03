@@ -1,0 +1,27 @@
+#RNG: 0x3810669
+
+#Start
+  21
+  12,R
+   1,R,J
+  11,R
+   7,R,J
+   3,R,X
+   4,R
+   1
+  59,R,J
+   2,R
+  20,R,J
+   8,R
+   1,R,J
+  25,R
+   1,R,D
+  16,R,J
+   2,R
+   2,R,J
+   2,R
+   7,R,J
+  18,R
+   1,R,D
+ 738
+Insert Load, 05-36Load1

@@ -1,0 +1,18 @@
+#RNG: 0xD469D751
+
+#Start 05-36
+  28
+  25,R
+   4,R,D
+   3,R,D,X
+  55,R,D
+  15,R,D,J
+  26,R,D
+   7,R,D,J
+  11,R,D
+   5,R,D,J
+   2,R,D
+   2,R,D,J
+  14,R,D
+ 735
+Insert Load, 05-36Load1
