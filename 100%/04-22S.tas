@@ -353,4 +353,8 @@ Insert Load, 04-22Load10
    1,R,D,J
   17,J
  560
+
+#RNG - Ted spawn
+Write, 32, RNG, 0xA02FA317
+
 Insert Load, 04-22Load11

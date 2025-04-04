@@ -3,8 +3,9 @@
 
 #Start from pre-title screen load
 #Recorded Game Version: J2
+Open LoadDoc, HundoTAS
 Write, 32, RNG, 0x47244A0C
-Enforce Legal
+#Enforce Legal
 
 #Start
  144
@@ -57,7 +58,9 @@ Read, 01-03S.tas
  206
    1,J
 Insert Load, 01-36Load0
+#RNG - Piranhas Spawn (in file)
 Read, 01-36.tas
+Save LoadDoc, HundoTAS
 
 1092
    1,G
@@ -67,6 +70,9 @@ Read, 01-36.tas
    1,J
 Insert Load, 05-01Load0
 Read, 05-01N.tas
+
+#RNG - Juan
+Write, 32, RNG, 0x89FA8CE2
 
  827
    2,R
@@ -157,6 +163,10 @@ Read, 05-22.tas
    1,J
  233
    1,J
+
+#RNG - Raft
+Write, 32, RNG, 0x89FA8CE2
+
 Insert Load, 05-04Load0
 Read, 05-04.tas
 
@@ -189,7 +199,7 @@ Insert Load, 05-21Load6
 Read, 05-21S.tas
 
  653
-   2,L,N
+   2,L
  107
    1,J
  206
@@ -198,6 +208,7 @@ Insert Load, 05-36Load0
 Read, 05-36.tas
 
  932
+Save LoadDoc, HundoTAS
    1,G
   29
    2,U
@@ -205,6 +216,10 @@ Read, 05-36.tas
    1,J
  236
    1,J
+
+#RNG - Meteors
+Write, 32, RNG, 0x2D3E3026
+
 Insert Load, 08-01Load0
 Read, 08-01.tas
 
@@ -252,6 +267,7 @@ Read, 08-07.tas
    1,J
 Insert Load, 08-38Load0
 Read, 08-38.tas
+Save LoadDoc, HundoTAS
 
 1498
    1,G
@@ -259,18 +275,23 @@ Read, 08-38.tas
   14,U
  148
    1,J
+ 230
+
+#RNG - bone platforms
+Write, 32, RNG, 0x89FA8CE2
 Insert Load, 08-24Load0
 Read, 08-24.tas
+
+#RNG - credits
+Write, 32, RNG, 0x72CB75B3
 Read, 01-42.tas
 
+#World 9 Cutscene
  348
    1,J
-Insert Load, WS_W1Load0
-
-#Likely not needed? Leaving it for now
-  12
 Insert Load, 01-40Load0
 
+#Title Screen
  144
    1,J
 Insert Load, sequenceBGTextureLoad1
@@ -280,6 +301,7 @@ Insert Load, sequenceBGTextureLoad1
  127
    1,J
 Insert Load, sequenceBGTextureLoad2
+Save LoadDoc, HundoTAS
 
   29
    2,R
@@ -302,6 +324,7 @@ Read, 01-03N.tas
    1,J
 Insert Load, 01-22Load0
 Read, 01-22.tas
+Save LoadDoc, HundoTAS
 
  999
    2,R
@@ -311,6 +334,10 @@ Read, 01-22.tas
    1,J
 Insert Load, 01-04Load0
 Read, 01-04.tas
+Save LoadDoc, HundoTAS
+
+#RNG - Fred
+Write, 32, RNG, 0x89FA8CE2
 
  559
    2,R
@@ -325,6 +352,9 @@ Read, 01-04.tas
 Insert Load, 01-06Load0
 Read, 01-06.tas
 
+#RNG - Fred #2
+Write, 32, RNG, 0xA02FA317
+
  427
    1,L
    1
@@ -334,8 +364,9 @@ Read, 01-06.tas
   36
    2,U
   79
-   1,J
- 232
+   1,L,J
+   1,L
+ 231
    1,J
 Insert Load, 01-05Load0
 Read, 01-05.tas
@@ -352,6 +383,7 @@ Read, 01-24.tas
    1,J
 #World 1 Complete!
 Insert Load, CS_W1Load0
+Save LoadDoc, HundoTAS
 
  406
    2,U
@@ -433,6 +465,7 @@ Read, 02-05.tas
 Insert Load, 02-24Load0
 Read, 02-24.tas
 Insert Load, CS_W2Load0
+Save LoadDoc, HundoTAS
 
  525
    2,R
@@ -454,6 +487,9 @@ Read, 03-01.tas
 Insert Load, 03-02Load0
 Read, 03-02.tas
 
+#RNG - Ice bros
+Write, 32, RNG, 0x89FA8CE2
+
  798
    2,R
   84
@@ -464,6 +500,10 @@ Read, 03-02.tas
    1,J
 Insert Load, 03-03Load0
 Read, 03-03.tas
+Save LoadDoc, HundoTAS
+
+#RNG - Ice bros
+Write, 32, RNG, 0xD469D751
 
  398
    2,R
@@ -486,6 +526,10 @@ Read, 03-21N.tas
    1,J
  218
    1,J
+
+#RNG - Toad House
+Write, 32, RNG, 0xD469D751
+
 Insert Load, 03-27Load0
 Read, 03-27.tas
 
@@ -509,6 +553,7 @@ Read, 03-22.tas
    1
    2,R
 Insert Load, CS_W3Load0
+Save LoadDoc, HundoTAS
 
   63
    1,J
@@ -547,6 +592,10 @@ Read, 03-05N.tas
    1,J
  252
    1,J
+
+#RNG nightmare - Prop blocks
+Write, 32, RNG, 0x38973B7F
+
 Insert Load, 03-05Load3
 Read, 03-05S.tas
 
@@ -576,7 +625,12 @@ Read, 03-04N.tas
    1,J
 Insert Load, 03-24Load0
 Read, 03-24.tas
+
+#RNG - Ted spawn
+Write, 32, RNG, 0x47244A0C
+
 Insert Load, CS_W3Load1
+Save LoadDoc, HundoTAS
 
  431
    2,U
@@ -591,6 +645,9 @@ Insert Load, CS_W3Load1
    1,J
 Insert Load, 04-01Load0
 Read, 04-01.tas
+
+#RNG - Ted
+Write, 32, RNG, 0x38973B7F
 
  502
 #Equip star
@@ -613,6 +670,10 @@ Read, 04-01.tas
    1,J
  224
    1,J
+
+#RNG - Flying fish
+Write, 32, RNG, 0x38973B7F
+
 Insert Load, 04-02Load0
 Read, 04-02.tas
 
@@ -624,14 +685,21 @@ Read, 04-02.tas
    2,U
   50
    1,J
+
+#RNG - Blocks
+Write, 32, RNG, 0x2D3E3026
+
 Insert Load, 04-22Load0
 Read, 04-22N.tas
 
- 474
- 524,J
-  23
+1021
    1,J
+
+#RNG - Blocks
+Write, 32, RNG, 0x72CB75B3
+
 Insert Load, 04-22Load6
+#RNG - Ted spawn (in file)
 Read, 04-22S.tas
 
  539
@@ -682,6 +750,7 @@ Read, 04-24.tas
 Insert Load, 04-38Load0
 Read, 04-38.tas
 Insert Load, CS_W4Load0
+Save LoadDoc, HundoTAS
 
  144
    2,R
@@ -719,6 +788,9 @@ Read, 05-03.tas
 Insert Load, 05-05Load0
 Read, 05-05.tas
 
+#RNG - Julio
+Write, 32, RNG, 0x47244A0C
+
  434
 #Equip star
    1,G
@@ -738,6 +810,10 @@ Read, 05-05.tas
    1,R
   63
    1,J
+
+#RNG - Iggy Poison Balls
+Write, 32, RNG, 0xA02FA317
+
 Insert Load, 05-24Load0
 Read, 05-24.tas
 
@@ -745,6 +821,7 @@ Read, 05-24.tas
    1,J
 #World 5 Complete!
 Insert Load, CS_W5Load0
+Save LoadDoc, HundoTAS
 
  459
    2,U
@@ -821,7 +898,12 @@ Read, 06-24.tas
    1,J
 Insert Load, 06-38Load0
 Read, 06-38.tas
+
+#RNG - Ned Spawn
+Write, 32, RNG, 0x72CB75B3
+
 Insert Load, CS_W6Load0
+Save LoadDoc, HundoTAS
 
  398
    2,R
@@ -891,3 +973,6 @@ Read, 07-21S.tas
   35
 Insert Load, 07-21Load6
 Read, 07-21N.tas
+Save LoadDoc, HundoTAS
+
+#RNG - Ned

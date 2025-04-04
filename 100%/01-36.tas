@@ -20,4 +20,8 @@
    1,R,D
    3,R
  736
+
+#RNG - Piranhas Spawn
+Write, 32, RNG, 0x38973B7F
+
 Insert Load, 01-36Load1
