@@ -502,7 +502,7 @@ Insert Load, 03-03Load0
 Read, 03-03.tas
 Save LoadDoc, HundoTAS
 
-#RNG - Ice bros
+#RNG - Ice bros #2
 Write, 32, RNG, 0xD469D751
 
  398
@@ -900,7 +900,7 @@ Insert Load, 06-38Load0
 Read, 06-38.tas
 
 #RNG - Ned Spawn
-Write, 32, RNG, 0x72CB75B3
+Write, 32, RNG, 0xA02FA317
 
 Insert Load, CS_W6Load0
 Save LoadDoc, HundoTAS
@@ -914,7 +914,11 @@ Save LoadDoc, HundoTAS
 Insert Load, 07-01Load0
 Read, 07-01.tas
 
- 432
+#RNG - Sc3 Chain Chomp
+Write, 32, RNG, 0x47244A0C
+
+# 432
+ 408
    2,R
   49
    1,J
@@ -923,28 +927,31 @@ Read, 07-01.tas
 Insert Load, 07-02Load0
 Read, 07-02.tas
 
- 413
+# 413
+ 423
    2,U
   80
    1,J
 Insert Load, 07-03Load0
 Read, 07-03.tas
 
- 432
+# 432
+ 450
    2,R
   59
    1,J
 Insert Load, 07-22Load0
 Read, 07-22S.tas
 
-1455
+#1455
+1451
    1,J
 Insert Load, 07-22Load4
 Read, 07-22N.tas
+Save LoadDoc, HundoTAS
 
- 426
- 128,R
-   7
+# 561
+ 537
    2,R
  162
    1,J
@@ -953,7 +960,8 @@ Read, 07-22N.tas
 Insert Load, 07-06Load0
 Read, 07-06.tas
 
- 842
+# 842
+ 852
    1,L
    1
    2,L
@@ -966,13 +974,47 @@ Read, 07-06.tas
 Insert Load, 07-21Load0
 Read, 07-21S.tas
 
- 874
+# 874
+ 892
    1,J
  252
    1,J
-  35
 Insert Load, 07-21Load6
 Read, 07-21N.tas
-Save LoadDoc, HundoTAS
 
 #RNG - Ned
+Write, 32, RNG, 0x89FA8CE2
+
+# 727
+ 723
+   2,R
+  49
+   2,R
+  39
+   2,R
+  37
+#Equip penguin
+   1,G
+  54
+   1,R
+   7
+   1,J
+  11
+   1,J
+  33
+
+   1,J
+ 234
+   1,J
+Insert Load, 07-04Load0
+Read, 07-04.tas
+
+ 379
+   2,R
+  50
+   1,J
+ 253
+   1,J
+Insert Load, 07-05Start
+Save LoadDoc, HundoTAS
+9999
