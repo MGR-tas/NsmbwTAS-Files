@@ -1023,5 +1023,38 @@ Read, 07-05.tas
  101
    1,J
 Insert Load, 7-Castle Start
-   5
+Read, 07-24.tas
+
+ 290
+   1,J
+#World 7 Complete!
+Insert Load, World7Exit
+Save LoadDoc, HundoTAS
+
+ 144
+   1,M
+  36
+  23,L
+   9
+   1,J
+Insert Load, World4Select
+
+#RNG - Ted
+Write, 32, RNG, 0xD469D751
+
+  17
+   2,U
+  26
+   1,U
+  47
+   2,R
+  38
+   2,U
+  54
+   1,J
+ 249
+   1,J
+Insert Load, 4-3 Start
+  50
+
 Save LoadDoc, HundoTAS
