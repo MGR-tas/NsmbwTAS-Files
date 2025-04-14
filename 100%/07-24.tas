@@ -282,12 +282,16 @@ Insert Load, 7-CastlePipe2
 
    5,D,J
   15,U
-Repeat, 22
+Repeat, 19
    1,G
    4
 EndRepeat
-   3
-  19,R
+
+  14
+   1,R,D
+   1,D,J
+  20,R
+
    4,R,D
   49,R,X
   21,R,D
@@ -307,10 +311,10 @@ EndRepeat
   26,R,J
    1,R
   17,R,J
-   2
+   2,R
   27,R,J
    1,U
-#1396
+#1395
 Insert Load, 7-CastleBoss
 
   61
@@ -336,6 +340,7 @@ Insert Load, 7-CastleBoss
    1,R,J
   16,R
    3,X
+
 #door close - 431
 1063
   16,R
@@ -417,4 +422,5 @@ Insert Load, 7-CastleBoss
   15,R
    5,D
 #2805
+#517.737
 Insert Load, 7-CastleEnd
