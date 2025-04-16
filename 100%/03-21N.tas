@@ -1,48 +1,43 @@
-#RNG: 0x38973B7F
-
-#Start 03-21
- 107
-   1
-  24,L
-   4,L,D
-   3,L,D,X
-  15,L,D
-  23,L
-  26,R
+#3-Ghost Penguin, Normal Exit
+#Star Coins 1,2
+ 113
+  22,L
+   5,L,D
+  37,L,X
+  25,R
    5,R,D
-   3,R,D,X
-  44,R,D
-  24,R,D,J
-   2,R,D
-  18,R,D,J
+  46,R,X
    1,R,D
-  15,R,D,J
-   9,R,D
-  21,R,D,J
-   8,R,D
-  22,R,D,J
-   4,R,D
-  17,R,D,J
-   2,R,D
-  13,R,D,J
-   5,R,J
+  24,R,J
+#271 - 543.5914
+
+   2,R
+  19,R,J
+   1,R
+  14,R,J
+   1,R
+   2,R,J
+   6,R
+  21,R,J
+   8,R
+  22,R,J
+   5,R
+  17,R,J
+   2,R
+  18,R,J
    1,R
    1,R,J
-   8,R
-  10,R,J
-   2,J
-   3,J,X
-   8,J
-   7,R
+  14,R
+   6,R,J
+   1,R
+   5,R,J
+   9
    1,U
-  48
-  27
-   3
-  77
-Insert Load, 03-21Load1
+#546
+Insert Load, 3-GhostN Door1
 
-  22
- 137,R
+ 143
+  16,R
    8,R,D
   11,R,D,J
    1,R,J
@@ -53,127 +48,123 @@ Insert Load, 03-21Load1
    1,R
    2,R,J
    2,R
-   4,R,J
-   2,R,U,J
+   6,R,J
    3,R,U,J,X
-  28,R,U,J
-   2,R,U,J,X
-   1,L,U,J
+  28,R,J
+   2,R,J,X
+   1,L,J
   19,L,U,J
   12,L
-   9,L,D
-   9,U
-   1,U,J
-   6,L,J
-  10,L,U,J
-   1,L,U,X
-   2,L,U,J
-  28,L,U,J
-   2,L,U,J,X
-   1,R,U,J
-   1,R,U,J
-  18,R,U
-   5,R
-   3,R,D
-  12,R
-   5,R,U
-  24,R,U,J
-   1,U,J
-   1,L,U,J
-   1,U,J
-   2,L,U,J
-   2,L,U,J,X
-   1,R,U,J
-  24,L,U,J
-   1,L,U
-  10,L,U,J
-  17,L,J
-   2,L
-  16,L,J
-   3,L,J,X
-  21,L,J
-   2,L,D
-  17,L,D,J
-   1,L,D
-   1,L,D,J
-   7,R,J,G
-   8,R,U,J,G
-   4,R,U,G
-   1,R,G
-  10,R,U,J,G
-   3,R,U,J,G,X
-  29,R,U,J,G
-   3,R,U,J,G,X
-  28,R,U,J,G
-   2,R,U,J,G,X
-   1,L,U,J,G
-   5,L,U,J
-  12,L,D,J
-  38,L,D
-   6
-   1,U
- 155
-Insert Load, 03-21Load2
-
-  23
-  96
-   3,R
-   1,R,J
-  36,R
-   2,R,D
-   6,R
-   1,R,J
-  21,R
-   2,R,D
-   1,R
-   1,R,D
-  19,R,D,J
-  11,R,J
-  12,R
+  17,L,D
    1,J
-   3,R,J
-  10,R
-  21,R,J
-   1,R
+  14,L,J
+   1
+   1,J
+   1,J,X
+   1,L
+   1,L,J
+  22,R,U
+  33,R,U,X
+  24,R,J
+   1,R,U,X
+   1,L,U
+   1,R,U
+  31,L,U
+  20,L,J
+   2,L
+  15,L,J
+   2,L,X
+   1,L
+  24,L,J
+   1,L,D
+  14,L,J
+   2
+   1,J
+   1
+   1,L,J
+   7,R,J,G
+   8,R,J
+   5,R
+   6,R,J
+   4,R
+   3,R,U,X
+  29,R
+   3,R,U,X
+  27,R
+   1,L
+   1,X
+   2,L
+  31,L,U
+  30,L,D
+   1,U
+#776
+Insert Load, 3-GhostN Door2
+
+ 143
+  28,R
+   5,R,D
+  36,R,X
+  22,R,D
+   5,J
+  10
+   2,J
+   2
+   1,J
+   8,J,G
+   1,J
+   8,J,G
+   3,J
+   1
    3,R,J
    5,R
-   9,R,J
-  40,R
    1,L,J
-  22
+   2,J
+   3
+   2,J
+  31
+   1,R
+   3
+   1,J
    3,R
-   7,R,J
-  12,R
-   3,R,J
-  26,R
+   1,J
+   2,R,J
+   1,R
+  23,R,J
+   1,R
+   1,R,J
+  10,R
+   2,R,J
+  26,R,J,X
+   2,R
+
   30,R,J
    2,R
    8,R,J
-   3,R,J,X
-  22,R,D,J
-  21,R,D
-   1,R,D,J
-   1,R,D
-   5,R,D,J
-   1,R,D
-  47,R,D,J
-   1,R,D
-  13,R,D,J
-   1,R,D
-   1,R,D,J
-   2,R,D
-  24,R,D,J
-   2,R,D
-  24,R,D,J
-   1,R,D
-   4,R,D,J
-  20,U,J
-   8,U
- 154
-Insert Load, 03-21Load3
+  34,R,J,X
 
-  75
-  82,L
+  12,R,D
+   1,R,J
+   1,R
+   5,R,J
+   1,R
+  47,R,J
+   1,R
+  13,R,J
+   1,R
+   1,R,J
+   2,R
+  24,R,J
+   2,R
+  24,R,J
+   1,R
+  24,R,J
+   6
+   1,U
+#732
+Insert Load, 3-GhostN Door3
+
+ 143
+  14,L
    1,L,D
  182,L
    2,L,J
@@ -197,30 +188,27 @@ Insert Load, 03-21Load3
    2,D
    1,L,D
    3,D,J
-   1,L,D,J
-   1,R,D,J
-   4,L,D,J,G
-   1,L,D,J
-   1,R,D,J,G
-   4,L,D,J
-   1,R,D,J,G
-   4,L,D,J
-   1,R,D,J,G
-   6,L,D,J
-   3,L,D,J,X
-   7,L,D
-   6,L
+   1,L,J
+   1,R,J
+   4,L,J,G
+   1,L,J
+   1,R,J,G
+   4,L,J
+   1,R,J,G
+   4,L,J
+   1,R,J,G
+   6,L,J
+   3,L,J,X
+  13,L
    8,D
-  12,U
-   5
-   5,D
-  12
+  17,U
+  17,D
    7,L,U
-   1,U
-   3,U,X
-   6,U
-   2,L,U
-  32,L,U,J
+   1
+   3,X
+   6
+   2,L
+  32,L,J
    5,L
    1,L,J,G
   10,L
@@ -245,29 +233,31 @@ Insert Load, 03-21Load3
    9,J
    6,L
    1,L,U
-   1,L,U,J
+   1,L,J
    1,R,J
   28,R
   27,R,J
    3,J
    4,R,J
    8,D,J
-  13,R,U,J
-   8,D,J
-   1,R,J
-  12,R,U,J
-   8,D,J
-  13,R,U,J
-  10,D,J
-  11,R,U,J
-   9,D,J
-   2,R,D,J
-  10,R,U,J
-   9,D,J
-  12,R,U,J
-   5,D,J
-   5,J
-   1,L,J
+  13,R,U
+   8,D
+   1,R
+  12,R,U
+   8,D
+  13,R,U
+  10,D
+  11,R,U
+   9,D
+   2,R,D
+  10,R,U
+   9,D
+  12,R,U
+
+
+   5,D
+   5
+   1,L
    8,R
   15,L,U,J
    7,L,D
@@ -294,131 +284,49 @@ Insert Load, 03-21Load3
    8,D,J
   42,R,D,J
    2,D,J
+
+Repeat, 5
+   2,L,D
+   2,R,D
+EndRepeat
+
    1,L,D
-   1,D
-   1,R,D
-   1,D
-   1,L,D
-   1,D
-   1,R,D
-   1,D
-   1,L,D
-   1,D
-   1,R,D
-   1,D
-   1,L,D
-   1,D
-   1,R,D
-   1,D
-   1,L,D
-   1,D
-   1,R,D
-   1,D
-   1,L,D
-   1,D
-   1,R,D
-   1,D
-   1,L,D
-   1,D
-   1,R,D
-   1,D
-   1,L,D
-   1,D
-   1,R,D
-   1,D
-   1,L,D
-   1,D
-   1,R,D
-   1,D
-   1,L,D
-   1,D
-   1,R,D
-   1,D
-   1,L,D
-   1,D
-   1,R,D
-   1,D
-   1,L,D
-   1,D
-   1,R,D
-   1,D
-   1,L,D
-   1,D
-   1,R,D
-   1,D
-   1,L,D
-   1,D
-   1,R,D
-   1,D
-   1,L,D
-   1,D
-   1,R,D
-   1,D
-   1,L,D
-   1,D
-   1,R,D
-   1,D
-   1,L,D
-   1,D
-   1,R,D
-   1,D
-   1,L,D
-   1,D
-   1,R,D
-   1,D
-   1,L,D
-   1,D
-   1,R,D
-   1,D
-   1,L,D
-   1,D
-   1,R,D
-   1,D
-   1,L,D
-   1,D
    1,R,D
    4,J
    1
    8,D
-  19,R
-   3,R,X
-  12,R
+  18,R
    1,R,J
-   5,D
-   4,R
-  10,R,U,G
-   1,L,U,G
-   5,D,G
-   3,R,G
-   7,G
-  15,R,G
-   3,R,G,X
-   7,R,G
-  12,R
-   1,R,J
-   7,L,J,G
-  33,L,G
-   2,G
-   1,L,G
-   1,G
-  26,L,G
-   2,L,D
-   1,J
-  10,L,J,G
-   3,L
-   1,L,J
-   1,R
-   7,R,G
-  33,R
-   8,D
-  82,R
-   9
-   2,U
- 155
-Insert Load, 03-21Load4
 
-  99
-  65,R
+
+  24,R
+   1,L
+   1,L,J
+  20
+   1,R
+   2,R,J
+   1
+
+  41,L,G
+   3,L,J
+   5,L
+   1,L,J
+   4,L
+   1
+  15,L
+  12,L,D
+   2,L,J
+   1,R,G
+  37,R
+   1,R,D
+   4,D
+  96,R
+   1,U
+#1594
+Insert Load, 3-GhostN Door4
+
+ 143
+  21,R
    4,R,D
    3,R,D,X
   39,R,D
@@ -430,10 +338,13 @@ Insert Load, 03-21Load4
    2,L,J
    4,R,J
    1,L,J
-  10,R,D,J
-  16,R,D
-  14,R,D,J
-  10,R,D
-   4,R,D,J
- 549
-Insert Load, 03-21Load5
+  10,R,J
+  15,R
+   1,R,D
+  14,R,J
+  10,R
+   4,R,J
+  15
+#535.773
+#785
+Insert Load, 3-GhostN End
