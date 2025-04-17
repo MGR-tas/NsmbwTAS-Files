@@ -1,20 +1,18 @@
-#RNG: 0x89FA8CE2
-
-#Start 08-24
-  11,R,G
-   4
-  62,R,G
-   2,R,D,G
-   6,R,G
-   1,R,J,G
-  31,R,G
-  25,R,D,G
-   2,R,D,J,G
-  21,R,D,G
-   1,G
-   1,R,G
-  25,R,D,G
-   6,R,D,J,G
+#Write, 32, RNG, 0x2D3E3026
+#8-Castle Penguin
+  61
+  16,R
+   2,R,D
+   6,R
+   1,R,J
+  31,R
+  25,R,D
+   2,R,D,J
+  21,R,D
+   1
+   1,R
+  25,R,D
+   6,R,D,J
   11,R,J
    2,R
   12,R,J
@@ -69,48 +67,40 @@
    3,R,D,J
   32,R,D
    1,R,D,G
-   4,R,D,G
-   1,R,D,J,G
-   1,R,D,G
-   5,R,D,J,G
-   2,R,D,G
-  19,R,D,J,G
-   5,R,J,G
-   1,R,G
-   8,L,J,G
-   1,L,G
-   1,L,J,N
-   5,L,J,G
-   2,L,G
-   1,L,J,G
-   1,L,G
-   2,L
-   3,L,G
+   4,R,D
+   1,R,D,J
+   1,R,D
+   5,R,D,J
+   2,R,D
+  19,R,D,J
+   5,R,J
+   1,R
+   8,L,J
    1,L
    1,L,J
-   4,L,J,G
-   1,J,G
-  10,R,J,G
-   3,R,G
-   1,G
-   2,R,G
-   1,R
-   2,R,G
-   1,R,J,G
-  23,R,J,G
-   2,R,G
-   1,R,J,G
-  20,R,G
-   2,L,G
-   2,R,G
-   2,R,D,G
-   1,R,D,J,G
-   3,R,D,G
-   1,R,D,J,G
-  47,R,D,G
-   3,R,D,G,X
-  18,R,D,G
-  10,R,D
+   5,L,J,G
+   2,L
+   1,L,J
+   7,L
+   5,L,J
+   1,J
+  10,R,J
+   3,R
+   1
+   5,R
+  24,R,J
+   2,R
+   1,R,J
+  20,R
+   2,L
+   2,R
+   2,R,D
+   1,R,D,J
+   3,R,D
+   1,R,D,J
+  47,R,D
+   3,R,D,X
+  28,R,D
   24,R,D,J
    2,R,D
   28,R,D,J
@@ -128,17 +118,19 @@
   21
    1,J
   23,R,D
-  18,R,D,J
-   8,R,D
-   3,R,D,J
-   1,R,D
-   1,R,D,J
-   2,R,D
-   1,R,D,J
-  18,R,D
-   1,R,D,J
-   9,R,D
-   1,R,D,J
+  18,R,J
+   8,R
+
+
+   3,R,J
+   1,R
+   1,R,J
+   2,R
+   1,R,J
+  18,R
+   1,R,J
+   9,R
+   1,R,J
    6,L,G
    8,L
    1,R,D
@@ -153,46 +145,44 @@
   15,R,J,G
    6,R
    7,L
-   1,L,J,G
-   6,L,J
+   7,L,J
   11,R
-   1,R,J,G
-  11,R,J
+  12,R,J
   17,R
-   1,R,J,G
+   1,R,J
   19,R
    6,L
+
    7,D
   14,U
-  10
-  45,L
+  13
+
+  35,L
    1,L,J
-   1,R
-   4,R,G
-  15,R
-   9,R,D
-  16,R,D,G
-   8,R
+   2,R
+   1,R,G
+  19,R
    1
+  20,R
+  20,R,D
+  14,J
+   1
+   3,J
+   5
+   6,R,D
+   1,R,J
    1,R
-   1,R,D
-  18,R,D,J
-   2,R,D
-   2,R,D,J
-   7,R,D
-  10,R,D,J
-  36,R,D
-   3,R,D,J
-   3,R,J
+  10,R,J
+  33,R
+   6,R,J
   10,R
-   4,R,J
-   4,R,D,J
-  16,R,D
- 119
+   7,R,J
+  14,R
+   1,R,D
+#1754
 Insert Load, 08-24Load1
 
-  92
-  11,J
+ 103,J
    3,J,X
    1,J
    5,D,J
@@ -228,29 +218,23 @@ Insert Load, 08-24Load1
   20,L,J
    8,L
    2,L,J
-  38,R,G
-   1,R,J,G
+  30,R,G
+
+#Swap these lines if 
+#the other desyncs
+   8
+#   8,R
+
+   1,R,J
   23,R,D
    1,R,D,G
    7,R,D
    3,R
    2,R,D
+Repeat, 8
    1,R,D,J
    1,R,D
-   1,R,D,J
-   1,R,D
-   1,R,D,J
-   1,R,D
-   1,R,D,J
-   1,R,D
-   1,R,D,J
-   1,R,D
-   1,R,D,J
-   1,R,D
-   1,R,D,J
-   1,R,D
-   1,R,D,J
-   1,R,D
+EndRepeat
    1,D,J
    1,D
    1,L,D,J
@@ -281,20 +265,19 @@ Insert Load, 08-24Load1
    1,R,U,J
    1,L,J
   14,L,J,G
-   1,L,G
-  11,L,J,G
-   3,L,J,G,X
-  27,L,J,G
-   3,L,J,G,X
+   1,L
+  11,L,J
+   3,L,J,X
+  27,L,J
+   3,L,J,X
   13,L,J
    1,L
    2,L,J
   18,L,J,G
-   2,L,G
-   9,L,J,G
-   3,L,J,G,X
-   1,L,J,G
-  20,L,J
+   2,L
+   9,L,J
+   3,L,J,X
+  21,L,J
    1,L
    2,L,J
    1,L,J,G
@@ -306,39 +289,39 @@ Insert Load, 08-24Load1
    1,L
    2,L,J
   18,L,J,G
-   2,L,G
-   9,L,J,G
-   3,L,J,G,X
-  21,L,J,G
-   1,L,G
+   2,L
+   9,L,J
+   3,L,J,X
+  21,L,J
+   1,L
    2,L,J
   18,L,J,G
-   2,L,G
-   9,L,J,G
-   3,L,J,G,X
-  21,L,J,G
-   1,L,G
-   1,L,J,G
+   2,L
+   9,L,J
+   3,L,J,X
+  21,L,J
+   1,L
+   1,L,J
    1,R,J
    4,R,J,G
-  34,R,G
-   3,R,G,X
-  33,R,J,G
-   5,D,J,G
-  16,R,U,J,G
-   5,D,J,G
-  16,R,U,J,G
-   8,D,J,G
-  13,R,U,J,G
-   5,D,J,G
-  16,R,U,J,G
-   8,D,J,G
-  13,R,U,J,G
-   5,D,J,G
-  16,R,U,J,G
-   5,D,J,G
-   6,R,U,J,G
-   1,J,G
+  34,R
+   3,R,X
+  33,R,J
+   5,D,J
+  16,R,U,J
+   5,D,J
+  16,R,U,J
+   8,D,J
+  13,R,U,J
+   5,D,J
+  16,R,U,J
+   8,D,J
+  13,R,U,J
+   5,D,J
+  16,R,U,J
+   5,D,J
+   6,R,U,J
+   1,J
    9,R,U
    5,D
   16,R,U
@@ -365,13 +348,12 @@ Insert Load, 08-24Load1
    2,R
    2,R,J
   10,R,J,G
-   1,R,G
-   3,R,J,G
-   2,R,G
-   9,R,J,G
-   3,R,J,G,X
-  22,R,J,G
+   1,R
    3,R,J
+   2,R
+   9,R,J
+   3,R,J,X
+  25,R,J
    8,R
    2,R,J
    1,R,J,G
@@ -384,10 +366,9 @@ Insert Load, 08-24Load1
    1,R,J
    1,L,J
    7,L,J,G
-  11,R,J,G
-   2,R,G
-  13,R,J,G
   11,R,J
+   2,R
+  24,R,J
    3,R,J,X
   26,R,J
    1,R
@@ -413,8 +394,8 @@ Insert Load, 08-24Load1
   15,R,U
    2,R,U,J
    6,R,U,J,G
-  12,R,J,G
-   2,R,G
+  12,R,J
+   2,R
    9,R,J
    3,R,J,X
   21,R,J
@@ -429,47 +410,42 @@ Insert Load, 08-24Load1
    1,R
    2,R,J
   18,R,J,G
-   2,R,G
-   9,R,J,G
-   3,R,J,G,X
-  21,R,J,G
+   2,R
+   9,R,J
+   3,R,J,X
+  21,R,J
    1,R,G
    1,R,J
    1,L,J
    2,R,G
-   7,R,J,G
-   2,R,G
-   9,R,J,G
-   3,R,J,G,X
-  31,R,J,G
-   7,R,G
-   1,R,J,G
-  19,L,J,G
-   2,L,G
-  12,L,J,G
-   3,L,J,G,X
-  27,L,J,G
-   3,L,J,G,X
-  13,L,J,G
-   8,D,J,G
-   5,U,J,G
-   7,R,U,J,G
-   5,D,J,G
-  15,L,U,J,G
-   5,D,J,G
-  15,R,U,J,G
-   8,D,J,G
-  12,L,U,J,G
-   5,D,J,G
-  15,R,U,J,G
-   5,D,J,G
-  15,L,U,J,G
-   5,D,J,G
-   6,U,J,G
-   9,R,U,J,G
-   2,J,G,X
-   1,J
-   4,J
+   7,R,J
+   2,R
+   9,R,J
+   3,R,J,X
+  31,R,J
+   7,R
+   1,R,J
+  19,L,J
+   2,L
+  12,L,J
+   3,L,J,X
+  27,L,J
+   3,L,J,X
+  13,L,J
+   8,D,J
+   5,U,J
+   7,R,U,J
+
+Repeat, 5
+   5,D,J
+  15,L,U,J
+EndRepeat
+
+   5,D,J
+   6,U,J
+   9,R,U,J
+   2,J,X
+   5,J
    2,D
    1,D,G
   18,D
@@ -477,8 +453,7 @@ Insert Load, 08-24Load1
 Insert Load, 08-24Load2
 
   13
-   4,P
-  19,P
+  23,P
   61
    9,L,J
    3,L,J,X
@@ -498,8 +473,7 @@ Insert Load, 08-24Load2
  330
 Insert Load, 08-24Load3
 
-  13
-   6
+  19
    2,R,G
   24
   38,R,G
@@ -713,154 +687,155 @@ Insert Load, 08-24Load3
    3,R,D,J,X
    5,R,D,J
    1,R,D
-   4,R
-   1,R,D
-   1,R,D,J
+#   4,R
+#   1,R,D
+
+   3,R
+   1,R,G
+   1,R,J
    2,R,D
-   1,R,D,J
+   1,R,J
+   1,R,G
+   1,R,J
    2,R,D
-   1,R,D,J
+   1,R,J
    2,R,D
-   1,R,D,J
-   2,R,D
-   1,R,D,J
-   2,R,D
-  21,R
+
+
+  23,R
    4,R,D
    3,R,D,X
    1,R,D
   37,R
-  25,R,D
-  17,R,D,J
-   2,R,D
-  21,R,D,J
-   1,R,D
-   1
-   1,R
+
   12,R,D
   17,R,D,J
    2,R,D
-  11,R,D,J
+  17,R,D,J
+   1,R
+
+  17,R,D,J
    2,R,D
-   1,R,D,J
-   9,R,J
-  13,J
-   1
-   1,J
-  11
-  10,R
-   1,R,G
-  46,R,G
-   1,R,N
+  17,R,D,J
+   1,R
+
+  17,R,D,J
+   2,R,D
+   6,R,D,J
+   1,R
+
+  13,R,D,J
+  80,R
+
    8,R,G
-   3,R,G,X
-   3,R,G
-  24,R,J,G
-   1,R,G
-   3,R,G,X
-  30,R,G
-   3,R,G,X
-   2,R,G
-  30,R,D,G
-   1,R,D,J,G
-  20,R,D,G
-   1,G
-   1,R,G
-  12,R,D,G
-  25,R,D,J,G
-  36,R,D,G
-   1,R,D,J,G
-  37,R,D,G
-   5,R,D,J,G
-  21,R,D,G
-   3,R,D,G,X
-  23,R,D,G
-   8,R,D,J,G
-  29,R,D,G
-   2,G
-  24,J,G
-   3,J,G,X
-  12,L,D,J,G
-   9,L,J,G
-   6,R,D,G
-  20,R,D,J,G
-   1,R,D,G
-   4,R,D,J,G
-  19,R,D,G
-   5,R,D,J,G
-   1,L,D,J,G
-   3,R,D,J,G
-   3,R,D,J,G,X
-   9,R,D,J,G
-   1,R,D,G
-   1,R,D,J,G
-   1,R,D,G
-   1,R,D,J,G
-   1,R,D,G
-   1,R,D,J,G
-   1,R,D,G
-   1,R,D,J,G
-   1,R,D,G
-   1,R,D,J,G
-   1,R,D,G
-   1,R,D,J,G
-   1,R,D,G
-   1,R,J,G
-   1,R,G
-   1,R,J,G
-   1,R,D,J,G
-   1,R,J,G
-   1,R,D,G
-  48,R,D,J,G
-   4,R,D,G
-   1,R,D,J,G
-   3,R,D,G
-   3,R,D,J,G
-  19,R,D,G
-   5,D,J,G
-   5,R,D,G
-  13,R,D,J,G
-   1,R,D,G
-   2,R,D,J,G
-  18,R,D,G
-  11,L,G
-   4,L,J,G
-   4,L,G
-   8,L,G
-   1,L,J,G
-  14,L,J,G
-   1,L,G
-   1,L,J,N
+   3,R,X
+  27,R,J
+   1,R
+   3,R,X
+  30,R
+   3,R,X
+  10,R
+  23,R,D
+   1,R,D,J
+  20,R,D
+   1
+   1,R
+  12,R,D
+  25,R,D,J
+  36,R,D
+   1,R,D,J
+  37,R,D
+   5,R,D,J
+  21,R,D
+   3,R,D,X
+  23,R,D
+   8,R,D,J
+  30,R,D
+   1
+
+  20,J
+   1,R,J
+   3,J
+
+   3,J,X
+  12,L,D,J
+   9,L,J
+   6,R,D
+  20,R,D,J
+   1,R,D
+   4,R,D,J
+  19,R,D
+   5,R,D,J
+   1,L,D,J
+   3,R,D,J
+   3,R,D,J,X
+   9,R,D,J
+   1,R,D
+   1,R,D,J
+   1,R,D
+   1,R,D,J
+   1,R,D
+   1,R,D,J
+   1,R,D
+   1,R,D,J
+   1,R,D
+   1,R,D,J
+   1,R,D
+   1,R,D,J
+   1,R,D
+   1,R,J
+   1,R
+   1,R,J
+   1,R,D,J
+   1,R,J
+   1,R,D
+  48,R,D,J
+   4,R,D
+   1,R,D,J
+   3,R,D
+   3,R,D,J
+  19,R,D
+   5,D,J
+   5,R,D
+  13,R,D,J
+   1,R,D
+   2,R,D,J
+  18,R,D
+  11,L
+   4,L,J
+  12,L
+  15,L,J
+   1,L
+   1,L,J
   18,R,J,G
-  18,R,G
-  12,R,D,G
-  68,R,D,J,G
-   3,R,D,G
-  10,R,D,J,G
-  28,R,D,G
-   8,R,D,J,G
-  42,L,G
-   4,L,D,G
-  11,L,D,J,G
-  28,L,D,G
-   9,L,D,J,G
-  47,R,D,J,G
-   6,R,D,G
-   1,R,D,J,G
-  24,R,D,G
-  20,R,D,J,G
-  25,R,D,G
-   1,R,D,J,G
-   1,R,G
-   1,R,J,G
-   1,R,G
-   1,R,J,G
+  18,R
+  12,R,D
+  68,R,D,J
+   3,R,D
+  10,R,D,J
+  28,R,D
+   8,R,D,J
+  42,L
+   4,L,D
+  11,L,D,J
+  28,L,D
+   9,L,D,J
+  47,R,D,J
+   6,R,D
+   1,R,D,J
+  24,R,D
+  20,R,D,J
+  25,R,D
+   1,R,D,J
+   1,R
+   1,R,J
+   1,R
+   1,R,J
    1,R,N
   18,R,G
-  10,R,J,G
-  12,R,D,G
-   2,R,D,J,G
-   2,R,D,J
+  10,R,J
+  12,R,D
+   4,R,D,J
   39,R,D
    3
   19,J
@@ -871,7 +846,6 @@ Insert Load, 08-24Load3
   10,R
   31,L
    4,L,D
-3182
-   2,O
   20
+
 Insert Load, MBLoad1
