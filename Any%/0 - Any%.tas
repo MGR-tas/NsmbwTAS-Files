@@ -1,0 +1,258 @@
+#Category: Any%
+#Authors: MGR, Squashh_1, Qr1pt1k
+
+#Start from pre-title screen load
+#Recorded Game Version: J2
+Open LoadDoc, AnyPercentTAS
+Write, 32, RNG, 0x71409FC
+#Enforce Legal
+
+#Start
+ 144
+   1,J
+Insert Load, sequenceBGTextureLoad0
+
+  61
+   1,J
+ 127
+   1,J
+Insert Load, MBLoad0
+
+ 720
+   2,R,N
+  28
+   1,J
+ 224
+   1,J
+Insert Load, 01-01Load0
+Read, 01-01.tas
+
+ 429
+   2,R
+  37
+   1,J
+ 245
+   1,J
+Insert Load, 01-02Load0
+Read, 01-02.tas
+
+ 416
+   2,R
+  37
+   1,J
+ 244
+   1,J
+#RNG - Hammer Bros
+Insert Load, 01-03Load0
+Read, 01-03.tas
+
+ 795
+   1,J
+  32
+   1,J
+ 215
+   1,J
+ 479
+   2,D
+  84
+   1,J
+ 206
+   1,J
+
+#RNG - Piranhas Spawn
+
+Insert Load, 01-36Load0
+Read, 01-36.tas
+
+1092
+   1,G
+  29
+   2,R
+  28
+   1,J
+ 299
+Insert Load, 05-01Load0
+Read, 05-01.tas
+
+#RNG - Juan
+
+ 827
+   2,R
+  26
+   2,D
+ 303
+   1,J
+Insert Load, 05-33Load0
+Read, 05-33.tas
+
+ 139
+   2,U
+  43
+   1,R
+   1
+   2,R
+  35
+   2,U
+  43
+   2,R
+  28
+   1,J
+ 243
+   1,J
+Insert Load, 05-02Load0
+Read, 05-02.tas
+
+ 504
+   1,L
+   1
+   2,L
+  26
+   1,L
+  33
+   2,D
+  43
+   2,L
+  24
+   1,J
+ 218
+   1,J
+
+#RNG - Toad House
+
+Insert Load, 05-27Load0
+Read, 05-27.tas
+
+ 131
+   1,J
+  64
+   1,R
+   1
+   2,R
+  22
+   2,U
+  43
+   2,R
+  35
+   1,R
+  24
+   1,R
+  95
+#Equip Prop
+   1,G
+  54
+   1,R
+   7
+   1,J
+  11
+   1,J
+  33
+#Equip Star
+   1,G
+  54
+   1,R
+   7
+   1,R
+   7
+   1,J
+  11
+   1,J
+  33
+   1,J
+ 353
+   1,J
+Insert Load, 05-22Load0
+Read, 05-22.tas
+
+1535
+   1,G
+  29
+   2,R
+ 129
+#Equip Penguin
+   1,G
+  54
+   1,R
+   7
+   1,J
+  11
+   1,J
+  33
+   1,J
+ 233
+   1,J
+
+#RNG - Raft
+
+Insert Load, 05-04Load0
+Read, 05-04.tas
+
+ 712
+   2,R
+  72
+   1,J
+ 395
+   1,J
+Insert Load, 05-21Load0
+Read, 05-21.tas
+
+ 564
+ 105,L
+  31,D
+  64
+   1,J
+ 206
+   1,J
+Insert Load, 05-36Load0
+Read, 05-36.tas
+
+ 932
+   1,G
+  29
+   2,U
+  28
+   1,J
+ 236
+   1,J
+
+#RNG - Meteors
+
+Insert Load, 08-01Load0
+Read, 08-01.tas
+
+ 413
+   2,U
+  70
+   1,J
+ 239
+   1,J
+Insert Load, 08-02Load0
+Read, 08-02.tas
+
+ 674
+   2,U
+ 145
+   1,J
+ 223
+   1,J
+Insert Load, 08-07Load0
+Read, 08-07.tas
+
+ 806
+   2,U
+ 132
+   1,J
+Insert Load, 08-38Load0
+Read, 08-38.tas
+
+1498
+   1,G
+  29
+   2,U
+ 152
+   1,J
+ 230
+
+#RNG - bone platforms
+
+Insert Load, 08-24Load0
+Read, 08-24.tas

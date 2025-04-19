@@ -1,0 +1,17 @@
+#RNG: 0x38D83BC0
+
+#Start 05-36
+  53,R,G
+   4,R,D,G
+   3,R,D,G,X
+  55,R,D,G
+  15,R,D,J,G
+  26,R,D,G
+   7,R,D,J,G
+  11,R,D,G
+   5,R,D,J,G
+   2,R,D,G
+   2,R,D,J,G
+  15,R,D,G
+ 734
+Insert Load, 05-36Load1
