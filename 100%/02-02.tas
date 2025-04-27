@@ -1,0 +1,259 @@
+#2-2 Mini
+  31
+  21,R,N
+  40,R
+   1,R,J
+  50,R
+  30
+   2,R
+   2
+   2,R
+  11
+  26,R
+Repeat, 10
+   1,R,D
+   1,L,D
+   1,R,D
+   1,R,U
+EndRepeat
+   5,R
+   5
+   1,R
+   1
+   2,R
+   1,R,J
+  54,J
+   5,J,X
+  28,J
+   6,J,X
+  67,J
+   5,J,X
+  25,J
+   5,J,X
+  25,J
+   5,J,X
+  35,J
+   5,J,X
+
+  88,J
+   5,J,X
+  25,J
+   5,J,X
+  25,J
+   5,J,X
+  69,J
+  19
+   5,X
+  25
+   5,X
+  25
+   5,X
+
+  96
+   5,X
+  26
+   5,X
+  16
+  33,R,J
+   2,L,J
+   5,D,J
+  26,L,J
+   5,R,J
+   1,J
+  10,R,J
+  15,J
+   6,R,J
+   1,J
+  10,R,J
+  61,R
+
+   5,D
+  18,R,D
+  10,L,D
+
+  68,R
+   2,L
+Repeat, 362
+   1,R
+   1,L
+EndRepeat
+   7
+   5,X
+#2015
+Insert Load, 2-2 Quicksand
+
+  61
+  26,L
+   1,L,X
+   1,L,D
+   4,D
+  44,L
+  11,R
+  24,R,U,X
+   1,R,D
+   5,D
+ 259,R
+  50,R,U
+   1
+  11,R
+#527
+Insert Load, 2-2 Pipe1
+
+ 105
+   5,R,N
+   1,R,J,N
+  61,R
+  24,R,X
+   2,L
+   1
+   7,L
+   1,L,J
+  25,R,J
+  16,R,J,X
+   1,L,J
+   1,J
+   2,L,J
+   1,R,J
+   1,J
+   8,R,J
+  23,R
+   1,L
+  16
+   1,R
+   5,D
+  17,L
+   1,L,U
+  75,L
+   5,L,J
+  45,L
+   8,R
+  48,R,X
+
+  15,R,J
+   1,L
+  15,L,J
+   1,R
+
+  15,R,J
+   1,L
+  15,L,J
+   1,R
+
+  20,R,J
+#601
+Insert Load, 2-2 SpecialExit1
+
+ 135
+  38,R
+   7,L,J
+  38,R
+   2,R,J
+  63,R
+   5,R,X
+  51,R
+   5,R,X
+  29,R
+  43,R,J
+  10,D,J
+  14,R,D
+  20,L,J
+   1,J
+  30,L,J
+   5,D,J
+  16,U
+  15,J
+  63,U,G
+#602
+Insert Load, 2-2 VineExit
+
+ 153
+   1,R,J
+  52,R
+Repeat, 11
+   1,L,D
+   1,L
+EndRepeat
+   1,L,J
+  70,L
+   1,U
+   5,D
+
+#Wait for platform
+  35
+
+   1,R
+   1,R,J
+ 100,R
+   1,L
+   9,J
+   3,R,J
+  46,R
+   8,R,J
+  84,R
+
+  61,R,J
+Repeat, 4
+   5,R,J,X
+  25,R,J
+EndRepeat
+   1,R
+  66,R,J
+   5,R,X
+  17,R
+  64,D
+#937
+Insert Load, 2-2 SpecialExit2
+
+  61
+  50,R
+   5,R,X
+  50,R
+   5,R,X
+  50,R
+   5,R,X
+  57,R,G
+   5,R,G,X
+  26,R
+#330
+Insert Load, 2-2 MiniPipe
+
+  81
+   3,R,X
+  85,R
+   1,L
+   1
+   5,R
+   3,R,X
+   3
+
+  29,L
+   2
+   1,L
+
+   1,L,J
+  13,R,J
+  34,R
+ 150,R,X
+#386
+Insert Load, 2-2 Pipe2
+
+ 116
+  15,R,N
+   1,R,J,N
+  61,R
+Repeat, 2
+   1,R,D
+   1,L,D
+   1,R,D
+   1,R,U
+EndRepeat
+   1,R,D
+   1,L,D
+  21,R,D
+   4,R
+   1,R,J
+  65,R
+  14,R,X
+#778
+#492.379
+Insert Load, 2-2 End

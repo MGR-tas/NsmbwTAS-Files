@@ -1092,6 +1092,23 @@ Insert Load, World2Select
 Insert Load, 2-2 Start
 Read, 02-02.tas
 
+ 385
+   2,U
+  71
+   2,U
+  28
+   2,L
+  26
+   2,U
+  61
+   1,U
+  44
+   2,R
+  56
+   1,J
+ 255
+   1,J
+Insert Load, 2-6N Start
 
  500
 
