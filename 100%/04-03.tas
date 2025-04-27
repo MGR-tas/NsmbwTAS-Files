@@ -1,0 +1,236 @@
+#4-3 Penguin
+  31
+  14,R
+   7,R,D
+   1,R,J
+  24,R
+  22,R,D
+   1,L,D,J
+  13,R,J
+  20
+  90,J
+  33
+   4,G
+   4,J,G
+   1,J
+   4,J,G
+   5,R,J
+   6,R,J,G
+  12,R
+
+   6,J
+   9,R,J
+
+  42,R
+  10,R,G
+  25,R,D
+
+  10,R,J
+   1,R
+   2,R,J
+   2,R
+  18,R,J
+   1,R
+   3,R,J
+   1,R
+   1,R,J
+  16,R
+   3
+   1,R
+   8,L
+   6,L,J
+  11,L
+   1,L,D
+  15,L,J
+   3,R,J
+   1,R
+   1,J
+   6,R
+   4,L
+   1,R
+   9
+  16,R
+  30,R,D
+   1,U
+  22,R
+   1,R,D
+
+  10,R,J
+   2,R
+   2,R,J
+   2,R
+  22,R,J
+   1,R
+  17,R,J
+   2,R
+  10,R,J
+  16,R
+   1,L,D
+
+  13,R,J
+   9,R
+   1,R,J
+   1,R
+   1,R,J
+  16,R
+   1,L,D
+
+  24,R,J
+   2,R
+  31,R,J
+   1,R
+
+  17,R,J
+   2,R
+  26,R,J
+   1,R
+
+  17,R,J
+   2,R
+  26,R,J
+   1,R
+
+  17,R,J
+   2,R
+  18,R,J
+   1,R
+
+  17,R,J
+   2,R
+  22,R,J
+   1,R
+
+  30,R,J
+   1,R
+
+   1,J
+   1,L,J
+  11,J
+   3
+  14,L
+  15,R
+   4
+   1,L
+   1
+   6,R
+
+   5,D
+  17,R,D
+   2,R,U
+   5,R,J
+   4,L,J
+   1,R,J
+   8,L,J
+   4,L
+   1
+   6,R,G
+  30
+  68,R
+#1193
+Insert Load, 4-3 Pipe1
+
+  81
+   1,R,J
+  28,R
+   1,R,J
+   2,R
+Repeat, 10
+   1,R,J
+   1,R
+EndRepeat
+
+  21,R,J
+  86,R
+
+Repeat, 25
+   1,R,J
+   1,R
+EndRepeat
+
+   5,R
+
+Repeat, 4
+   1,R,J
+   1,R
+EndRepeat
+
+   5,R
+
+Repeat, 4
+   1,R,J
+   1,R
+EndRepeat
+
+  44,R
+   1,R,J
+  30,R
+   1,R,J
+   6,R
+
+   1,R,J
+   1,R
+
+   1,R,J
+   1,R
+   1,R,J
+   1,U
+#426
+Insert Load, 4-3 Pipe2
+
+ 116
+  21,R,N
+  18,R
+   1,R,D
+  45,R
+
+   1,R,D
+   2,R
+   8,R,J
+  80,R
+
+   2,R,D
+   2,R
+   1,R,J
+  78,R
+
+   2,R,D
+   2,R
+   1,R,J
+  26,R
+  58,R,X
+
+   2,R,D
+   2,R
+   1,R,J
+  78,R
+
+   5,R,J
+  67,R
+Insert Load, 4-3 Pipe3
+
+ 102
+   3,X
+   5,L
+   1
+   1,L
+   1,L,J
+ 102,R
+  16,R,J
+  70,R
+
+Repeat, 3
+   1,R,D
+   1,L,D
+   1,R,D
+   1,R,U
+EndRepeat
+   8,R
+  15,R,D
+   3,R
+   3,R,X
+ 107,R
+   1,R,J
+   2,R
+#449.025
+#924
+Insert Load, 4-3 End
