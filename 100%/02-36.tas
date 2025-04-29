@@ -1,0 +1,29 @@
+#2-Cannon Prop
+  31
+   2,R
+   1,R,J
+  11,R
+   7,R,J
+   7,R,X
+   1
+  19,R
+Repeat, 2
+   1,R,D
+   1,L,D
+   1,R,D
+   1,R,U
+EndRepeat
+   1,R,D
+   1,L,D
+  21,R,D
+  26,J
+   2
+  27,J
+   1
+   7,J
+  19
+   7,J
+  22
+   1,D
+#897
+Insert Load, 2-Cannon End

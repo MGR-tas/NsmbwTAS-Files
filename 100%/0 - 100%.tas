@@ -4,7 +4,7 @@
 #Start from pre-title screen load
 #Recorded Game Version: J2
 Open LoadDoc, HundoTAS
-#Write, 32, RNG, 0x47244A0C
+Write, 32, RNG, 0x47244A0C
 #Enforce Legal
 
 #Start
@@ -1109,6 +1109,75 @@ Read, 02-02.tas
  255
    1,J
 Insert Load, 2-6N Start
+Read, 02-06N.tas
+
+ 306
+#Equip mush
+   1,G
+  54
+   1,L
+   7
+   1,J
+  11
+   1,J
+  33
+   1,J
+ 255
+   1,J
+Insert Load, 2-6S Start
+Read, 02-06S.tas
+
+ 569
+   1,J
+  52
+   2,R
+ 180
+   1,J
+ 206
+   1,J
+Insert Load, 2-Cannon Start
+Read, 02-36.tas
+
+ 264
+   1,M
+  36
+  18,R
+   9
+   1,J
+Insert Load, World8Select
+
+  17
+   2,U
+  26
+   1,U
+  67
+   1,R
+ 125
+   2,L
+ 116
+   1,J
+   5
+
+#RNG - Kamek and Toad Spawn
+Write, 32, RNG, 0x2D3E3026
+
+Insert Load, 8-Tower Start
+Read, 08-22.tas
+ 845
+   2,L
+ 112
+#Equip penguin
+   1,G
+  54
+   1,R
+   7
+   1,J
+  11
+   1,J
+  33
+   1,J
+Insert Load, 8-4 Start
+
 
  500
 

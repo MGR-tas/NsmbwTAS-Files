@@ -1,0 +1,284 @@
+#8-Tower Prop
+#Write, 32, RNG, 0x2D3E3026
+  61
+  13,R
+  15,R,J
+   2,R,J,X
+  14,R
+  11,L
+   5,D
+   1
+  10,J
+   1,L,J
+   3,J
+   5,J,X
+   1,R
+  10
+   5,D
+   1
+  12,L,J
+   2,J
+  41,J,X
+  13,R
+   1,L
+   8,L,J
+
+   3,R
+   1,R,J
+   2,R
+   1,R,J
+  15,R,J,X
+  14,R
+   1,R,D
+   1,R,J
+   3,R
+  10,R,J
+
+   4,R,D,J
+  10,L,J
+   1,L
+   3,L,D
+  18,L,J
+   1,L,J,X
+   1,L
+   2,L,J
+   2,L
+   1
+  36,L
+   6,D
+   1
+  11,R,J
+   9,R
+
+   1,R,J
+  11,L,J
+   4,L,J,X
+   8,L,J
+   4,R
+   4,L
+  60,R
+
+  25,R,J
+   1,R
+   1,R,J
+  15,L,J
+   1,L
+  16,L,J
+   1,R
+  11,R,J
+   1,R,J,X
+  51,R
+   1,R,D
+   5,D
+
+  10,R,D,J
+   2,L,J
+   1,L
+  15,L,J
+   1,R
+  11,R,J
+  31,R,J,X
+  47,L
+   5
+
+   1,L
+  17,L,J
+  23,J,X
+  12,L
+  11,R
+   1
+  25,L
+   1
+   7,L
+   9,L,J
+   4,L
+   1,L,J
+   6,L
+  23,L,J
+   2,R,J
+   1,J
+   1,L
+  13,L,J
+  13,R
+   1,R,J
+  28,R
+   1,R,J
+  31,R
+   1,R,J
+  21,J
+   1
+   1,R,D
+   2,R,J
+   2,J
+  13,L,J
+   1,R
+   1,R,J
+   3,L,J
+  14,L
+  14,L,J
+   2,L
+   2,L,J
+   5,L
+   1
+   1,R
+  20,R,J
+  11,R,J,X
+   0
+  24,L
+  14
+   7,R
+   6,R,J
+   2
+   1,J
+   7
+   1,U
+#1239
+Insert Load, 8-Tower Door1
+
+ 143
+   2,R
+   1,R,J
+  11,R
+   7,R,J
+   7,R,X
+   1
+  13,R,J
+  41,R
+   1,R,D
+  13,R,J
+   2,L,J
+   1,J
+   3,L,J,X
+   5,D,J
+   1
+   8,L,J
+   1,L
+   1,L,J
+  11,L
+   7,L,X
+   1
+  17,L,J
+  60,L
+   1,U
+#451
+Insert Load, 8-Tower Door2
+
+ 143
+  11,R
+
+   9,R,J
+   5,J
+
+   1,R
+   1,R,J
+  19,L
+
+   2,L,D
+   1,L,D,J
+   3,L,D
+   1,L,D,J
+   2,L,D
+   1,L,D,J
+   2,L
+   1,L,D
+  11,L,D,J
+   8,R,J
+   1,L
+   1,L,J
+   3,R,J
+  25,R
+   1,R,D
+  17,R
+  13,R,J
+  24,R
+   0,R
+   1,R,D
+  16,R,J
+   1,L
+   1,R,D
+  11,R,J
+   1,R
+   3,R,J
+   1,L
+   1,L,J
+  16,R,J
+   1,R
+   1,R,J
+  12,L,J
+  28,L,J,X
+  19,R
+   1,L
+   5,R
+   1,R,D
+   5,D
+  15,R,J
+  14,R,J,X
+  29,L
+   1
+  39,L
+   5
+   5,L
+   1,U
+ 320
+
+#RNG - Kamek (hit 1)
+#Write, 32, RNG, 0xA02FA317
+
+Insert Load, 8-Tower BossDoor
+
+#hitbox - 3690
+
+ 724
+
+  10,L
+   1,L,J
+  18,L
+   7,L,J
+   2,L
+  18,L,J
+   1,L,D,J
+   4,D,J,X
+  12,R
+  14,L,J
+  68,J
+  10,L
+   1,L,J
+  29,R
+   1,R,J
+  20,R
+
+   0,R,J
+   4,L,J
+   7,R,J
+   1,L,J
+  18,R,J
+   6,R
+   1,R,D
+  10,R,D,J
+   5,L,D
+   3,D
+   5,D
+   1,D,J
+   1,R,D,J
+   1,R,J
+  28,L
+   1,L,D
+   1,L,D,J
+  20,L,D
+   3,L
+   1,L,J
+  11,L
+  38,D
+   8,U
+   8,R,J
+  11,R
+   1,L,J
+   7,L
+   1,J
+   7
+   1,J
+   7
+   1,J
+#552.866
+#1896
+Insert Load, 8-Tower End
