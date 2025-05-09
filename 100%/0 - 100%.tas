@@ -545,6 +545,9 @@ Read, 03-27.tas
    1,J
  361
    1,J
+
+#RNG - Toad Spawn (3-3)
+
 Insert Load, 03-22Load0
 Read, 03-22.tas
 
@@ -917,7 +920,6 @@ Read, 07-01.tas
 #RNG - Sc3 Chain Chomp
 Write, 32, RNG, 0x47244A0C
 
-# 432
  408
    2,R
   49
@@ -927,7 +929,6 @@ Write, 32, RNG, 0x47244A0C
 Insert Load, 07-02Load0
 Read, 07-02.tas
 
-# 413
  423
    2,U
   80
@@ -935,22 +936,22 @@ Read, 07-02.tas
 Insert Load, 07-03Load0
 Read, 07-03.tas
 
-# 432
  450
    2,R
   59
    1,J
+
+#RNG - Toad Spawn (7-3)
+
 Insert Load, 07-22Load0
 Read, 07-22S.tas
 
-#1455
 1451
    1,J
 Insert Load, 07-22Load4
 Read, 07-22N.tas
 Save LoadDoc, HundoTAS
 
-# 561
  537
    2,R
  162
@@ -960,7 +961,6 @@ Save LoadDoc, HundoTAS
 Insert Load, 07-06Load0
 Read, 07-06.tas
 
-# 842
  852
    1,L
    1
@@ -974,7 +974,6 @@ Read, 07-06.tas
 Insert Load, 07-21Load0
 Read, 07-21S.tas
 
-# 874
  892
    1,J
  252
@@ -985,7 +984,6 @@ Read, 07-21N.tas
 #RNG - Ned
 Write, 32, RNG, 0x89FA8CE2
 
-# 727
  723
    2,R
   49
@@ -1060,6 +1058,7 @@ Read, 04-03.tas
 
  365
    1,J
+#World 4 Complete!
   52
    2,L
   30
@@ -1129,6 +1128,7 @@ Read, 02-06S.tas
 
  569
    1,J
+#World 2 Complete!
   52
    2,R
  180
@@ -1195,8 +1195,63 @@ Read, 08-05.tas
  231
    1,J
 Insert Load, 8-6 Start
+Read, 08-06.tas
 
+ 406
+   1,J
+#World 8 Complete!
+  52
+   1,M
+  36
+  18,R
+   9
+   1,J
+Insert Load, World3Select
 
+  17
+#RNG - Ice Bros
+Write, 32, RNG, 0x47244A0C
+   2,R
+  35
+   1,R
+  58
+   1,R
+   1
+   2,R
+  84
+   2,R
+  26
+   1,R
+  25
+   1,R
+  89
+   2,R
+  42
+   1,J
+ 245
+   1,J
+Insert Load, 3-GhostS Start
+Read, 03-21S.tas
+
+ 783
+   1,J
+#World 3 Complete!
+  52
+   2,D
+ 145
+   1,J
+ 206
+   1,J
+Insert Load, 3-Cannon Start
+Read, 03-36.tas
+
+ 264
+   2,U
+  70
+   2,L
+  86
+   1,J
+Insert Load, 6-2 Start
 
  500
 
