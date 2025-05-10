@@ -36,8 +36,9 @@
    1,R,J
   16,R
    3
-   1,R
-   8,L
+   2,R
+   4,L
+   2,D
    6,L,J
   11,L
    1,L,D
@@ -126,7 +127,8 @@
    6,R,G
   30
   68,R
-#1193
+#1192
+#475.350
 Insert Load, 4-3 Pipe1
 
   81
@@ -175,6 +177,7 @@ EndRepeat
    1,R,J
    1,U
 #426
+#468.117
 Insert Load, 4-3 Pipe2
 
  116
@@ -206,6 +209,8 @@ Insert Load, 4-3 Pipe2
 
    5,R,J
   67,R
+#647
+#456.842
 Insert Load, 4-3 Pipe3
 
  102
@@ -231,6 +236,6 @@ EndRepeat
  107,R
    1,R,J
    2,R
-#449.025
 #924
+#449.048
 Insert Load, 4-3 End
