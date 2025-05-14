@@ -1261,7 +1261,19 @@ Read, 06-02.tas
  254
    1,J
 Insert Load, 6-4 Start
+Read, 06-04.tas
 
+ 645
+   2,U
+ 160
+   1,R
+  45
+   1,U
+  94
+   2,L
+ 116
+   1,J
+Insert Load, 6-6S Start
 
  500
 
