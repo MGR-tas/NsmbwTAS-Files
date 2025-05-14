@@ -1282,7 +1282,34 @@ Read, 06-06S.tas
   52
    1,J
 Insert Load, 6-6N Start
+Read, 06-06N.tas
 
+ 862
+   2,R
+ 263
+   1,J
+ 206
+   1,J
+Insert Load, 6-Cannon Start
+Read, 06-36.tas
+
+ 264
+   1,M
+  36
+   1,U
+   6
+   1,J
+Insert Load, World9Select
+
+  17
+   2,U
+  26
+   1,U
+  35
+   1,J
+ 219
+   1,J
+Insert Load, 9-1 Start
 
  500
 
