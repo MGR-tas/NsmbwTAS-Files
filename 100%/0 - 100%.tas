@@ -1274,6 +1274,15 @@ Read, 06-04.tas
  116
    1,J
 Insert Load, 6-6S Start
+Read, 06-06S.tas
+
+ 734
+   1,J
+#World 6 Complete
+  52
+   1,J
+Insert Load, 6-6N Start
+
 
  500
 
