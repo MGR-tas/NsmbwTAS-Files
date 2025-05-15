@@ -1,30 +1,26 @@
-#RNG: 0xA02FA317
-
-#Start 05-24
-  24
-  61,R
-   4,R,D
-   3,R,D,X
-   3,R,D
-  37,R
-   3,R,X
-  13,R
-   9,R,J
-   1,R,J,G
-   1,R,J
-  13,R
+#5-Castle Penguin Star
+#Write, 32, RNG, 0xA02FA317
+  61
+  23,R
+   5,D
+   5,R,X
+  38,R
+   5,R,X
+  11,R
+   6,R,J
+   1,L,J
+   2,R,J
+  15,R,G
    1,R,J
   22,R
-   1,R,J
-   3,R,J,X
-   7,R,J
-   1,R
-  24,R,J
+   5,R,X
    8,R
-   3,R,J
-   4,R
+  23,R,J
+   3,R
    1,R,J
-  36,R
+  48,R
+
+
    1,R,J
    1,R
   13,R,J
@@ -33,15 +29,16 @@
    1,R
    8,R,J
    1,R
-   2,R,J
-   3,R,J,X
+   1,L,J
+   4,R,J,X
   18,R,J
    1,R,U
    3,R,J
    1,L,G
    1,L,J
   18,R,J,G
-   2,R,G
+
+   2,R
    8,R,J
    3,R,J,X
   27,R,J
@@ -60,103 +57,116 @@
    4,R,J
   14,R
    1,R,G
-   6,R,D
-   3,R,D,X
+   6,R
+
+   3,R,X
    1,R,D
+
   33,R
    1,R,D
-  18,R,D,J
-   9,R,D
-   2,R,D,J
-   6,R,D
-   1,R,D,J
-  12,R,D
-  11
+  18,R,J
+   9,R
+   2,R,J
+   6,R
+   1,R,J
+  23
+
    1,R,J
    1,L,J
-   1,L,J,G
-   8,L,J
+   9,L,J,G
    1,J
    9,L,J
    1,L
+
    1,L,J
-   3,R,J,G
+   4,R,J,G
+  24,R
+
+  38,R,D
    1,R,J
-  19,R
-   5,R,J
-  37,R,D,J
-   1,R,D
-   1,R,D,J
-  19,R,D
-   7,L
+  24,R
+   2,L
    1,J
-   3,J,G
-   9,J
-  11,R,J
+  23,J,G
    1,R,U
    1,R,U,J
    1,L
    1,L,J
   12,R,J,G
-   1,R,G
-   1,R,J,G
-   1,R,G
+   1,R
    1,R,J
-   3,L,J,G
-   1,L,J
-   1,L,D,J
-  14,L,D
-   4
+   1,R
+   1,R,J
+   5,L,J,G
+  10,L
+   8,L,D
    1,U
- 155
-Insert Load, 05-24Load1
+#926
+#583.660
+Insert Load, 5-Castle Door1
 
- 113
-  39,R,J
-   7,R
+ 143
+  16,R
    2,R,D
    5,R
    1,R,J
-  12,R
+  12,R,D
+
+#RNG manip: toggle D
    4,R,J
-   1,L,J
-   1
-   2,L
-   1,L,J
+
+   1,L,D,J
+   1,D
+   2,L,D
+   1,L,D,J
+   4,L,D
+   1,D
+  11,L,D
    4,L
    1
-  15,L
-   1
   13,L
-   4,L,D
-   7,L
+  11,L,D
    1,L,J
    5,L
    7,L,D,J
    3,L,D,J,X
   11,L,D,J
-   1,L,D,J,G
-   4,L,D,J
-  18,L
-   5,L,D
-  18,L,D,J
-   1,L,D
-   1,L,D,J
-  13,L,J,G
-   1,L,G
-   1,L,J,G
-   1,R,J
-   6,R
-  10,R,J
-   4,R
-  14,R,D
-  11
-   1,U
- 155
-Insert Load, 05-24Load2
 
- 119
-  28,R
+#RNG manip: toggle G
+   5,L,J
+
+  22,L
+   1,L,D
+  18,L,J
+   1,L
+   1,L,J
+  13,L,J,G
+   1
+   2,R,J
+   6,R
+
+#RNG manip: toggle G
+   6,R,J,G
+
+   1,J
+   5,R,J
+  16,R
+  10,R,D
+   1,U
+
+#Any of these rng states are ok;
+#Change the labelled stuff in the
+#next room until they work.
+#Write, 32, RNG, 0x2D3E3026
+#Write, 32, RNG, 0x03810669
+#Write, 32, RNG, 0xA02FA317
+#Write, 32, RNG, 0x47244A0C
+#461
+#578.606
+Insert Load, 5-Castle Door2
+
+ 143
+   4,R
    1,R,D
    4,R,D,J
   10,R,D
@@ -176,25 +186,28 @@ Insert Load, 05-24Load2
    5,R,D,J
    3,R,D,J,X
   15,R,D,J
-  11,R,J
+
+#RNG manip: toggle G
+  11,R,J,G
+
    1,R,U
    6,R,U,J
    7,R,J
    1,L
    1,L,J
-   1,R,J,G
-   4,R,J
+   5,R,J,G
   32,R
+
   25,R,D
-  17,R,D,J
-   2,R,D
-  22,R,D,J
-   1,R,D
-  12,R,D,J
-  32,R,D
-  17,R,D,J
-   2,R,D
-  34,R,D,J
+  17,R,J
+   2,R
+  22,R,J
+   1,R
+  12,R,J
+  32,R
+  17,R,J
+   2,R
+  34,R,J
    1,J
    1,R,U
    8,R,U,J
@@ -203,45 +216,62 @@ Insert Load, 05-24Load2
   13,R,J
   31,R
   30,R,D
-  17,R,D,J
-   2,R,D
-  34,R,D,J
+  17,R,J
+   2,R
+  34,R,J
    1,J
    1,R,U
-  24,R,U,J
-   2,R,U
-   9,R,U,J
-   3,R,U,J,X
-  15,R,U,J
+  24,R,J
+   2,R
+   9,R,J
+   3,R,J,X
+  15,R,J
    1,L,J
    4,R,J
    4,R
    2,L
    1,R
    1
-  41,R
+
+#RNG manip: if J is on, divide 
+#40f between this line and 
+#Line A to change the next 
+#poisonball's position
+   0,R
+
+#RNG manip: toggle J
+   1,R,J
+
+#Line A
+  40,R
+
+
    6,R,D
-  14,R,D,J
-  35,R,D
-   1,R,D,J
-  10,R,J
+  14,R,J
+  35,R
+  11,R,J
   25,R
   14,R,J
   10,R
    5,R,J
    1,J
+   4,R,J
+
+#hyperspeed
+   1,D
+  24,R,J
+   2,R
+  41,R,J
+   1,R
+  17,R,J
+   2,R
+  33,R,J
+   1,R
    5,R,J
-   1,R,D
-  10,R,D,J
-  35,R,D
-  17,R,D,J
-   2,R,D
-  21,R,D,J
-   2,R,D
-   6,R,D,J
-  35,R,D
-   1,R,D,J
-  20,R,D
+   2,R
+   2,R,J
+  19,R
+
   21,J
    2
    8,J
@@ -250,48 +280,50 @@ Insert Load, 05-24Load2
    3,J,X
    9,J
    1,R,U
-  10,R,U,J
-  11,R,U
-   5,R,U,J
-   4,R,J,G
-   7,R,U,J
-   8,R,J
+  10,R,J
+  10,R
+   1,R,U
+   5,R,J
+  19,R,J,G
    2,R
    8,R,J
    3,R,J,X
-  25,R,J
-   2,R
-   3,R,U
-   2,R,U,J
-   7,R,J
+  29,R,J
+   1,R,U
+   9,R,J
   10,R
    1,R,J
-  46,R
-  25,R,D
-  17,R,D,J
-   2,R,D
-  24,R,D,J
-   4,R,D
-   1,R,D,J
-  20,R,D
-   1,J
-  10,R,J
-   1,R,U,J
-   2,R,U
-   7,R,U,J
-   2,R,U
-   9,R,U,J
-  15,R,J
-   2,R
-   6,R,J
-   3,R,J,X
-  25,R,J
-   1,L,J
+
+  33,R
+  30,D
+   1
+   1,R
+  12,R,D
+  14,R,J
+  26,R
    1,R,J
+  20,R
+
+   1,J
+  11,J
+   2
+   1,J
+   6
+   2,R,U
+  24,R,J
+   2,R
+   3,R,J
+
+#subpixel manip for next jump
    1,L,J,X
-   2,R,J
-  12,R,J
+  29,R,J
+   5,R,J,X
+   1,R
+   1
+
+  11,R
   20,R,D
+
   17,R,D,J
    2,R,D
   22,R,D,J
@@ -315,19 +347,18 @@ Insert Load, 05-24Load2
   12,J
    4
    2,J
-   7
-   7,R,D
-   1,R,D,J
-  20,R,D
+   9
+  25,R,D
    1,U
- 333
-Insert Load, 05-24Load3
+#1917
+#544.848
+Insert Load, 5-Castle BossDoor
 
-  21
-  62,R
+  61
+  22,R
    4,R,D
-   3,R,D,X
-  68,R,D
+  46,R,X
+  25,R,D
   17,R,D,J
    2,R,D
   25,R,D,J
@@ -341,69 +372,38 @@ Insert Load, 05-24Load3
    1,R,D
    2,R
    7,R,J
- 893
- 117,R
+ 994
+
+#bossfight
+  16,R
    2,R,D
    6,R
    1,R,J
-  20,R
-  15,R,D
-   5,R,D,J
+  23,R
+  12,R,D
+   5,R,J
   42
   27,J
+Repeat, 17
    1,J,G
    4,J
-   1,J,G
-   4,J
-   1,J,G
-   4,J
-   1,J,G
-   4,J
-   1,J,G
-   4,J
-   1,J,G
-   4,J
-   1,J,G
-   4,J
-   1,J,G
-   4,J
-   1,J,G
-   4,J
-   1,J,G
-   4,J
-   1,J,G
-   4,J
-   1,J,G
-   4,J
-   1,J,G
-   4,J
-   1,J,G
-   4,J
-   1,J,G
-   4,J
-   1,J,G
-   4,J
-   1,J,G
-   4
+EndRepeat
    1,G
    1
-   1,R,J
-   1,L,J
+   2,R,J
    1,L,G
+  20,L
+   1,L,D
+  16,L,J
+  35,L
+   1,L,J
   18,L
-   3,L,D
-  16,L,D,J
-  35,L,D
-   1,L,D,J
-  18,L,D
    5,J
-   3,J,G
-  31,J
+  34,J,G
    1,L
    1,L,J
-   9,R,D
-  16,R,D,J
-  41,D
+  21,R
+  45,R,D
   29,L
    1
   23,R
@@ -433,10 +433,8 @@ Insert Load, 05-24Load3
    4,R,J
    1,R
    1,R,J
-   3,L,J,G
-  15,L,J
-   1,L
-  17,L,D
+  21,L,J,G
+  15,L,D
   23,R
    1
   22,L
@@ -481,9 +479,8 @@ Insert Load, 05-24Load3
   27,J
   35
    1,D
-  10,D,J
-   4,J
-   4,D,J
-   2,D
- 524
-Insert Load, 05-24Load4
+  14,J
+   5,D,J
+#3003
+#515.693
+Insert Load, 5-Castle End
