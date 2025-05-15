@@ -1,4 +1,4 @@
-#Start
+#7-4 Penguin
   31
   16,R
    8,R,D
@@ -21,11 +21,11 @@
    3,R,D
    9,R,J
    1,U,J
-Insert Load, 7-4Pipe1
 #240
+#497.182
+Insert Load, 7-4 Pipe1
 
  116
-Save LoadDoc
    1,R,J
    4,R
    1,R,J
@@ -37,7 +37,7 @@ Save LoadDoc
    8,R,D
   17,R,J
    2,R
-#2100 - 1709.3998
+
   26,R,J
    1,R
   17,R,J
@@ -58,9 +58,9 @@ Save LoadDoc
    2,R,J
    8,R
   30,R,D
-   1
+   1,L
    5,R
-   1,R,D
+   1,D
   25,R,J
   22,R
   17,R,J
@@ -69,37 +69,34 @@ Save LoadDoc
    1,R
   17,R,J
    2,R
-  27,R,J
+  26,R,J
    1,R
    1,R,J
   28,R
    1,J
-   1,L,J,G
-   5,L,J
-   1,L
-   7,R
-   3,L
+   6,J,G
+   5
+   7,L
    1
-   1,R
    1,R,D
   16,R,J
    1,R
    1,R,J
-   1,L,J,G
+   2,L,J,G
+   3,L
+   2,L,J
   10,L
-   1,L,J
-   1,L
-   4,L,J
-   9,L
+   2,L,J
+   8,L
+   6,R
    1
-   4,R
-   1
-  15,R,D
-Insert Load, 7-4Pipe2
-#760
+  13,R
+   1,D
+#758
+#484.087
+Insert Load, 7-4 Pipe2
 
  106
-Save LoadDoc
 Tilt, 400
    4,R
    1
@@ -154,9 +151,11 @@ Tilt, 600
    1,L,D
    3,L,J
    9,J
-   1,U,J
+   1,U
 Tilt, 512
-Insert Load, 7-4Pipe3
+#589
+#473.845
+Insert Load, 7-4 Pipe3
 
  116
   16,R
@@ -166,7 +165,7 @@ Insert Load, 7-4Pipe3
   29,R,X
    1,R,D
   24,R,J
-#3745 - 1837.7803
+
    2,R
   29,R,J
    1,R
@@ -204,9 +203,7 @@ Insert Load, 7-4Pipe3
    1
    6,J
   20,J
-   2
-   8
-#204
+  10
   24,J
    4
    1,R,D
@@ -228,7 +225,9 @@ Insert Load, 7-4Pipe3
    4,J
   10,J,X
    1,U
-Insert Load, 7-4Pipe4
+#931
+#456.482
+Insert Load, 7-4 Pipe4
 
  116
   16,L
@@ -266,7 +265,9 @@ Insert Load, 7-4Pipe4
    3,R
    5,R,J
    1,U
-Insert Load, 7-4Pipe5
+#433
+#450.036
+Insert Load, 7-4 Pipe5
 
  116
   15,R
@@ -279,7 +280,7 @@ Insert Load, 7-4Pipe5
   23,R,J
   39,R
    1,R,J
- 150,R
+  14,R
+#725
 #446.959
-
-Insert Load, 7-4End
+Insert Load, 7-4 End
