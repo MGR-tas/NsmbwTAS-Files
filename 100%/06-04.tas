@@ -96,7 +96,7 @@
    1,R,J
    1,R,J
    9,R
-   1,R,J
+   1,R,J,G
 
    9,R
   12,R,G
@@ -167,7 +167,7 @@ Insert Load, 6-4 Pipe2
 
  116
    8,L
-   1,J
+   1,J,G
    2,L,J
    2,L
    1,L,J

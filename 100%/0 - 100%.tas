@@ -1251,6 +1251,10 @@ Read, 03-36.tas
    2,L
   86
    1,J
+
+#RNG - Star Launch Height
+Write, 32, RNG, 0x3810669
+
 Insert Load, 6-2 Start
 Read, 06-02.tas
 
@@ -1273,6 +1277,9 @@ Read, 06-04.tas
    2,L
  116
    1,J
+
+#RNG - Water movement
+
 Insert Load, 6-6S Start
 Read, 06-06S.tas
 
@@ -1281,6 +1288,9 @@ Read, 06-06S.tas
 #World 6 Complete
   52
    1,J
+
+#RNG - Water movement
+
 Insert Load, 6-6N Start
 Read, 06-06N.tas
 
