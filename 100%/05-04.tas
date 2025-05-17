@@ -1,9 +1,7 @@
-#RNG: 0x89FA8CE2
-
-#Start 05-04
-   6,J,G
-  17
-  29,R,N
+#5-4 Mini
+#Write, 32, RNG, 0x89FA8CE2
+  31
+  21,R,N
   83,R
    1,R,J
   10,R
@@ -16,79 +14,82 @@
    3,R
    1
   12,R
-  89
-Insert Load, 05-04Load1
+#291
+#395.812
+Insert Load, 5-4 Pipe1
 
-  72
-  78,R
-  21,R,J
-  17,R,J,G
-   2,L,J,G
-   1,J,G
-   5,L,J,G
-   7,R,J,G
-   3,R,J,G,X
-  12,R,J,G
-   1,L,J,G
-   6,R,J,G
-   1,L,J,G
-   7,R,J,G
-   3,R,J,G,X
-   5,L,J,G
-  22,J,G
-   3,J,G,X
-  13,L,J,G
-   2,L,G
-   2,G
-   6,D,G
-  14,R,G
-   2,L,G
-   1,G
-  42,R,G
-   3,R,J,G
-   3,R,J,G,X
-  42,R,J,G
-   3,R,J,G,X
-  25,R,J,G
-   2,J,G
-   1,L,J,G
-   2,J,G
-  44,R,J,G
-   3,R,G
-   6,R,J,G
-   3,R,J,G,X
-  27,R,J,G
-   3,R,J,G,X
-  29,R,J,G
-   3,R,J,G,X
-  27,R,J,G
-   3,R,J,G,X
-  27,R,J,G
-   3,R,J,G,X
-  29,R,J,G
-   3,R,J,G,X
-  16,R,G
-   1,R,J,G
-   1,L,G
-   6,G
-   3,G,X
-   2,G
-   4,R,G
-  22,R,J,G
-   3,R,J,G,X
-  27,R,J,G
-   3,R,J,G,X
-  27,R,J,G
-   3,R,J,G,X
-  42,R,J,G
-   4,R,G
-   1,R,J,G
-   5,R,G
-   4,R,J,G
-   1,R,G
-  24,R,J,G
-   3,R,J,G,X
-   1,R,J,G
+  81
+  69,R
+  38,R,J
+   2,L,J
+   1,J
+   5,L,J
+   7,R,J
+   3,R,J,X
+  12,R,J
+   1,L,J
+   6,R,J
+   1,L,J
+   7,R,J
+   3,R,J,X
+   5,L,J
+  22,J
+   3,J,X
+  13,L,J
+   2,L
+   2
+   6,D
+  14,R
+   2,L
+   1
+Hold, G
+  42,R
+   3,R,J
+   3,R,J,X
+  42,R,J
+   3,R,J,X
+  25,R,J
+   2,J
+   1,L,J
+   2,J
+  44,R,J
+   3,R
+   6,R,J
+   3,R,J,X
+  27,R,J
+   3,R,J,X
+  29,R,J
+   3,R,J,X
+  27,R,J
+   3,R,J,X
+  27,R,J
+   3,R,J,X
+  29,R,J
+   3,R,J,X
+  16,R
+   1,R,J
+   1,L
+   6
+   3,X
+   2
+   4,R
+  22,R,J
+   3,R,J,X
+  27,R,J
+   3,R,J,X
+  27,R,J
+   3,R,J,X
+  42,R,J
+   4,R
+   1,R,J
+   5,R
+   4,R,J
+   1,R
+  24,R,J
+   3,R,J,X
+   1,R,J
+#Release G
+Hold
   47,R,J
   29,R
    1,R,J
@@ -108,39 +109,55 @@ Insert Load, 05-04Load1
    3,R,X
    6,R
    5,D
-  16,R,G
-  53,R,J,G
-   3,R,J,G,X
-   1,R,J,G
-  77,R,G
+  16,R
+Hold, G
+  53,R,J
+   3,R,J,X
+   1,R,J
+
+  25,R
+
+#Pause Buffer to
+#stop koopa dance
+   1,R,P
+  18
+   1,P
+  10
+
+  51,R
+
+#Release G
+Hold
    8,R
   20,L
    1,L,J
-  10,R,J
-  39,J
-   3,J,X
-   2,R
-  12
-  21,D
-   4,R,D
-   3,R
-   3,R,J
-   7,D,J
-  13,R,U,J
-   6,R,J
-   3,R,J,X
-  18,R,J
-   5,D,J
-   9,U,J
-  77
-Insert Load, 05-04Load2
+   9,R,J
 
-  97
-   8,L
-   1,L,J
-   4,L,J,N
+   6,J
+  11
+   4,L
+   1
+
+   5,D
+  24,R
+   7,R,J
+
+   1,R,D,J
+   4,D,J
+  18,R,D
+   9,R,U,J
+  13,R,J,X
+   1,R,D,J
+   5,D,J
+   1,U
+#1486
+#365.265
+Insert Load, 5-4 Pipe2
+
+ 105
+   5,L,J
    1,J
-   1,L,N
+   1,L
    1,L,J
    1,R,J
   64,R
@@ -163,5 +180,6 @@ Insert Load, 05-04Load2
    5,R
    3,R,X
    4,R
- 532
-Insert Load, 05-04Load3
+#872
+#358.639
+Insert Load, 5-4 End
