@@ -1,6 +1,4 @@
 #Penguin 7-Castle
-
-#Start
   61
    1,R,D
    1,R,D,J
@@ -319,7 +317,7 @@ Insert Load, 7-CastleBoss
 
   61
   22,R
-   5,R,D
+   4,R,D
   46,R,X
 
   25,R,D
@@ -339,7 +337,7 @@ Insert Load, 7-CastleBoss
    2,R
    1,R,J
   16,R
-   3,X
+   4,X
 
 #door close - 431
 1063
@@ -422,5 +420,5 @@ Insert Load, 7-CastleBoss
   15,R
    5,D
 #2805
-#517.737
+#517.760
 Insert Load, 7-CastleEnd
