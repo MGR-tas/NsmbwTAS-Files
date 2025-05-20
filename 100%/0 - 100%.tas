@@ -1,5 +1,5 @@
 #Category: 100%
-#Authors: MGR, Qr1pt1k, Squashh_1, Roblox8192, Inforcer
+#Authors: MGR, Qr1pt1k, Squashh_1, Mizumaririn, Roblox8192, Inforcer
 
 #Start from pre-title screen load
 #Recorded Game Version: J2
@@ -60,7 +60,6 @@ Read, 01-03S.tas
 Insert Load, 01-36Load0
 #RNG - Piranhas Spawn (in file)
 Read, 01-36.tas
-Save LoadDoc, HundoTAS
 
 1092
    1,G
@@ -208,7 +207,6 @@ Insert Load, 05-36Load0
 Read, 05-36.tas
 
  932
-Save LoadDoc, HundoTAS
    1,G
   29
    2,U
@@ -267,7 +265,6 @@ Read, 08-07.tas
    1,J
 Insert Load, 08-38Load0
 Read, 08-38.tas
-Save LoadDoc, HundoTAS
 
 1498
    1,G
@@ -301,7 +298,6 @@ Insert Load, sequenceBGTextureLoad1
  127
    1,J
 Insert Load, sequenceBGTextureLoad2
-Save LoadDoc, HundoTAS
 
   29
    2,R
@@ -324,7 +320,6 @@ Read, 01-03N.tas
    1,J
 Insert Load, 01-22Load0
 Read, 01-22.tas
-Save LoadDoc, HundoTAS
 
  999
    2,R
@@ -334,7 +329,6 @@ Save LoadDoc, HundoTAS
    1,J
 Insert Load, 01-04Load0
 Read, 01-04.tas
-Save LoadDoc, HundoTAS
 
 #RNG - Fred
 Write, 32, RNG, 0x89FA8CE2
@@ -383,7 +377,6 @@ Read, 01-24.tas
    1,J
 #World 1 Complete!
 Insert Load, CS_W1Load0
-Save LoadDoc, HundoTAS
 
  406
    2,U
@@ -465,7 +458,6 @@ Read, 02-05.tas
 Insert Load, 02-24Load0
 Read, 02-24.tas
 Insert Load, CS_W2Load0
-Save LoadDoc, HundoTAS
 
  525
    2,R
@@ -500,7 +492,6 @@ Write, 32, RNG, 0x89FA8CE2
    1,J
 Insert Load, 03-03Load0
 Read, 03-03.tas
-Save LoadDoc, HundoTAS
 
 #RNG - Ice bros #2
 Write, 32, RNG, 0xD469D751
@@ -556,7 +547,6 @@ Read, 03-22.tas
    1
    2,R
 Insert Load, CS_W3Load0
-Save LoadDoc, HundoTAS
 
   63
    1,J
@@ -633,7 +623,6 @@ Read, 03-24.tas
 Write, 32, RNG, 0x47244A0C
 
 Insert Load, CS_W3Load1
-Save LoadDoc, HundoTAS
 
  431
    2,U
@@ -753,7 +742,6 @@ Read, 04-24.tas
 Insert Load, 04-38Load0
 Read, 04-38.tas
 Insert Load, CS_W4Load0
-Save LoadDoc, HundoTAS
 
  144
    2,R
@@ -824,7 +812,6 @@ Read, 05-24.tas
    1,J
 #World 5 Complete!
 Insert Load, CS_W5Load0
-Save LoadDoc, HundoTAS
 
  459
    2,U
@@ -906,7 +893,6 @@ Read, 06-38.tas
 Write, 32, RNG, 0xA02FA317
 
 Insert Load, CS_W6Load0
-Save LoadDoc, HundoTAS
 
  398
    2,R
@@ -950,7 +936,6 @@ Read, 07-22S.tas
    1,J
 Insert Load, 07-22Load4
 Read, 07-22N.tas
-Save LoadDoc, HundoTAS
 
  537
    2,R
@@ -1027,7 +1012,6 @@ Read, 07-24.tas
    1,J
 #World 7 Complete!
 Insert Load, World7Exit
-Save LoadDoc, HundoTAS
 
  144
    1,M
@@ -1322,5 +1306,3 @@ Insert Load, World9Select
 Insert Load, 9-1 Start
 
  500
-
-Save LoadDoc, HundoTAS
