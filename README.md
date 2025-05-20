@@ -3,7 +3,7 @@ New Super Mario Bros Wii Main Category TAS inputs
 
 TAS Tools: https://github.com/MGR-tas/nsmbwTAStudio
 
-Note: At this point in time, these TAS Files are mostly just the product of an input export script, so they don't always have ideal input chunks. (For example, they may repeat `1` and `1,D` 50 times in a row instead of having a repeat command do it.) All hand-crafted input files (most future files/updates) will be better in that way. To find hand-made files, check the commit history for any first drafts or level improvements.
+Note: Many of these TAS Files are mostly the product of an input export script, so they usually don't have clean inputs (For example, they may repeat `1` and `1,D` 50 times in a row instead of having a repeat command do it). While learning to use the setup, I reccommend refferencing the hand-crafted files. To find hand-made files, check the commit history for any first drafts or level improvements.
 
 ## Contact: 
 @mgr_tas on Discord
