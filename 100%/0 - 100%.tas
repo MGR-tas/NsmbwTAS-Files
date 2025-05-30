@@ -1304,5 +1304,20 @@ Insert Load, World9Select
  219
    1,J
 Insert Load, 9-1 Start
+Read, 09-01.tas
+
+ 228
+   1,D
+   1
+   2,D
+  35
+   2,R
+  26
+   2,U
+  37
+   1,J
+ 253
+   1,J
+Insert Load, 9-2 Start
 
  500
