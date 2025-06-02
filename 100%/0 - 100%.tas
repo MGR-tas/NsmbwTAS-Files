@@ -1303,6 +1303,9 @@ Insert Load, World9Select
    1,J
  219
    1,J
+   
+#RNG - Toad Spawn (9-8)
+
 Insert Load, 9-1 Start
 Read, 09-01.tas
 
@@ -1319,5 +1322,20 @@ Read, 09-01.tas
  253
    1,J
 Insert Load, 9-2 Start
+Read, 09-02.tas
+
+ 131
+   1,D
+   1
+   2,D
+  35
+   2,R
+  26
+   2,U
+  37
+   1,J
+ 246
+   1,J
+Insert Load, 9-3 Start
 
  500
