@@ -1,5 +1,3 @@
-#RNG: 0x71C774AF
-
 #Start 01-02
   35,R,G
    1,R,J,G
@@ -53,7 +51,6 @@
   13,J,G
   22,G
    1,D,G
- 121,G
 Insert Load, 01-02Load1
 
   98,G
@@ -279,7 +276,9 @@ Insert Load, 01-02Load1
    3,J,G
    4,G
    1,L,N
-  14,G
+   3,G
+Tilt, 532
+  11,G
   43,R,G
    1,J
    2,J,G
@@ -289,13 +288,10 @@ Insert Load, 01-02Load1
    5
    6,J,G
   15,R,J,G
-  89
-   3,R,G
+Tilt, 512
 Insert Load, 01-02Load2
 
-   2,R,G
-  93
-  11,R,G
+ 106
   10,L,N
    4,L,G
    6,L,J,G
@@ -309,6 +305,7 @@ Insert Load, 01-02Load2
    7,R,G
    5
    1,G
+Tilt, 532
    5
    1,G
    6
@@ -325,15 +322,23 @@ Insert Load, 01-02Load2
    1,R,U,G
    1,R,D,G
    1,L,D,G
-  44,R,D,G
-   2,L,J,N
-   6,J,G
-   3,J
-   5,G
-   4
-   3,G
+  41,R,D,G
+Tilt, 512
+   3,R,D,G
+   1,L,J,N
+   2,J,G
    6
-   3,G
-   9,R,G
+Tilt, 432
+   0,G
+   1,J
+   2,J,G
+Tilt, 512
+   3,J,G
+   4,J
+   3,J,G
+Tilt, 432
+   6,J
+Tilt, 512
+  12,J,G
  527
 Insert Load, 01-02Load3
