@@ -1382,5 +1382,21 @@ Read, 09-05.tas
  228
    1,J
 Insert Load, 9-6 Start
+Read, 09-06.tas
+
+
+ 131
+   2,D
+  35
+   2,L
+  26
+   1,U
+   1
+   2,U
+  37
+   1,J
+ 228
+   1,J
+Insert Load, 9-7 Start
 
  500
