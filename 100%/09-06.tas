@@ -271,9 +271,8 @@ Insert Load, 9-6 Pipe
   13,R,J
    1,R
   25,R,J
-  37,R
-   4,R,X
-   1,L
+  41,R
+   1,J
 #743
 #348.711
 Insert Load, 9-6 End
