@@ -1,4 +1,4 @@
-#4-3 Penguin
+#4-3 Penguin -> Mini
   31
   14,R
    7,R,D
@@ -123,13 +123,12 @@
    4,L,J
    1,R,J
    8,L,J
-   4,L
-   1
-   6,R,G
+   7,L
+   1,L,G
   30
-  68,R
-#1184
-#475.529
+  69,R
+#1182
+#475.574
 Insert Load, 4-3 Pipe1
 
   81
@@ -178,7 +177,7 @@ EndRepeat
    1,R,J
    1,U
 #426
-#468.297
+#468.342
 Insert Load, 4-3 Pipe2
 
  116
@@ -211,7 +210,7 @@ Insert Load, 4-3 Pipe2
    5,R,J
   67,R
 #647
-#457.021
+#457.066
 Insert Load, 4-3 Pipe3
 
  102
@@ -226,8 +225,8 @@ Insert Load, 4-3 Pipe3
 
 Repeat, 3
    1,R,D
-   1,L,D
-   1,R,D
+   1,L
+   1,R
    1,R,U
 EndRepeat
    8,R
@@ -238,5 +237,5 @@ EndRepeat
    1,R,J
    2,R
 #924
-#449.228
+#449.272
 Insert Load, 4-3 End
