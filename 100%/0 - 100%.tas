@@ -1413,5 +1413,12 @@ Read, 09-07.tas
  226
    1,J
 Insert Load, 9-8 Start
+Read, 09-08.tas
 
- 500
+ 408
+   1,J
+#You have completed
+#everything in New
+#Super Mario Bros. Wii!
+
+Save LoadDoc, HundoTAS
