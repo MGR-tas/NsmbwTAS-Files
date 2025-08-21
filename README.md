@@ -12,6 +12,6 @@ If you want to help improve the game's TASes, reach out to me on Discord! All yo
 If you make any improvements, I'll add you to the contributors list in the relevent categories!
 
 ## Contact: 
-@mgr_tas on Discord
+`#tas-discussion` in the [NSMBW Speedrunning Discord Server](https://discord.gg/T7Nwspm)
 
-Through my Discord server: https://discord.gg/JxXxKAPKwT
+[My Discord Server](https://discord.gg/JxXxKAPKwT)
