@@ -1,6 +1,4 @@
-#RNG: 0x72CB75B3
-
-#Start
+#8-Airship Penguin
  110
   11,R
    2,R,D
@@ -8,13 +6,12 @@
    7,R,J
   23,R
    2,R,D
-   1,R,D,J
-  29,R,D
-   3,R,D,X
-  18,R,D
-   9
+   1,R,J
+  29,R
    3,X
-   2
+  18
+   3,X
+  11
   17,R
    2,R,D
    8,R
@@ -28,31 +25,34 @@
    1,R
    4,R,J
    1,R
-   1,R,J
-   1,R,J,N
-  18,R,G
-  17,R,D
-   1,R,D,J
-   5,R,J
-  23,R
+   2,R,J
+   1,R,G
+  22,R
+   8,R,D
+   9,R,J
+  24,R
    4,J
-   3
-   4,R
-   3,R,X
-   3,R,J
-  39,R,D
+   5
+   1,R
+   4
+   3,J
+  14
+  25,D
   17,R,J
    2,R
-  24,R,J
+  26,R,J
+   1,R
+   1,R,J
    3,R
    1,R,J
-  17,R
-   7
+  20,R
+   1
    8,R,J,G
-  22,R,J
-  33,R
-  11,R,D
-  18,R
+  20,R,J
+   2,R
+   1,R,J
+  36,R
+  25,R,D
   17,R,J
    2,R
   26,R,J
@@ -60,157 +60,174 @@
    1
    1,R
   25,R,D
-  42,R,D,J
-   1,J
-   1,R,J
-  12,R,D,J
-  13,R,D
-  12,R,D,J
-  23,R,D
-  33,R,D,J
-   7,R,J,N
-   2,R,N
-   4,R,J,N
-   2,R,N
-   6
-  28,R,J,G
-   6,R,G
-  35,R,J,G
-   4,L,J,G
-  35,L,G
-   1,L,J,G
-   1,R,N
-  11,L,G
-   1,G
-   1,R,G
-   1,G
-  19,R,G
-  17,R,J,G
-   3,R,J,G,X
-   3,R,G
-   1,R,N
-  32,R,G
-   1,R,J,G
-   1,L,J,G
-   3,J,G
-  15,G
-  25,J,G
-  18,G
-  13,J,G
-   1,G
-   1,J,G
-   2,G
-   1,J,G
-  14,G
-   6,R,G
-   1,R,N
-   3,R,J,G
-   1,J,G
-  15,L,J,G
-   3,L,G
-  11,R,G
-   1,L,G
-   2,R,G
-   1,R,N
-  14,R,G
-   7,R,J,G
-  22,R,G
-  13,R,J,G
-   1,R,J
-   3,R,J,G
-  16,R,G
+  25,R,J
+  16,R
+   1
    1,R
+  25,R,D
+  12,R,J
+  23,R
+  40,R,J
+  48,R
+  35,R,J
+Hold, G
+   4,L,J
+  35,L
+   1,L,J
+Hold
+   1,R
+  11,L
+   1
+   1,R
+   1
+Hold, G
+  19,R
+  17,R,J
+   3,R,J,X
+   3,R
+Hold
+   1,R,N
+Hold, G
+  32,R
+   1,R,J
+   1,L,J
+   3,J
+  15
+  25,J
+  18
+  13,J
+   1
+   1,J
+   2
+   1,J
+  14
+   6,R
+Hold
+   1,R,N
+Hold, G
+   3,R,J
+   1,J
+  15,L,J
+   3,L
+  11,R
+   1,L
+   2,R
+Hold
+   1,R,N
+Hold, G
+  14,R
+   7,R,J
+  22,R
+  13,R,J
+Hold
+   1,R,J
+   3,R,J,G
+  17,R
    8,R,G
-   1,R,J
-   1,R,J
+   2,R,J
    6,L,J,G
   22,L
    3,L,X
   10,L,J
-   1,L
-   1,L,J
-   1,L,J
+   1
+   2,L,J
   24,R,J,G
    3,R,J,X
-  14,R,D
-  77,R,J
+  13,R
+  12,R,D
+  17,R,J
+   2,R
+  47,R,J
    1,D
 #1486
-Insert Load, 08-38Load1
+#471.936
+Insert Load, 8-Airship Pipe1
 
  106
-   3,R
-  14,R,D
-   1,D
-   3,R,D
-   3,R
-   1,R,J
-  19,R
-   6,R,D
-   9,R,D,J
-   1,R,D
-   2,R,D,J
-  22,R,D
-   3,R,D,X
-  19,R,D
-   8
-   3,X
-  20
-   3,X
-  21
   17,R
-   4,R,D
-   7,R,D,J
-  15,R,J
-   3,R,J,X
-  20,R,J
-  27,R,D,J
-   8,J
+   1
+   2,R,D
+   4,R
    1,R,J
-  25,R,D
-   1,R,D,J
-  18,R,D
-   6
+  23,R
+   2,D
+   9,R,J
    1,R
-   9,R,D
-   1,R,D,J
-   3,R,D
-  10,R,D,J
-  46,R,D
-   1,R,D,J
-  10,R,D
-   3,R,D,X
-   4,R,D
-  23
+   2,R,J
+  22,R
+   3,R,X
+  18
+   3,X
+  18
+   3,X
+  18
+   3,X
+  11
+
+  14,R
+   1,R,N
+   6,R,D
+
+   1,R,J,N
+  23,R,J
+   3,R,J,X
+  15,R,J
+  34,R,D,J
+   1
+   1,R
+  25,R,D
+   1,R,J
+  23,R
+   1
+   1,R
+  11,R,D
+   1,R,J
+   2,R
+   2,R,J
+   2,R
+   1,R,J
+   1,R
+   5,R,J
+  47,R
+   1,R,J
+   9,R
+   3,R,X
+  18
+   3,X
+  18
    3,X
   18
    3,X
   20
-   3,X
-  10
   17,R
    2,R,D
    8,R
   15,R,J
   16,R
-   5,R,J
-   1,R,D,J
-  15,R,D
-  34,R,D,J
-   2,R
-   1,R,J
-   3,R
    6,R,J
-   6,R
-   4,R,J
-  18,R
-  19,R,J
-   2,R,J,X
+  16,R
+   1,R
+
+  21,D
+  12,R,D,J
+   1,R
+   1,R,J
+   2,R
+  10,R,J
+   4,R
+   2,R,J
+  25,R
+   1
+   1,L,G
+   2,R
+   1,R
+  17,R
+   1,L,D
+  15,L,D,J
    1,U,J
-  13,J
-  11,U,J
-#818
-Insert Load, 08-38Load2
+#812
+#456.752
+Insert Load, 8-Airship Pipe2
 
  116
   12,L,J
@@ -221,65 +238,60 @@ Insert Load, 08-38Load2
    1,R,J
   29,R
   12,R,D
-  12,R,D,J
-   1,R,D
-   1,R,D,J
-   1,R,D
-  26,R,D,J
-   7,R,D
-   4,R,D,J
-  22,R,D
-  19,R,D,J
-  10,R,D
+  12,R,J
+   1,R
+   1,R,J
+   1,R
+  32,R,J
+   1,R
+   4,R,J
+  22,R
+  18,R,J
+  10,R
    1,J
    9,R,J
-  21,R,D
-  14,R,D,J
-  51,R,D
-   3,R,D,X
-   7,R,D
-   2
+   9,R
+  12,D
+  14,R,J
+   2,R
+   2,R,J
+  10,R
+   4,R,J
+  34,R
+   3,X
+   9
+
   17,R
   11,R,D
-   1,R,D,J
-   1,R,D
-   1,R,D,J
-   1,R,D
-   1,R,D,J
-   1,R,D
-   1,R,D,J
-   1,R,D
-   1,R,D,J
-   1,R,D
-   1,R,D,J
-   1,R,D
-   1,R,D,J
-   1,R,D
-   1,R,D,J
-   2,R,D
-   5,R,D,J
+Repeat, 8
+   1,R,J
+   1,R
+EndRepeat
+   1,R
+   5,R,J
    1,L,G
-   1,L,J
-   1,L,J
+
+   2,L,J
   28,R,J,G
    3,R,J,X
-  28,R,D,J
-   6,R,D
-   7,R,D,J
-  30,R,D
-   3,R,D,X
-   4,R,D
-  23
-   3,X
+  22,R,J
+  12,R,D
+   7,R,J
+  30,R
+   3,R,X
   18
    3,X
-  19
+  18
    3,X
   18
    3,X
   18
    3,X
   18
+   3,X
+  18
+   3,X
+   7
    8,R,J
    4,L,J
    1,L
@@ -298,55 +310,59 @@ Insert Load, 08-38Load2
   26,R,D,J
    3,R,D
    1,D,J
-  23,L,D,J
-   1,D,J
-   1,R,D,J
-   1,D,J
-   2,R
+  23,L,J
+   1,R,J
+   1,J
+   1,R,J
+   1,R
   29,R,G
    5,R,J,G
+   1,R,J
+Hold, G
+   4,R,J
+  14,R
+   1,R,J
+  30,R
    3,R,J
-   2,R,J,G
-  11,R,G
-   3,R,G,X
-   1,R,J,G
-  30,R,G
-   3,R,J,G
-   2,R,G
-   1,R,J,G
-  16,R,G
-   3,R,G,X
-   5,R,G
-  22,G
-   3,G,X
-  18,G
-   3,G,X
-  13,G
+   2,R
+   1,R,J
+  16,R
+   3,R,X
+  18
+   3,X
+  18
+   3,X
+  18
+   2,X
+   2
+Hold
   17,R
   14,R,D
    3,R,D,X
    1,R,D
-  41,R,D,G
-   1,R,D,J,G
-   4,R,D,G
-  27,R,D,J,G
-  45,R,D,G
-   4,R,D,J,G
-   7,R,J,G
-   3,R,J,G,X
-  26,R,G
-   1,R,J,G
-   6,R,G
-  13,R,J,G
+Hold, G
+  41,R,D
+   1,R,D,J
+   4,R,D
+  27,R,D,J
+  45,R,D
+   4,R,D,J
+   7,R,J
+   3,R,J,X
+  26,R
+   1,R,J
+   6,R
+  13,R,J
 
-   3,G,X
-  27,G
-   3,G,X
-   4,G
+   3,X
+  27
+   3,X
+   4
 
-   5,R,G
-   5,R,J,G
-   5,R,D,J,G
+   5,R
+   5,R,J
+   5,R,D,J
+Hold
    3,R,D,J
 
   28,R,D
@@ -368,113 +384,149 @@ Insert Load, 08-38Load2
    2,R
   25,J
    1,D
-#1439
-Insert Load, 08-38Load3
+#1438
+#428.384
+Insert Load, 8-Airship Pipe3
 
 #bjr
  979
-   3,R,J
-   2,R
-   1,R,D
-   7,D
-  18,R,D
-   4,R,D,J
-   6,R,J
-  17,J
-  27,D,J
-   6,L
-   1,L,J
-  19,L
-   6,L,D
-   2,L,D,J
-   6,J
-   5,L,J
-   1,L
-   2,J
-   1
-   4,J
 
-  25,D,J
-   5,R,D,J
-  15,R,J
-   2,R,J,G
-  26,R,J
-   5,L,J
-   1,L
-   3,L,X
-   2,L,J
-   4,J
-  14,D,J
+#Closest attempt
+#at Instant First
+#  16,R
+#   2,R,D
+#   6,R
+#   6,R,J
+#   2,R
+#   1,R,J
+#  15,R
 
-   4,L,J
-  17,L
-   1,L,D
-   9,D
-  10
-   2,R
-   1,L
-  31,R
+#   5,R
+#  19,R,D
+#   1,J
+#   6,R
+#   1,R,D,J
+#   5,D,J
+#  10,R
+#  13,R,J
+#   1,R,J,G
+#  18,R,J
+#   1,R,J,X
+#   2,R,J
+#   1,R,N
+#   1,R
+#   1,R,D
+#   5,D
+#   7
+#Write, Float, PosX, 6459.993
+#   1
+#  35,R
+#9999
+##
 
-#jump out of gp
-   4,R,J
   22,R
-   7,L,J
-   7,J
-   2
-   1,J
+   4,R,D
+   3,R,X
+  46,R
+   1,R,D
+  23,R,J
+   2,R
+   1,R,J
+  11,R
+  12,J
    1
+   2,R,J
+   1,L,J,G
+  15,L,J
+   2,L
+  10,L,J
+   1,L
+   5,L,J
+   6,L
+   3,L,X
+   3,L,J
+   5,D
+  17,L
+   1,R
+   6,L
+   1,L,J,G
+   5,L,J
    1,J
-   1
-  29,D
-#super bounce
-   7,R,J
-  14,R,J,G
    8,R,J
-   3,R,J,X
+   1,R,J
+   5,R,J
+   1,R,J,N
+   1,R,J
+   1,R,D,J
+   4,D,J
 
-  26,R,J
+Hold, J
+  27,R
+   3,R,X
+  16,R
+   1,R,D
+   4,D
+  13
+   1,X
+   1,R,U
+   7,R
+   1,R,D
+   4,D
+  14
+   1,R,U
+   1,R,D
+   9,D
+   5,R
+   1,L,D
+   4,D
+   6,R
+   1,L
+  17,L,X
+   5,D
+Hold
 
-   7,L,J
-  10,L
-  71,R
-   1,R,J
-  23,R
-   1,R,J
-   3,R
-   1,R,J
+  22,L
+   1,L,D
+   4,D
+  26
+  20,L
+   4
+   1,J
+   2
    1,R
    1,R,J
-   3,R
-   1,R,D
-   1,D
-  18,D,J
-   7,R,D,J
-#super bounce (yolo setup)
-   3,R,J
-   4,R,J,G
-   4,R,J
-  14,J
-   3,J,X
-   8,J
-  16,D,J
-  20,R
-   1,R,D
-  14,D
-  40,R,D
+  22,L
 
-#jump out of gp
-   3,L,D,J
+   4,L,J
+   4,L
    1,L,D
-   1,L,D,J
+   4,D
+  20,L
+   7,R
+   1,L,J,G
+  16,R,J
+   2,J
+   1,R,J
+   1,J
+   3
+   5,D
+  34,L
+   1,L,D
+   4,D
+  48,L,D
+
+   2,L,J
+   2,L
+   1,L,J
    1,L,G
    3,L
   10,L,J
-   2,D,J
-  13,D
-#super bounce
-   1,R,D
-#2189
-Insert Load, 08-38Load4
+   1,R,D,J
+   4,D
 
- 753
-Insert Load, 08-38Load5
+#2097
+#413.200
+Insert Load, 8-Airship End
+
+   1
+Insert Load, 8-Airship Cutscene
