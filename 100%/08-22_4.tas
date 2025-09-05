@@ -165,14 +165,11 @@ Insert Load, 8-Tower Door2
 
  143
   11,R
-
    9,R,J
    5,J
-
    1,R
    1,R,J
   19,L
-
    2,L,D
    1,L,D,J
    3,L,D
@@ -222,14 +219,11 @@ Insert Load, 8-Tower Door2
  320
 
 #RNG - Kamek (hit 1)
-#Write, 32, RNG, 0xA02FA317
+Write, 32, RNG, 0xA02FA317
 
 Insert Load, 8-Tower BossDoor
 
-#hitbox - 3690
-
  724
-
   10,L
    1,L,J
   18,L
@@ -279,6 +273,6 @@ Insert Load, 8-Tower BossDoor
    1,J
    7
    1,J
-#552.866
 #1896
+#552.866
 Insert Load, 8-Tower End

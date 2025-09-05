@@ -1146,7 +1146,7 @@ Insert Load, World8Select
 Write, 32, RNG, 0x2D3E3026
 
 Insert Load, 8-Tower Start
-Read, 08-22.tas
+Read, 08-22_4.tas
  845
    2,L
  112
