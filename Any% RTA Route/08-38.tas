@@ -1,6 +1,4 @@
-#RNG: 0x72CB75B3
-
-#Start
+#8-Airship Fire->Prop
  110
   11,R
    1,R,J
@@ -9,45 +7,47 @@
   18,R
   21,R,J
   34,R
-   3,R,X
-  12
    3,X
    7
    3,X
    7
+   3,X
+   7
+   3,X
+   2
   20,R
    1,R,D
-   1,R,D,J
-   1,R,D,J,N
-   2,R,D
-   5,R,D,J
-   2,R,D
-   8,R,D,J
+   1,R,J
+   1,R,J,N
+   2,R
+   5,R,J
+   2,R
+   8,R,J
    3,R,D,J,X
-  17,R,D,J
-   1,R,D
-   5,R,D,J
-   1,R,D
    4,R,D,J
-   1,R,D
-   2,R,D,J
-   1,R,D
-   1,R,D,J,G
-   2,R,D,J
-  23,R,D
-   1,R,D,J
-  24,R,D
-   1,R,D,J
-  24,R,D
-   9,R,D,J
+  13,R,J
+   1,R
+   5,R,J
+   1,R
    4,R,J
+   1,R
+   2,R,J
+   1,R
+   1,R,J,G
+   2,R,J
+  23,R
+   1,R,J
+  24,R
+   1,R,J
+  24
+  13,R,J
    3,R
    3,R,J
    1,R
    1,R,D
-   6,D
-  11,R,J
-   4,R
+   4,D
+  14
+   3,R
    1,R,G
   12,R
    8,R,J
@@ -73,86 +73,57 @@
   40,R,J
    3,R
   32,R,J
-  34,R
-   1
-   2,R,D
-   1,R,D,J
-  25,R,D
+
+  37,R
+   7
    6,R
    1
-   5,R
-   1
-   5,R
-   1
-   5,R
-   1
-   5,R
-   1
-   5,R
-   1
-   5,R
-   1
-   5,R
-   1
-   5,R
-   1
-   5,R
-   1
-   5,R
-   1
-   5,R
-   1
-   5,R
-   1
-   5,R
-   1
-   5,R
-   1
-   5,R
-   1
-   2,R
+ 111,R
    6,R,J
-  10,R
-  19,R,J
-  30,R
+   6,R
+  28,R,J
+  24,R
    1,R,D
    9,R,J
-  14,R
-   1,R,J
-  24,R
-   3,R,J
-   3,R
-   1,R,J
-   3,L
+   1,R
+   1,L
+   4,R,D
+   1,D
+   6,R,D
+   1,R
+  20,R,J
    8,R
-   1
-   4,R
-   2,R,D,X
+   2,R,J
+   6,R,J
+  13,R
+   0,R
+   1,R,D,X
    1,L,D
+   1,R
    1,R,J
+
   36,J
    3,J,X
   14,J
   13
    3,X
   15
-  25,J
-   3,J,X
-  10,J
-   1
-  15,J
-   3
+  25
+   3,X
+   8
+  17,J
+   4
    1,J
-  43
+  41
   20,R
   22,R,J
-   7,R
-   6,R,J
+   6,R
+   7,R,J
    8,R
   14,R,J
    7,R
    1,R,J
-  55,R
+  54,R
    2,R,D
    1,L,D
   32,R,D
@@ -162,9 +133,11 @@
    1,R,J
    8,R
   22,R,J
-   6,R
-   1,R,J
-  24,R
+   5,R
+   2
+   1,J
+   8
+  16,R
   35,R,J
    2,R
    1,R,D
@@ -174,10 +147,16 @@
    5,J
   11
    1,J
-  18
-   1,J
-  18
-   4,L
+   9
+   8,R
+   1
+Repeat, 9
+   1,D
+   1
+EndRepeat
+   1
+   1,L
+   2
    1,R
    1,R,J
    4,L
@@ -259,12 +238,13 @@
   17,R
   10,D
    9,R
-   1,R,D
- 121
-Insert Load, 08-38Load1
+   1,D
+#2202
+#455.337
+Insert Load, 8-Airship Pipe1
 
-  79
-  46,R
+ 121
+   4,R
    5,R,J
    2,R
    3,R,X
@@ -289,66 +269,78 @@ Insert Load, 08-38Load1
    1,R,J
    3,R
   30,R,J
-  37,J
-   3,J,X
-  36,J
-  41
+  37
+   3,X
+  77
   21,R,J
-  32,R
-   2,R,D
-   1,R,D,J
+  33,R
+   1,R,D
+   1,R,J
   31,R
    5,R,J
   26,R
    1,R,D
-   1,R,D,J
-   1,R,D
-  10,R,D,J
-   6,R,D
-   1,R,D,J
+   1,R,J
+   1,R
+  10,R,J
+   6,R
+   1,R,J
   20,R,D
   31
    3,X
   77
    6,R
    1,R,D
-   1,R,D,J
+   1,R,J
   14,R,J
-   1,R,U,J
-  90
-Insert Load, 08-38Load2
+   1,U
+#712
+#442.691
+Insert Load, 8-Airship Pipe2
 
  116
-   1,L,J
-   3,L
-   8,L,J
    1,L
+   1,L,J
+   1,L
+   2,L
+   3,L,J
+   1,L,J,N
+   3,L,J
+   1
    1,L,J
   35,R
    2,R,J
   24,R
-  12,R,J
-  16,R
-   2,R,D
-  20,R,D,J
-   2,R,D
-   1,R,D,J
-  34,R,D
-   1,R,D,J
+
+  10,R,J
+  17,R
    1,R,D
-   2,R,D,J
+  20,R,J
+   1,L,J
+  17,R,D,J
    1,R,D
-  12,R,D,J
-   2,R,D
-  14,R,D,J
-   1,R
-   9,R,J
   20,R
    1,R,J
-  60,R
+   1,R
+   5,R,J
+   1,R
+  24,R,J
+   1,R
+   9,R,J
+  19,R
+   1,R,J
+  32,R
+  29,R,J
+
    1,R,D
-   4,R,D,J
-  12,R,D
+   1,R,J
+   1,L,J
+   1,R,J
+   1,J
+   2
+   1,R
+   1
+   8,R
    2,R,D,J
   41,R,D
    1,R
@@ -368,36 +360,34 @@ Insert Load, 08-38Load2
   20,R,J
   36,R
    1,R,J
-  28,R
-   1,R,D
-   1,R,D,J
-   1,R
-  11,R,J
-   1,R
-   3,R,J
-  23,R
-   3,R,X
-  45
-   2,R
-  17,L
-   1,R
-   1
-  11,R
-   8,R,J
-   1,J
-   3,R,J
-  29,R
-   1,R,D
-   7,R,J
-   2,R
+  30,R
    1,R,J
+  15,R
+   6,R,J
   17,R
    3,R,X
-  23,R,J
-   3,R,J,X
-  22,J
-   3,J,X
-   9
+  44
+   5,L
+   1
+  12,L
+  10,R
+   1
+   3,R
+   1
+  12,R,J
+  28,R
+
+  11,R
+   1,R,J
+  15,R
+   3,R,X
+   7
+Repeat, 4
+   3,X
+   7
+EndRepeat
+   3,X
+  10
    3,R
    1,R,J
   11,R
@@ -406,44 +396,46 @@ Insert Load, 08-38Load2
    3,R,X
    4,R
    1
-  29,R
-   1,R,J
-  30,R
-  10,R,J
-   1,R
-  11,R,J
-   2,R
-  21,R,J
-   1,R
-   1,R,J
-  14,R
+
+   7,R
    1,R,D
-   4,R,J
-   3,R
+  36,R
+   1,R,D
    1,R,J
+   4,R
+  23,R,J
    9,R
+
    1,R,J
-  28,R
+  22,R
    1,R,J
+  21,R
+   1,R,D
+   1,L,J
+  12,R,J
+   1,R
+  20,R,J
+   1,R,D
+   1,L,J
+   3,R,J
   18,R
-  27,R,J
-  28,R
-   8,R,J
-   3,R
+  33,R,J
+  20,R
    1,R,J
-  24,R
+  37,R
    1,R,D
   22,R,J
   16,R
    1,R,J
-  15,R
-   9
+  24,R
    3,D,X
   25,D
    1
    1,D
- 121
-Insert Load, 08-38Load3
+
+#1366
+#415.940
+Insert Load, 8-Airship Pipe3
 
  992
    2,R
@@ -464,8 +456,9 @@ Insert Load, 08-38Load3
    3,J
    1,L,J
    1,R,D,J
-  11,D,J
-  24,L
+   4,D,J
+  13
+  18,L
    1,L,D
    7,D
   64,L
@@ -508,16 +501,17 @@ Insert Load, 08-38Load3
    4
    1,J
    2
-  19,D,J
-   3,L,D,J
-   5,R,D,J
+   5,D,J
+  14
+   3,L
+   5,R
   62,R,J
    3,R
   11,R,J
   24,R
    3,R,X
- 473
-Insert Load, 08-38Load4
-
- 753
-Insert Load, 08-38Load5
+#2103
+#400.869
+Insert Load, 8-Airship Cutscene
+   1
+Insert Load, 8-Airship End
