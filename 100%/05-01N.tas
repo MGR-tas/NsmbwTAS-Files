@@ -1,8 +1,8 @@
 #RNG: 0xA02FA317
 
 #Start 05-01
-  28
-  24,R
+  31
+  21,R
    1,R,N
   41,R
    1,R,J
@@ -197,7 +197,8 @@
   40
    4,R
    1,R,J
-  38,J
+  30,J
+   8,J,G
    2,R,J
    2,R
    1,R,J
@@ -206,76 +207,71 @@
    9,J
    4,R
    1,R,J
-  23,J
-   3,J,X
-  18,J
-   4,R
+
+  35,J
+   9,J,X
+  26,R
    1,R,J
-  14,J
-   2
-   1,J
+  29,J
    3,J,X
-  27,J
+  31,J
    3,J,X
-  15,J
-   1
+   7
    1,J
    1,G
-   8
-   1,G
    2
-   8,J
-   4,R,J
-   3,R,J,X
-  13,R,J
-  12,R
-   1,R,J
+   6,J
+   1,L,J,G
+   1,J
+   7
+   1,G
+  22
+  20,R,J
    1,R
-  11,R,J
-  18,R
-   1,R,J
-  32,R
-  21,R,J
+   2,R,J
+  19,R
+  23,R,J
    1,R
-   1,R,J
-   2,R
-   6,R,J
+  10,R,J
    3,R,J,X
   27,R,J
    3,R,J,X
-  13,R,J
+  20,R,J
    1,R,J,G
-  13,R,J
+  19,R,J
    3,R,J,X
-  21,R,J
-  12,R
-   2,R,J
-   8,R
+  18,R
+#1730 - 5889.367
+
+#plant jump
+   1,R,J
+   9,R
    1,R,G
   13,R
    8,R,J
-   1,R,G
-  20,R
-   2,R,J
+   1,R,J,G
+   5,R,J
+  12,R
+   3,R,J
    1,R,J,G
    2,R,J
-  25,R
+  28,R
    4,R,J
   13,R
-  18,R,J
-   3,R
+  16,R,J
+   1,R
    1,R,J
-  31,R
+  33,R
    1,R,G
-   9,R
+  10,R
    1,R,J
-   3,R
+   2,R
    1,R,G
    6,R
    1,R,G
-  15,R
+   6,R
    1,R,G
-   3,R
+  12,R
    5,R,J
   28,R
    4,R,J
@@ -283,44 +279,48 @@
    1,R,J
   25,J
   27
-  12,R
-  93
-Insert Load, 05-01Load1
+  10,R
+#2189
+#453.27
+Insert Load, 5-1 Pipe1
 
-  94
-  18,R
+ 105
+   9,R
    1,R,D
-   1,R,D,J
-   7,R,D
-   1,R,D,G
-   2,R,D
-   4,R
-   4,R,D
-  16,R,D,J
-   1,L,D,G
-   1,L,D,J
-   1,R,D,J
+   5,R,J
+   1,R,G
+  12,R
+   1,R,D
+  14,R,J
+   1,L,G
+   1,L,J
   18,R,J,G
    2,R,G
    7,R,J
    3,R,J,X
-  13,R,J
-   6,R
+  19,R
    1,R,J,G
    2,R,J
+   2,R
+   1,R,J
    4,R
-   1,R,J
-  22,R
-   1,R,J
-  48,R
-   1,L
-  17,R
-  93
-Insert Load, 05-01Load2
+   1,R
+  18,R
+   1,R,D
+   3,R,D,X
+  11,R,D
+  18,R
+   3,R,X
+  20,R
+   1
+  10,R
+#327
+#449.025
+Insert Load, 5-1 Pipe2
 
  105
-   1,L,N
-   1,L,J,N
+   1,L
+   1,L,J
    1,R
    1,R,G
    1,R
@@ -343,6 +343,7 @@ Insert Load, 05-01Load2
    1,J,G
    8,J
    1,J,G
-   2,J
- 537
-Insert Load, 05-01Load3
+   4,J
+#779
+#448.488
+Insert Load, 5-1 End
