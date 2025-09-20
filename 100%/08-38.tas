@@ -263,7 +263,9 @@ Insert Load, 8-Airship Pipe2
 
   17,R
   11,R,D
-Repeat, 8
+   1,R,J
+   2,R
+Repeat, 6
    1,R,J
    1,R
 EndRepeat
@@ -271,7 +273,8 @@ EndRepeat
    5,R,J
    1,L,G
 
-   2,L,J
+   1,L,J
+   1,J
   28,R,J,G
    3,R,J,X
   22,R,J
@@ -384,8 +387,8 @@ Hold
    2,R
   25,J
    1,D
-#1438
-#428.384
+#1437
+#428.406
 Insert Load, 8-Airship Pipe3
 
 #bjr
@@ -525,7 +528,7 @@ Hold
    4,D
 
 #2097
-#413.200
+#413.223
 Insert Load, 8-Airship End
 
    1
