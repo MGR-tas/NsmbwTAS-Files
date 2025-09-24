@@ -1,81 +1,82 @@
-#Write, 32, RNG, 0x2D3E3026
 #8-Castle Penguin
+#must have perfect RNG
+#to be optimal!
+Write, 32, RNG, 0x47244A0C
   61
-  16,R
-   2,R,D
-   6,R
-   1,R,J
-  31,R
-  25,R,D
-   2,R,D,J
-  21,R,D
-   1
+  22,R
+   4,R,D
+   5,R,X
+  41,R
+   9,R,D
+  15,R,J
    1,R
-  25,R,D
-   6,R,D,J
-  11,R,J
+   1,R
+   8,R,J
+   1,R
+  13,R,J
+   1,R
+  13,R,J
+  12,R
+   1,R,J
+  20,R
+   1,J
+   6,R,J
+  16,R
+  42,D
+   3,R,J
+   2,R
+   2,R,J
+   2,R
+  20,R,J
+   1,R
+  17,R,J
    2,R
   12,R,J
    1,R
-   8,R,J
-  11,R,D,J
-  16,R,D
-   1,R,D,J
-  38,R,D
+  13,R,J
+  17,R
    1
    1,R
   25,R,D
-  17,R,D,J
-   2,R,D
-  12,R,D,J
-   1,R,D
-  17,R,D,J
-   2,R,D
-  16,R,D,J
-   1,J
+   7,R,J
+   8,R
    1,R,J
-  43,R,D,J
-   3,R,D
-   5,R,D,J
-  34,R,D
-   6,R,D,J
-  14,R,D
+   1,R
+  41,R,J
+   1,R
+  13,R,J
+   2,R
+   1,R,J
+  18,R
    1
    1,R
    1,R,D
-  24,R,D,J
-   2,R,D
-  14,R,D,J
-   2,R,D
-  23,R,D,J
-   1,R,D
-   2,R,D,J
-   4,R,D
-   1,R,D,J
-   2,R,D
-  23,R,D,J
-  15,R,D
-  13,R,D,J
-  17,R,D
-   1,R,D,J
-   5,R,D
-   1,R,D,J
-  19,R,D
+  24,R,J
+   2,R
+  15,R,J
+   1,R
+   7,R,J
+  51,R
+  26,R,J
+  11,R
+   1,R,J
+  24,R
    1,J
    9,R,J
-  21,R,D
-   3,R,D,J
-  32,R,D
-   1,R,D,G
-   4,R,D
-   1,R,D,J
-   1,R,D
-   5,R,D,J
-   2,R,D
-  19,R,D,J
-   5,R,J
+   9,R
+  12,R,D
+   4,R,J
+   2,R
+   2,R,J
+   2,R
+  36,R,J
    1,R
-   8,L,J
+   5,R,J
+  22,R
+   1,J
+   1,R,J
+
+   6,L,J
    1,L
    1,L,J
    5,L,J,G
@@ -83,104 +84,126 @@
    1,L,J
    7,L
    5,L,J
-   1,J
+   1,L,J
   10,R,J
-   3,R
-   1
-   5,R
+   9,R
   24,R,J
    2,R
    1,R,J
-  20,R
-   2,L
-   2,R
-   2,R,D
-   1,R,D,J
-   3,R,D
-   1,R,D,J
-  47,R,D
-   3,R,D,X
-  28,R,D
-  24,R,D,J
-   2,R,D
-  28,R,D,J
-   8,R,D
-  17,R,D,J
-   2,R,D
-  34,R,D,J
-   2,R,D
-   3,R
-  17,R,J
-   2,R
-  11,R,J
+  17,R
+   1,L
    4,R
-   9,R,J
-  21
-   1,J
-  23,R,D
-  18,R,J
-   8,R
+   2
+   2,R,D
+   1,R,J
+   3,R
+   1,R,J
+  48,R
 
+   3,R,X
+  25,R
 
+  23,D
+  25,R,J
+  23,R
    3,R,J
+  10,R
+   3,R,J
+  25,R
+   1
    1,R
-   1,R,J
+  10,R,D
+   9,R,J
+  14,R
+   7,R,J
+  19,R
+   1,J
+  16
+   1,D
+  24,R,J
    2,R
-   1,R,J
-  18,R
+  15,R,J
+   1,R
+   2,R,J
+   3,R
+   2,R,J
+   1,R
+   5,R
    1,R,J
    9,R
-   1,R,J
-   6,L,G
-   8,L
-   1,R,D
-  39,L,D
-  37,R
-   5
-   1,G
-   8
-   1,L,J
-   1,R
-  10,R,G
-  15,R,J,G
-   6,R
-   7,L
-   7,L,J
-  11,R
-  12,R,J
-  17,R
-   1,R,J
-  19,R
-   6,L
 
-   7,D
-  14,U
-  13
+   1,R,J
+  13,R
+   1,R,J
+   1
 
-  35,L
-   1,L,J
+   1,L,G
+  21,L
+   1
+  69,L,D
+   2
    2,R
    1,R,G
-  19,R
-   1
-  20,R
-  20,R,D
-  14,J
-   1
-   3,J
-   5
-   6,R,D
-   1,R,J
    1,R
-  10,R,J
-  33,R
-   6,R,J
-  10,R
-   7,R,J
+   1
+   3,R
+   1,L
+   1,L,J
+   1,R
+   1,R,G
   14,R
-   1,R,D
-#1754
-Insert Load, 08-24Load1
+  10,R,J
+   2,R,J
+   4,R
+   1
+   5,L
+
+   7,L,J
+   1,L
+   1
+   9,R
+   4,R,J,G
+
+   1,J
+   2,R,J
+   1,R,J
+   4,R,J
+  16,R
+   1,R,J,G
+   4,R
+   2,R,J
+   8,R
+   1,J
+   3,L,J
+   3,L
+   1,L,J
+   4,L
+   1
+  15,L
+  16,R
+  17,R,D
+   3,R,X
+  23,R
+  15,R,J,G
+  11,R
+  12,R,D
+   9,R,J
+   1,R
+   2,R,J
+   2,R
+  34,R,J
+   1,R
+   7,R,J
+   2,R
+   1,R,J
+   9,R
+   6,R,J
+   3,R
+  10,R,J
+   1,D
+#1705
+#665.399
+Insert Load, 8-Castle Pipe1
 
  103,J
    3,J,X
@@ -197,271 +220,248 @@ Insert Load, 08-24Load1
    5,R
    1,R,D
   22,L
-  29,R
-   1,R,D
-   1,R,D,J
-   1,R,D
-   2,R,D,J
-   9,J
+  26,R
+   4,R,J
+   1,R
+   1,R,J
+  31,L
+   1,R,J
+  11
+   1,L
+   1,L,J
+  15,R
    2
-  23,J
-   4
-   1,R,J
-   1,L,J
-  11,L,J,G
-  24,L,J
-   4,L
-   2,L,J
-   3,L,J,G
-  25,L,J
-   3,L,J,X
-  20,L,J
-   8,L
-   2,L,J
-  30,R,G
-
-#Swap these lines if 
-#the other desyncs
-   8
-#   8,R
-
-   1,R,J
-  23,R,D
-   1,R,D,G
-   7,R,D
-   3,R
-   2,R,D
-Repeat, 8
-   1,R,D,J
-   1,R,D
-EndRepeat
-   1,D,J
-   1,D
-   1,L,D,J
-  11,L,D
-   1,L,D,J
-   6,J
-   1,R
-   1,R,J
-   8,D,J
-   9,R,U,J
-   3,R,U,J,X
-  15,R,U,J
-   1,R,U
-   1,R,U,J
-   1,J
-   8,D,J
-   9,R,U,J
-   3,R,U,J,X
-  15,R,U,J
-   1,R,U
-   1,R,U,J
-   1,J
-   5,D,J
-  12,R,U,J
-   3,R,U,J,X
-  15,R,U,J
-   1,R,U
-   1,R,U,J
-   1,L,J
-  14,L,J,G
-   1,L
-  11,L,J
-   3,L,J,X
-  27,L,J
-   3,L,J,X
-  13,L,J
-   1,L
-   2,L,J
-  18,L,J,G
-   2,L
-   9,L,J
-   3,L,J,X
-  21,L,J
-   1,L
-   2,L,J
-   1,L,J,G
-  17,L,J
-   2,L
-   9,L,J
-   3,L,J,X
-  21,L,J
-   1,L
-   2,L,J
-  18,L,J,G
-   2,L
-   9,L,J
-   3,L,J,X
-  21,L,J
-   1,L
-   2,L,J
-  18,L,J,G
-   2,L
-   9,L,J
-   3,L,J,X
-  21,L,J
-   1,L
-   1,L,J
-   1,R,J
-   4,R,J,G
-  34,R
+   9,R
    3,R,X
-  33,R,J
-   5,D,J
-  16,R,U,J
-   5,D,J
-  16,R,U,J
-   8,D,J
-  13,R,U,J
-   5,D,J
-  16,R,U,J
-   8,D,J
-  13,R,U,J
-   5,D,J
-  16,R,U,J
-   5,D,J
-   6,R,U,J
-   1,J
-   9,R,U
-   5,D
-  16,R,U
-   5,D
-  16,R,U
-   5,D
-  15,R,U
-   2,R,U,J
-   3,R,U,J,G
-  15,R,U,J
-   2,R,U
-  52,R,U,J
-   3,R,U,J,X
-  21,R,U,J
-   1,R,U
-   2,R,U,J
-  12,R,U,J,G
-   1,R,U,J
-   5,R,J
-   2,R
-   9,R,J
-   3,R,J,X
-  20,R,J
-   2,R
-   2,R,J
-  10,R,J,G
+  14,R
+   1,L
+   2,D
+   1,R,J
+  26,D
+   1,D,J
+  17
+   2,L,J
+   1,R,J
+   6,J
+  10
+   4,J
+   3
+   3,J
+   3
+  42,R
+   1,R,G
+   9,R
+   1,R,D
+Repeat, 12
+   1,R,J
    1,R
-   3,R,J
-   2,R
-   9,R,J
-   3,R,J,X
-  25,R,J
-   8,R
+EndRepeat
+
+   3,R,D
+   1,R,J
+  37,L
+   1,L,J
+  28,L
+   1,R,J
+   3
+   4,J
+   1
+   2,J
+   2
+  26,J
+   1,L
+   1,L,J
    2,R,J
+   4,R
+   1,R,J
+  12,R
+   1,R,D
+   4,D
+  16
+  14,R,J
+   1,L
+   1,L,J
+  44,R
+   1,R,D
+   1,R,J
+  30,J
+  27
+   2,R,J
+   1,L,J,G
+   3,L,J
+  39,L
+
+  35,L,D
+   2
+  11,R
+  11,R,D
+  33,R,J
+   1,L,G
+   1,L,J
+  15,J
+   1
+   2,J
+   1
+   2,J
+   3,R,J
+   2,J
+   3
+   1,J
+  20
+   5,D
+  14
+   1,U
+  10
+   3,X
+   8
+Repeat, 26
+   1,D
+   1
+EndRepeat
+  51,L
+   1,L,J
+   3,L
+  23,L,J
+   3,L,J,X
+   7,L,J
+   1,L,D,J
+   4,D
+  15
+   1,U
+   1
+   3,L,J
+   1,D,J
+   4,D
+  13
+   3,X
+  20,L
+   1,L,J
    1,R,J,G
+  13,R,J
+   1,R
+   1,R,J
+   1,R
+   7,R,J
+   3,R,J,X
+  43,R,J
+   3,R,J,X
+  12,R
   17,R,J
    2,R
-   8,R,J
-   3,R,J,X
-  26,R,J
-   1,R
-   1,R,J
+   2,R,J
+  42,R
+   2,R,J
+   1,L,J,G
+  41,L,J
+   1,L
+
+  16,L,D
    1,L,J
-   7,L,J,G
-  11,R,J
-   2,R
-  24,R,J
-   3,R,J,X
-  26,R,J
-   1,R
-   2,R,J
-   8,R,J,G
-  10,R,J
-   2,R
-   9,R,J
-   3,R,J,X
-  23,R,J
-   5,D,J
-  15,L,U,J
-   5,D,J
-  16,R,U,J
-   8,D,J
-  12,L,U,J
-   5,D,J
-  13,R,U,J
-   3,R,U
+   1,L
+   5,L,J
+   1,L
+   8,L,J
+  18,L
+   6,L,J
+  25
+   4,X
+   1,L
+   7
    5,D
-  15,L,U
-   5,D
-  15,R,U
-   2,R,U,J
-   6,R,U,J,G
-  12,R,J
-   2,R
-   9,R,J
-   3,R,J,X
-  21,R,J
-   1,R
-   2,R,J
-   6,R,J,G
-  12,R,J
-   2,R
-   9,R,J
-   3,R,J,X
-  21,R,J
-   1,R
-   2,R,J
-  18,R,J,G
-   2,R
-   9,R,J
-   3,R,J,X
-  21,R,J
+  14
+   1,L,U
+   0,L
+   1,L,J
+   1,J
+   5,D,J
+  12
+   2,X
+   1,L,U
+  16,L
+   1,L,J
+   1
    1,R,G
-   1,R,J
-   1,L,J
-   2,R,G
-   7,R,J
+   1,R
+   2,R,J
    2,R
-   9,R,J
-   3,R,J,X
-  31,R,J
-   7,R
+  13,R,J
+  24,R
+   1,R,D
+  26,R,J
+  23,R
    1,R,J
-  19,L,J
-   2,L
-  12,L,J
-   3,L,J,X
+  28,R
+   1,R,J
+   1
+   1,L,G
+   5,L,J
+   8,L
+   4,R
+   1,D
+  46,L,D
   27,L,J
-   3,L,J,X
-  13,L,J
-   8,D,J
-   5,U,J
-   7,R,U,J
-
-Repeat, 5
+   2,J
+   3,J,X
+  14,J
    5,D,J
-  15,L,U,J
-EndRepeat
 
-   5,D,J
-   6,U,J
-   9,R,U,J
-   2,J,X
-   5,J
-   2,D
-   1,D,G
-  18,D
- 117
-Insert Load, 08-24Load2
-
-  13
-  23,P
-  61
-   9,L,J
-   3,L,J,X
-  10,L,J
+  17
+   3,X
+  84,R
+  10,R,J
+  10,R
+   1,R,J
+   1,L,J,G
+  14,L,J
+  28,L
+  12,L,D
+   7,L,J
    1,L
    1,L,J
-   3,R,J,G
-  33,R
+  18,L
+   1,L,J
+  32
+   6,L,J
+   1,L
+   1,L,J
+   1,R,J,G
+  14,R,J
+   4,R
+   3,R,J
+   4,R
+   1,R,J
+  19,R
+   3,R,X
+  18,R,J
+   5,D
+  12
+   2,X
+   1,R,U
+   1,R,D
+   4,D
+  16
+   1,J
+   1,R
+  25
+   6,J
+  31
+   1,D
+
+#2264
+#618.254
+Insert Load, 8-Castle Pipe2
+
+  97
+   9,L,J
+   3,L,J,X
+   6,L,J
+   2,J
+   1,L,J,N
+   1,J
+   1
+   1,L,J
+   1,R,G
+  35,R
   12,R,D
    5,R,D,J
    5,R,J
@@ -469,62 +469,61 @@ Insert Load, 08-24Load2
    1,R,J
   13,R
    1,R,J
-  24,U
- 330
-Insert Load, 08-24Load3
+  20,R
+   1,U
+#487
+#615.783
+Insert Load, 8-Castle Door
 
-  19
-   2,R,G
-  24
-  38,R,G
-   4,R,D,G
-   3,R,D,G,X
-  68,R,D,G
-   7,R,D,J,G
-  23,R,D,G
-  15,R,D,J,G
-  21,R,D,G
-   2,R,G
-   6,R,D
-   1
-   1,R
-  25,R,D
-  17,R,D,J
-   2,R,D
-  23,R,D,J
+  61
+  22,R
    4,R,D
-   7,R,D,J
-   2,R,D
-   1,R,D,J
+   3,R,X
+  43,R
   25,R,D
+   7,R,J
+  23,R
+  15,R,J
+  29,R
    1
    1,R
   25,R,D
-  17,R,D,J
-   2,R,D
-  22,R,D,J
-   9,R,D
+  17,R,J
+   2,R
+  23,R,J
+   4,R
+   7,R,J
+   2,R
+   1,R,J
+  25,R
    1
    1,R
   25,R,D
-  17,R,D,J
-   2,R,D
-  24,R,D,J
-   7,R,D
+  17,R,J
+   2,R
+  22,R,J
+   9,R
    1
    1,R
   25,R,D
-  17,R,D,J
-   2,R,D
-  26,R,D,J
-   5,R,D
+  17,R,J
+   2,R
+  24,R,J
+   7,R
+   1
+   1,R
+  25,R,D
+  17,R,J
+   2,R
+  26,R,J
+   5,R
    1
    1,R
   12,R,D
-  17,R,D,J
-   2,R,D
-  25,R,D,J
+  17,R,J
    2,R
+  26,R,J
+   1,R
    1,R,J
    6,J
   23
@@ -532,27 +531,26 @@ Insert Load, 08-24Load3
   15
    1,G
    6
+   1,L,J
+ 463
+#601.790
+
+  16,R
+   2,R,D
+  11,R
+   1,R,J,G
+  43,R,J
+   1,R
    1,R,J
- 440
-  39,R,G
-   2,R,D,G
-   9,R,G
-   1,R,N
-   1,R,G
-  44,R,J,G
-   1,R,D,G
-   1,R,D,J,G
-  30,R,D,G
-   1,R,D,J,G
-   7,R,D,G
-   4,R
-   3,L,X
-   4,L
-2034
-  70,R,D,G
-  35
-  11,L
-   3,L,X
+  22,R
+   8,R,D
+   1,R,J
+  12,R
+   3,X
+2153
+#599.027
+
+   3,X
   26,L
   36,R
    1,R,J
@@ -687,8 +685,6 @@ Insert Load, 08-24Load3
    3,R,D,J,X
    5,R,D,J
    1,R,D
-#   4,R
-#   1,R,D
 
    3,R
    1,R,G
@@ -700,7 +696,6 @@ Insert Load, 08-24Load3
    2,R,D
    1,R,J
    2,R,D
-
 
   23,R
    4,R,D
@@ -834,18 +829,14 @@ Insert Load, 08-24Load3
    1,R,N
   18,R,G
   10,R,J
-  12,R,D
-   4,R,D,J
-  39,R,D
-   3
-  19,J
-   9
-  10,L
-  10,R
-   1,R,J
-  10,R
-  31,L
-   4,L,D
-  20
-
-Insert Load, MBLoad1
+  11,R
+   5,R,D
+   7,R,J
+  34,R
+   1,J
+  15
+   1,D
+#9550
+#533.77
+#0x03810669
+Insert Load, 8-Castle End
