@@ -1,0 +1,116 @@
+#2-6S Mini
+  31
+  21,R,N
+  45,R
+  50,R,J
+   5,R,J,X
+  25,R,J
+   5,R,J,X
+  25,R,J
+Repeat, 2
+   1,R,D
+   1,L,D
+   1,R,D
+   1,R,U
+EndRepeat
+   1,R,D
+   1,L,D
+  16,R,D
+   1,L,J
+  55,J
+
+  18,R
+  26,R,J
+   2,R
+   5,D
+  14
+   1,R,U
+   2,R
+   3
+   1,R
+  21
+   5,D
+  14
+  90,R,J
+   3,R,J,X
+  27,R,J
+   3,R,X
+  30,R
+  52,R,J
+   3,R,X
+  55,R
+   3,R,X
+  27,R
+   3,R,X
+  24,R
+   9,L
+   4,R
+   1
+  73,R
+
+
+   1,R,J
+  81,R
+   8,R,J
+  86,R
+
+
+  20,R,J
+ 150,R
+   1,R,J
+  79,R
+
+  10,R,J
+  20,R
+  12,R,J
+  81,R
+   1,R,D
+   4,R
+  11,L
+   3,L,X
+  15,L
+   2
+
+   1,L,J
+  19,R,J
+  16,R
+  11,R,J
+   3,R,X
+
+  32,R
+  25,R,J
+  69,R
+Repeat, 4
+   3,R,J,X
+  27,R,J
+EndRepeat
+   3,R,X
+  26,R
+  21,R,J
+   1,R
+  30,L
+   1,X
+  12
+   1,L,J
+  13,R,J
+  21,R
+   4,R,X
+   8,R
+   1,U
+#1859
+#360.593
+Insert Load, 2-6S Pipe
+
+ 116
+  21,R,N
+   1,R,D
+   1,R,J
+  75,R
+  49,R,J
+   3,R,X
+ 118,R
+   1,R,J
+  10,R
+#867
+#354.19
+Insert Load, 2-6S End
