@@ -1,0 +1,28 @@
+#2-Cannon Mush
+  31
+   4,R
+   1,R,J
+  44,R
+
+Repeat, 5
+   1,R,D
+   1,L,D
+   1,R,D
+   1,R,U
+EndRepeat
+   1,R,D
+   1,L,D
+  10,R,D
+  26,J
+   2
+  27,J
+   1
+   7,J
+  18
+   6,J
+   2
+   1,J
+  19
+   1,D
+#897
+Insert Load, 2-Cannon End
