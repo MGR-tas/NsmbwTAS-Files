@@ -10,13 +10,13 @@ Write, 32, RNG, 0x47244A0C
 #Start
  144
    1,J
-Insert Load, sequenceBGTextureLoad0
+Insert Load, TitleScreen
 
   61
    1,J
  127
    1,J
-Insert Load, MBLoad0
+Insert Load, NewFileSelect
 
  720
    2,R
@@ -24,7 +24,7 @@ Insert Load, MBLoad0
    1,J
  224
    1,J
-Insert Load, 01-01Load0
+Insert Load, 1-1 Start
 Read, 01-01.tas
 
  429
@@ -33,7 +33,7 @@ Read, 01-01.tas
    1,J
  245
    1,J
-Insert Load, 01-02Load0
+Insert Load, 1-2 Start
 Read, 01-02.tas
 
  416
@@ -42,7 +42,7 @@ Read, 01-02.tas
    1,J
  244
    1,J
-Insert Load, 01-03Load0
+Insert Load, 1-3S Start
 Read, 01-03S.tas
 
  795
@@ -57,7 +57,7 @@ Read, 01-03S.tas
    1,J
  206
    1,J
-Insert Load, 01-36Load0
+Insert Load, 1-Cannon Start
 #RNG - Piranhas Spawn (in file)
 Read, 01-36.tas
 
@@ -67,7 +67,7 @@ Read, 01-36.tas
    2,R
   28
    1,J
-Insert Load, 05-01Load0
+Insert Load, 5-1 Start
 Read, 05-01N.tas
 
 #RNG - Juan
@@ -79,7 +79,7 @@ Write, 32, RNG, 0x89FA8CE2
    2,U
  303
    1,J
-Insert Load, 05-33Load0
+Insert Load, Juan Start
 Read, 05-33.tas
 
  139
@@ -96,7 +96,7 @@ Read, 05-33.tas
    1,J
  243
    1,J
-Insert Load, 05-02Load0
+Insert Load, 5-2 Start
 Read, 05-02.tas
 
  504
@@ -115,7 +115,7 @@ Read, 05-02.tas
    1,J
  218
    1,J
-Insert Load, 05-27Load0
+Insert Load, 5-Toad Start
 Read, 05-27.tas
 
  131
@@ -138,7 +138,7 @@ Read, 05-27.tas
    1,J
  353
    1,J
-Insert Load, 05-22Load0
+Insert Load, 5-Tower Start
 Read, 05-22.tas
 
 1535
@@ -166,7 +166,7 @@ Read, 05-22.tas
 #RNG - Raft
 Write, 32, RNG, 0x89FA8CE2
 
-Insert Load, 05-04Load0
+Insert Load, 5-4 Start
 Read, 05-04.tas
 
  712
@@ -186,7 +186,7 @@ Read, 05-04.tas
    1,J
  395
    1,J
-Insert Load, 05-21Load0
+Insert Load, 5-GhostN Start
 Read, 05-21N.tas
 
 1033
@@ -194,7 +194,7 @@ Read, 05-21N.tas
  266
    1,J
   35
-Insert Load, 05-21Load6
+Insert Load, 5-GhostS Start
 Read, 05-21S.tas
 
  653
@@ -203,7 +203,7 @@ Read, 05-21S.tas
    1,J
  206
    1,J
-Insert Load, 05-36Load0
+Insert Load, 5-Cannon Start
 Read, 05-36.tas
 
  932
@@ -218,7 +218,7 @@ Read, 05-36.tas
 #RNG - Meteors
 Write, 32, RNG, 0x2D3E3026
 
-Insert Load, 08-01Load0
+Insert Load, 8-1 Start
 Read, 08-01.tas
 
  413
@@ -227,7 +227,7 @@ Read, 08-01.tas
    1,J
  239
    1,J
-Insert Load, 08-02Load0
+Insert Load, 8-2N Start
 Read, 08-02N.tas
 
  526
@@ -236,7 +236,7 @@ Read, 08-02N.tas
    1,J
  227
    1,J
-Insert Load, 08-03Load0
+Insert Load, 8-3 Start
 Read, 08-03.tas
 
  471
@@ -247,7 +247,7 @@ Read, 08-03.tas
    1,J
  239
    1,J
-Insert Load, 08-02Load4
+Insert Load, 8-2S Start
 Read, 08-02S.tas
 
  674
@@ -256,14 +256,14 @@ Read, 08-02S.tas
    1,J
  223
    1,J
-Insert Load, 08-07Load0
+Insert Load, 8-7 Start
 Read, 08-07.tas
 
  806
    2,U
  132
    1,J
-Insert Load, 08-38Load0
+Insert Load, 8-Airship Start
 Read, 08-38.tas
 
 1498
@@ -276,7 +276,7 @@ Read, 08-38.tas
 
 #RNG - bone platforms
 Write, 32, RNG, 0x89FA8CE2
-Insert Load, 08-24Load0
+Insert Load, 8-Castle Start
 Read, 08-24.tas
 
 #RNG - credits
@@ -286,18 +286,18 @@ Read, 01-42.tas
 #World 9 Cutscene
  348
    1,J
-Insert Load, 01-40Load0
+Insert Load, Reset
 
 #Title Screen
  144
    1,J
-Insert Load, sequenceBGTextureLoad1
+Insert Load, TitleScreen2
 
   61
    1,J
  127
    1,J
-Insert Load, sequenceBGTextureLoad2
+Insert Load, FileReenter
 
   29
    2,R
@@ -309,7 +309,7 @@ Insert Load, sequenceBGTextureLoad2
    1,J
  244
    1,J
-Insert Load, 01-03Load3
+Insert Load, 1-3N Start
 Read, 01-03N.tas
 
  479
@@ -318,7 +318,7 @@ Read, 01-03N.tas
    1,J
  346
    1,J
-Insert Load, 01-22Load0
+Insert Load, 1-Tower Start
 Read, 01-22.tas
 
  999
@@ -327,7 +327,7 @@ Read, 01-22.tas
    1,J
  258
    1,J
-Insert Load, 01-04Load0
+Insert Load, 1-4 Start
 Read, 01-04.tas
 
 #RNG - Fred
@@ -343,7 +343,7 @@ Write, 32, RNG, 0x89FA8CE2
    1,J
  240
    1,J
-Insert Load, 01-06Load0
+Insert Load, 1-6 Start
 Read, 01-06.tas
 
 #RNG - Fred #2
@@ -362,7 +362,7 @@ Write, 32, RNG, 0xA02FA317
    1,L
  231
    1,J
-Insert Load, 01-05Load0
+Insert Load, 1-5 Start
 Read, 01-05.tas
 
  340,D
@@ -370,13 +370,13 @@ Read, 01-05.tas
    2,D
  108
    1,J
-Insert Load, 01-24Load0
+Insert Load, 1-Castle Start
 Read, 01-24.tas
 
  294
    1,J
 #World 1 Complete!
-Insert Load, CS_W1Load0
+Insert Load, World1 Exit
 
  406
    2,U
@@ -386,7 +386,7 @@ Insert Load, CS_W1Load0
    1,J
  230
    1,J
-Insert Load, 02-01Load0
+Insert Load, 2-1 Start
 Read, 02-01.tas
 
  503
@@ -397,7 +397,7 @@ Read, 02-01.tas
    1,K
    1
    1,K
-Insert Load, 02-03Load0
+Insert Load, 2-3 Start
 Read, 02-03.tas
 
  360
@@ -413,7 +413,7 @@ Read, 02-03.tas
    1,J
   33
    1,J
-Insert Load, 02-22Load0
+Insert Load, 2-Tower Start
 Read, 02-22.tas
 
 1294
@@ -424,14 +424,14 @@ Read, 02-22.tas
    1,J
  262
    1,J
-Insert Load, 02-04Load0
+Insert Load, 2-4S Start
 Read, 02-04S.tas
 
  872
    1,J
  262
    1,J
-Insert Load, 02-04Load3
+Insert Load, 2-4N Start
 Read, 02-04N.tas
 
  450
@@ -442,7 +442,7 @@ Read, 02-04N.tas
    1,J
  257
    1,J
-Insert Load, 02-05Load0
+Insert Load, 2-5 Start
 Read, 02-05.tas
 
  546
@@ -455,9 +455,9 @@ Read, 02-05.tas
    2,L
  385
    1,J
-Insert Load, 02-24Load0
+Insert Load, 2-Castle Start
 Read, 02-24.tas
-Insert Load, CS_W2Load0
+Insert Load, World2 Exit
 
  525
    2,R
@@ -465,7 +465,7 @@ Insert Load, CS_W2Load0
    1,J
  238
    1,J
-Insert Load, 03-01Load0
+Insert Load, 3-1 Start
 Read, 03-01.tas
 
  519
@@ -476,7 +476,7 @@ Read, 03-01.tas
    1,J
  248
    1,J
-Insert Load, 03-02Load0
+Insert Load, 3-2 Start
 Read, 03-02.tas
 
 #RNG - Ice bros
@@ -490,7 +490,7 @@ Write, 32, RNG, 0x89FA8CE2
    1,J
  256
    1,J
-Insert Load, 03-03Load0
+Insert Load, 3-3 Start
 Read, 03-03.tas
 
 #RNG - Ice bros #2
@@ -506,7 +506,7 @@ Write, 32, RNG, 0xD469D751
    1,J
  374
    1,J
-Insert Load, 03-21Load0
+Insert Load, 3-GhostN Start
 Read, 03-21N.tas
 
  616
@@ -521,7 +521,7 @@ Read, 03-21N.tas
 #RNG - Toad House
 Write, 32, RNG, 0xD469D751
 
-Insert Load, 03-27Load0
+Insert Load, 3-Toad Start
 Read, 03-27.tas
 
  131
@@ -539,20 +539,20 @@ Read, 03-27.tas
 
 #RNG - Toad Spawn (3-3)
 
-Insert Load, 03-22Load0
+Insert Load, 3-Tower Start
 Read, 03-22.tas
 
 1163
    1,R
    1
    2,R
-Insert Load, CS_W3Load0
+Insert Load, World3 Transition
 
   63
    1,J
  233
    1,J
-Insert Load, 03-04Load0
+Insert Load, 3-4S Start
 Read, 03-04S.tas
 
  373
@@ -568,7 +568,7 @@ Read, 03-04S.tas
    1,J
  252
    1,J
-Insert Load, 03-05Load0
+Insert Load, 3-5N Start
 Read, 03-05N.tas
 
  384
@@ -589,7 +589,7 @@ Read, 03-05N.tas
 #RNG nightmare - Prop blocks
 Write, 32, RNG, 0x38973B7F
 
-Insert Load, 03-05Load3
+Insert Load, 3-5S Start
 Read, 03-05S.tas
 
  343
@@ -598,7 +598,7 @@ Read, 03-05S.tas
    1,J
  233
    1,J
-Insert Load, 03-04Load2
+Insert Load, 3-4N Start
 Read, 03-04N.tas
 
  373
@@ -616,13 +616,13 @@ Read, 03-04N.tas
    1,J
   33
    1,J
-Insert Load, 03-24Load0
+Insert Load, 3-Castle Start
 Read, 03-24.tas
 
 #RNG - Ted spawn
 Write, 32, RNG, 0x47244A0C
 
-Insert Load, CS_W3Load1
+Insert Load, World3 Exit
 
  431
    2,U
@@ -635,7 +635,7 @@ Insert Load, CS_W3Load1
    1,J
   33
    1,J
-Insert Load, 04-01Load0
+Insert Load, 4-1 Start
 Read, 04-01.tas
 
 #RNG - Ted
@@ -666,7 +666,7 @@ Write, 32, RNG, 0x38973B7F
 #RNG - Flying fish
 Write, 32, RNG, 0x38973B7F
 
-Insert Load, 04-02Load0
+Insert Load, 4-2 Start
 Read, 04-02.tas
 
  421
@@ -681,7 +681,7 @@ Read, 04-02.tas
 #RNG - Blocks
 Write, 32, RNG, 0x2D3E3026
 
-Insert Load, 04-22Load0
+Insert Load, 4-TowerN Start
 Read, 04-22N.tas
 
 1021
@@ -690,7 +690,7 @@ Read, 04-22N.tas
 #RNG - Blocks
 Write, 32, RNG, 0x72CB75B3
 
-Insert Load, 04-22Load6
+Insert Load, 4-TowerS Start
 #RNG - Ted spawn (in file)
 Read, 04-22S.tas
 
@@ -700,7 +700,7 @@ Read, 04-22S.tas
    1,J
  255
    1,J
-Insert Load, 04-04Load0
+Insert Load, 4-4 Start
 Read, 04-04.tas
 
  477
@@ -709,14 +709,14 @@ Read, 04-04.tas
    1,J
  363
    1,J
-Insert Load, 04-21Load0
+Insert Load, 4-GhostS Start
 Read, 04-21S.tas
 
  777
    1,J
  234
    1,J
-Insert Load, 04-21Load4
+Insert Load, 4-GhostN Start
 Read, 04-21N.tas
 
  517
@@ -725,23 +725,23 @@ Read, 04-21N.tas
    1,J
  246
    1,J
-Insert Load, 04-05Load0
+Insert Load, 4-5 Start
 Read, 04-05.tas
 
  486
    2,U
   84
    1,J
-Insert Load, 04-24Load0
+Insert Load, 4-Castle Start
 Read, 04-24.tas
 
  978
    2,R
  195
    1,J
-Insert Load, 04-38Load0
+Insert Load, 4-Airship Start
 Read, 04-38.tas
-Insert Load, CS_W4Load0
+Insert Load, World4 Exit
 
  144
    2,R
@@ -757,7 +757,7 @@ Insert Load, CS_W4Load0
    1,J
  236
    1,J
-Insert Load, 05-03Load0
+Insert Load, 5-3 Start
 Read, 05-03.tas
 
  424
@@ -776,7 +776,7 @@ Read, 05-03.tas
    1,J
  217
    1,J
-Insert Load, 05-05Load0
+Insert Load, 5-5 Start
 Read, 05-05.tas
 
 #RNG - Julio
@@ -805,13 +805,13 @@ Write, 32, RNG, 0x47244A0C
 #RNG - Iggy Poison Balls
 Write, 32, RNG, 0xA02FA317
 
-Insert Load, 05-24Load0
+Insert Load, 5-Castle Start
 Read, 05-24.tas
 
  278
    1,J
 #World 5 Complete!
-Insert Load, CS_W5Load0
+Insert Load, World5 Exit
 
  459
    2,U
@@ -819,7 +819,7 @@ Insert Load, CS_W5Load0
    1,J
  262
    1,J
-Insert Load, 06-01Load0
+Insert Load, 6-1 Start
 Read, 06-01.tas
 
  418
@@ -828,7 +828,7 @@ Read, 06-01.tas
    1,J
  251
    1,J
-Insert Load, 06-03Load0
+Insert Load, 6-3 Start
 Read, 06-03.tas
 
  603
@@ -850,7 +850,7 @@ EndRepeat
    2,L
  139
    1,J
-Insert Load, 06-22Load0
+Insert Load, 6-Tower Start
 Read, 06-22.tas
 
 1380
@@ -861,14 +861,14 @@ Read, 06-22.tas
    1,J
  231
    1,J
-Insert Load, 06-05Load0
+Insert Load, 6-5S Start
 Read, 06-05S.tas
 
  879
    1,J
  231
    1,J
-Insert Load, 06-05Load3
+Insert Load, 6-5N Start
 Read, 06-05N.tas
 
  427
@@ -877,7 +877,7 @@ Read, 06-05N.tas
    8,U
    1,U,J
    4,U
-Insert Load, 06-24Load0
+Insert Load, 6-Castle Start
 Read, 06-24.tas
 
  919
@@ -886,13 +886,13 @@ Read, 06-24.tas
    2,R
  202
    1,J
-Insert Load, 06-38Load0
+Insert Load, 6-Airship Start
 Read, 06-38.tas
 
 #RNG - Ned Spawn
 Write, 32, RNG, 0xA02FA317
 
-Insert Load, CS_W6Load0
+Insert Load, World6 Exit
 
  398
    2,R
@@ -900,7 +900,7 @@ Insert Load, CS_W6Load0
    1,J
  234
    1,J
-Insert Load, 07-01Load0
+Insert Load, 7-1 Start
 Read, 07-01.tas
 
 #RNG - Sc3 Chain Chomp
@@ -912,14 +912,14 @@ Write, 32, RNG, 0x47244A0C
    1,J
  233
    1,J
-Insert Load, 07-02Load0
+Insert Load, 7-2 Start
 Read, 07-02.tas
 
  423
    2,U
   80
    1,J
-Insert Load, 07-03Load0
+Insert Load, 7-3 Start
 Read, 07-03.tas
 
  450
@@ -929,12 +929,12 @@ Read, 07-03.tas
 
 #RNG - Toad Spawn (7-3)
 
-Insert Load, 07-22Load0
+Insert Load, 7-TowerS Start
 Read, 07-22S.tas
 
 1451
    1,J
-Insert Load, 07-22Load4
+Insert Load, 7-TowerN Start
 Read, 07-22N.tas
 
  537
@@ -943,7 +943,7 @@ Read, 07-22N.tas
    1,J
  219
    1,J
-Insert Load, 07-06Load0
+Insert Load, 7-6 Start
 Read, 07-06.tas
 
  852
@@ -956,14 +956,14 @@ Read, 07-06.tas
    1,J
  381
    1,J
-Insert Load, 07-21Load0
+Insert Load, 7-GhostS Start
 Read, 07-21S.tas
 
  892
    1,J
  252
    1,J
-Insert Load, 07-21Load6
+Insert Load, 7-GhostN Start
 Read, 07-21N.tas
 
 #RNG - Ned
@@ -989,7 +989,7 @@ Write, 32, RNG, 0x89FA8CE2
    1,J
  234
    1,J
-Insert Load, 07-04Load0
+Insert Load, 7-4 Start
 Read, 07-04.tas
 
  379
@@ -998,7 +998,7 @@ Read, 07-04.tas
    1,J
  253
    1,J
-Insert Load, 07-05Start
+Insert Load, 7-5 Start
 Read, 07-05.tas
 
  444
@@ -1011,7 +1011,7 @@ Read, 07-24.tas
  290
    1,J
 #World 7 Complete!
-Insert Load, World7Exit
+Insert Load, World7 Exit
 
  144
    1,M
@@ -1019,7 +1019,7 @@ Insert Load, World7Exit
   23,L
    9
    1,J
-Insert Load, World4Select
+Insert Load, World4 Select
 
 #RNG - Ted
 Write, 32, RNG, 0xD469D751
@@ -1064,7 +1064,7 @@ Read, 04-36.tas
   23,L
    9
    1,J
-Insert Load, World2Select
+Insert Load, World2 Select
 
   17
    2,U
@@ -1128,7 +1128,7 @@ Read, 02-36.tas
   18,R
    9
    1,J
-Insert Load, World8Select
+Insert Load, World8 Select
 
   17
    2,U
@@ -1190,7 +1190,7 @@ Read, 08-06.tas
   18,R
    9
    1,J
-Insert Load, World3Select
+Insert Load, World3 Select
 
   17
 #RNG - Ice Bros
