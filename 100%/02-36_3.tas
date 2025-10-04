@@ -1,0 +1,20 @@
+#2-Cannon Mini
+  31
+  21,R,N
+  28,R
+Repeat, 4
+   1,R,D
+   1,L
+   1,R
+   1,R,U
+EndRepeat
+   1,R,D
+   1,L,D
+  12,R,D
+   1,J
+  63
+   3,J
+  42
+   1,D
+#895
+Insert Load, 2-Cannon End
