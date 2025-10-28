@@ -1,41 +1,37 @@
-#RNG: 0x47244A0C
-
-#Start 04-38
+#4-Airship Penguin
   97
   31,R
    5,R,D
-   3,R,D,X
+   3,R,X
+  36,R
    1,R,D
-  35,R
-   1,R,D
-  24,R,D,J
-   2,R,D
-  51,R,D,J
-   2,R,D
-  10,R,D,J
-   2,R,D
-   9,R,D,J
-   1,R,D
-  15,R,D,J
-   1,R,D
-   4,R,D,J
-   3,R,J
+  24,R,J
+   2,R
+  51,R,J
+   2,R
+  10,R,J
+   2,R
+   9,R,J
+   1,R
+  15,R,J
+   1,R
+   7,R,J
   23,R
    1,J
   16,R,J
-   4,R
-  29,R,D
-   5,R,D,J
-  26,R,D
+   8,R
+  25,R,D
+   5,R,J
+  26,R
    1
    1,R
    1,R,D
-  24,R,D,J
-   2,R,D
-  15,R,D,J
-   1,R,D
-   3,R,D,J
-  22,R,D
+  24,R,J
+   2,R
+  15,R,J
+   1,R
+   3,R,J
+  22,R
   11,L
    1,L,J
    1,L,G
@@ -210,12 +206,10 @@ Insert Load, 04-38Load2
    1,J
    5,R,J
    8,R
-   1,R,J
-   2,R,D,J
-  13,R,D
-   5,L
+   1,R,J,G
+   2,R,J
+  18,R
    1,D
- 121
 Insert Load, 04-38Load3
 
   88
@@ -254,8 +248,7 @@ Insert Load, 04-38Load3
   71
 Insert Load, 04-38Load4
 
- 249
-  38
+ 287
  242,R
    4,R,D
    3,R,D,X
@@ -325,7 +318,12 @@ Insert Load, 04-38Load4
    3,L,J
   30,J
    8,D,J
-  63
+
+  56
+   1,J
+  23
    1,D
- 535
-Insert Load, 04-38Load5
+  20,L
+   1,R
+  15,L
+Insert Load, 4-Airship End

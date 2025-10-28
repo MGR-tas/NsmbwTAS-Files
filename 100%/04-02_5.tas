@@ -1,5 +1,5 @@
 #4-2 Penguin
-Write, 32, RNG, 0xA02FA317
+#Write, 32, RNG, 0xA02FA317
   31
   22,R
    4,R,D
@@ -117,17 +117,20 @@ Write, 32, RNG, 0xA02FA317
    1,R
   10,R,J
    2,R
-   7,R,J
-  27,R
-  12,R,J
-  12,R
+  34,R,J
+   1,R
+
+  13,R,J
+   2,R
+   1,R
+   8,R
    1
    1,R
   25,R,D
   17,R,J
    2,R
-  12,R,J
-   1,R
+   9,R,J
+   3,R
    1,R,J
   16,R
    1
@@ -157,18 +160,24 @@ Write, 32, RNG, 0xA02FA317
    1,U
 
   16
-Repeat, 9
-   4,R
-   1,L
-EndRepeat
-Repeat, 8
-   1,R
-   4,L
-EndRepeat
-Repeat, 4
-   1,L
-   1,R
-EndRepeat
+
+#gotta stay on the left
+#side because fish
+  71
+#Repeat, 9
+#   4,R
+#   1,L
+#EndRepeat
+#Repeat, 8
+#   1,R
+#   4,L
+#EndRepeat
+#Repeat, 4
+#   1,L
+#   1,R
+#EndRepeat
+
+  22,R
 
    1,D
    1

@@ -1248,7 +1248,11 @@ Insert Load, 06-38Load2
    1,R,J
   10,L,J,G
   20,L
-  25,L,J
+
+   1,R,J,G
+   4,R,J
+  20,L,J
+
    1,L
    1,L,D
    7,D
@@ -1389,5 +1393,4 @@ Insert Load, 06-38Load3
    1,L
    1,R
    7,L,N
- 454
-Insert Load, 06-38Load4
+Insert Load, 6-Airship End

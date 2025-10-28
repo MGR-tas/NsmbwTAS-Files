@@ -186,14 +186,24 @@ Insert Load, 1-6 Pipe2
    1,R
   15,R,J
   27,R
-   3,R,J
+
+#alt ending for rng
+   1,R,J
    1,R
-   8,R,J
-   2,R
-   6,R,J
-   8,R
-   1,L,D,J
-  32,R
+   9,R,J
+   7,R
+   1,R,J
+  40,R
+   1,J
+#   3,R,J
+#   1,R
+#   8,R,J
+#   2,R
+#   6,R,J
+#   8,R
+#   1,L,D,J
+#  32,R
+
 #1241
 #362.210
 Insert Load, 1-6 End

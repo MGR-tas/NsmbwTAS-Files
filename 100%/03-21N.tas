@@ -1,5 +1,4 @@
-#3-Ghost Penguin, Normal Exit
-#Star Coins 1,2
+#3-GhostN Penguin
  113
   22,L
    5,L,D
@@ -9,7 +8,6 @@
   46,R,X
    1,R,D
   24,R,J
-#271 - 543.5914
 
    2,R
   19,R,J
@@ -166,7 +164,11 @@ Insert Load, 3-GhostN Door3
  143
   14,L
    1,L,D
- 182,L
+
+  39,L
+   1,L,J
+ 142
+
    2,L,J
    3,L
    1,L,J
@@ -186,7 +188,7 @@ Insert Load, 3-GhostN Door3
    2,R
    5,U
    2,D
-   1,L,D
+   1,L
    3,D,J
    1,L,J
    1,R,J

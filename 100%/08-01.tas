@@ -1,7 +1,8 @@
 #8-1 Penguin
-Write, 32, RNG, 0x47244A0C
+#Write, 32, RNG, 0x47244A0C
   31
-   3,J
+   1,J,G
+   2,J
    3,R,J
    1,L,J
    1,R,J

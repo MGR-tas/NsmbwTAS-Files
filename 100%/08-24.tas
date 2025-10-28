@@ -662,8 +662,14 @@ Insert Load, 8-Castle Door
   24,R
    1,R,J
   32,R
-  91
-  23,D
+  36
+   1,J
+  22
+Repeat, 26
+   1,D
+   1
+EndRepeat
+   3,D
   23,L,D,J
   24,R,D,J
    4,R
@@ -799,7 +805,10 @@ Insert Load, 8-Castle Door
   11,L
    4,L,J
   12,L
-  15,L,J
+
+   1,L,J,G
+  14,L,J
+
    1,L
    1,L,J
   18,R,J,G
@@ -831,12 +840,16 @@ Insert Load, 8-Castle Door
   10,R,J
   11,R
    5,R,D
-   7,R,J
-  34,R
+
+   1,R,J
+  31,R
    1,J
-  15
+   1,J,G
+   8
+   1,G
+  17,R
    1,D
 #9550
-#533.77
-#0x03810669
+#533.711
+#0x72CB75B3
 Insert Load, 8-Castle End

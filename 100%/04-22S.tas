@@ -1,6 +1,4 @@
-#RNG: 0x72CB75B3
-
-#Start 04-22
+#4-TowerS Penguin
   35
   42,L
    2,L,D
@@ -352,9 +350,4 @@ Insert Load, 04-22Load10
   19,R,D
    1,R,D,J
   17,J
- 560
-
-#RNG - Ted spawn
-Write, 32, RNG, 0xA02FA317
-
-Insert Load, 04-22Load11
+Insert Load, 4-TowerS End

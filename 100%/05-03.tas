@@ -161,7 +161,10 @@
   22,L
   24,R
   18,L
-   7,L,J
+
+   1,L,J,G
+   6,L,J
+
    1,L
    1,L,J
    1,J,G
@@ -211,10 +214,12 @@
    1,R
    1,R,D
   95
-Insert Load, 05-03Load1
+Insert Load, 5-3 Pipe
 
  105
-   3,R,J
+
+   1,R,J,G
+   2,R,J
    1,J
    1,L
    1,L,J
@@ -230,5 +235,4 @@ Insert Load, 05-03Load1
   17,R,D,J
    1,R,D
   28,R,D,J
- 532
-Insert Load, 05-03Load2
+Insert Load, 5-3 End

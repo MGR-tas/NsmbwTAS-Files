@@ -230,7 +230,8 @@ Insert Load, 8-Airship Pipe1
 Insert Load, 8-Airship Pipe2
 
  116
-  12,L,J
+   1,L,J,G
+  11,L,J
    1,L
    1,L,J
    3,R,J,G

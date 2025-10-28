@@ -248,21 +248,12 @@ Insert Load, 03-24Load3
 
   20
   62,R,N
-  42,R
+  64,R
    3,R,X
   96,R
-   5,R,J
-  79,R
-   1,R,J
-   4,R
-  17
-   3
-  11,J
-   3,J,X
-  18,J
- 789
- 162,R
-   8,L
+  21,R,J
+  80,R
+ 977
    1,L,J
    2,L
   70,R
@@ -338,7 +329,5 @@ Insert Load, 03-24Load3
   31,L,J
    3,L,J,X
   16,L,J
-  20,D,J
-  20,D
- 504
-Insert Load, 03-24Load4
+   5,D,J
+Insert Load, 3-Castle End

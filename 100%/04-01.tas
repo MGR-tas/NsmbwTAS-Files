@@ -1,12 +1,8 @@
-#RNG: 0xD469D751
-
-#Start 04-01
-  14
-  21,R
+#4-1 Penguin
+  31
+   4,R
    1,R,J
-  22,R
-   1,R,J
-  60,R
+  83,R
   26,R,J
   13,R
    1,R,J
@@ -348,12 +344,9 @@
    1,L,J
   33,L
   44,R
-  75
-Insert Load, 04-01Load1
+Insert Load, 4-1 Pipe
 
-  96
-   5
-   4,R
+ 105
    3,R,J
    1
    1,L
@@ -362,9 +355,6 @@ Insert Load, 04-01Load1
   17,R
    1,R,D
   20,R,D,J
-  57,R,D
-   6
+  63,R,D
    1,J
-  13
- 521
-Insert Load, 04-01Load2
+Insert Load, 4-1 End

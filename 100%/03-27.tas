@@ -1,20 +1,19 @@
-#RNG: 0xD469D751
-
-#Start 03-27
+#3-Toad House Penguin
   33
   23,R
    2,R,D
    6,R
    1,R,J
    6,R
-   6,R,G
-  10,R
+
+#   1,R,G
+   1,R
+
+  15,R
    7,R,D
   11
    1,U
-   3
- 152
-Insert Load, 03-27Load1
+Insert Load, 3-Toad Door
 
  247
    1,J
@@ -114,6 +113,6 @@ Insert Load, 03-27Load1
    9,L,U
    1,L,U,G
  393
-   1,J
+   1,J,K
   51
-Insert Load, 03-27Load2
+Insert Load, 3-Toad End

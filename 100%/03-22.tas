@@ -665,7 +665,7 @@ Insert Load, 03-22Load3
   14
    1,L
    7
-   1,J
+   1,J,G
   11
   50,D
   22
@@ -686,7 +686,6 @@ Insert Load, 03-22Load3
    6,L,J
    1,L,J,G
    2,L,G
-   4
+  12
    1,L,N
- 680
-Insert Load, 03-22Load4
+Insert Load, 3-Tower End
