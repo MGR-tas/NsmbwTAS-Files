@@ -1,34 +1,32 @@
-#RNG: 0x71409FC
-
-#Start 05-33
- 103
- 105,L,G
-  10,L,J,G
-   3,L,G
-   1,L,N
-  40,L,G
-  23,R,G
-   3,R,J,G
-  20,R,G
-   3,R,G,X
-   8,R,G
-   1,R,J,G
-   1,R,J,N
-  12,R,J,G
-   3,R,G
-   1,R,N
-   9,R,G
-   1,R,J,G
-  14,R,G
-   1,R,N
-  37,R,G
+#Juan Ice
+ 166
    1,L,G
-   4,L,J,G
-   3,L,G
-   2,L,J,G
-  38,L,G
+  20,L
    1,L,N
-  17,L,G
-   1,L,J,G
- 398
-Insert Load, 05-33Load1
+   4,L
+   3,L,X
+  63,L
+  17,R
+
+   7,R,J
+   9,R
+   2,R,J
+  18,R
+   5,R,G
+   6,R
+   1,R,J
+   3,R
+   1,R,G
+  26,R
+   1,R,J,G
+   5,R,J
+   1,R
+   2,L
+   7,R
+  16,L
+   3,L,X
+  40,L
+  15,R
+#808
+#94.801
+Insert Load, Juan End
