@@ -1,10 +1,12 @@
-#RNG: 0xE12FE417
-
-#Start 05-27
- 111,R,G
-   1,U,G
- 155
-Insert Load, 05-27Load1
+#5-Toad Ice
+  39
+  24,R
+   1,R,J
+  23,R
+   1,R,J
+  23,R
+   1,U
+Insert Load, 5-Toad Door
 
   59
    1,J
@@ -366,5 +368,4 @@ Insert Load, 05-27Load1
    1,J
  265
    1,J
-  51
-Insert Load, 05-27Load2
+Insert Load, 5-Toad End

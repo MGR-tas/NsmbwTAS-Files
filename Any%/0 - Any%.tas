@@ -1,22 +1,33 @@
 #Category: Any%
 #Authors: MGR, Squashh_1, Qr1pt1k
+#Game Version: JPr1
 
-#Start from pre-title screen load
-#Recorded Game Version: J2
+#Start from power on;
+#before frame 100
+Manual, 100
 Open LoadDoc, AnyPercentTAS
-Write, 32, RNG, 0x71409FC
+
+   3
+   1,J
+  94
+   1,J
+  46
+   1,J
+
+Write, 32, RNG, 0x47244A0C
 #Enforce Legal
 
-#Start
+Insert Load, START
+
  144
    1,J
-Insert Load, sequenceBGTextureLoad0
+Insert Load, TitleScreen
 
   61
    1,J
  127
    1,J
-Insert Load, MBLoad0
+Insert Load, NewFileSelect
 
  720
    2,R,N
@@ -24,26 +35,28 @@ Insert Load, MBLoad0
    1,J
  224
    1,J
-Insert Load, 01-01Load0
+Insert Load, 1-1 Start
 Read, 01-01.tas
 
  429
-   2,R
+   2,R,N
   37
    1,J
  245
    1,J
-Insert Load, 01-02Load0
+Insert Load, 1-2 Start
 Read, 01-02.tas
 
  416
-   2,R
+   2,R,N
   37
    1,J
  244
    1,J
+
 #RNG - Hammer Bros
-Insert Load, 01-03Load0
+Write, 32, RNG, 0xD469D751
+Insert Load, 1-3 Start
 Read, 01-03.tas
 
  795
@@ -60,87 +73,87 @@ Read, 01-03.tas
    1,J
 
 #RNG - Piranhas Spawn
-
-Insert Load, 01-36Load0
+Write, 32, RNG, 0xA02FA317
+Insert Load, 1-Cannon Start
 Read, 01-36.tas
 
 1092
    1,G
   29
-   2,R
+   2,R,N
   28
    1,J
- 299
-Insert Load, 05-01Load0
+Insert Load, 5-1 Start
 Read, 05-01.tas
 
 #RNG - Juan
-
+Write, 32, RNG, 0x47244A0C
  827
-   2,R
+   2,R,N
   26
    2,D
  303
    1,J
-Insert Load, 05-33Load0
+Insert Load, Juan Start
 Read, 05-33.tas
 
  139
    2,U
   43
-   1,R
+   1,R,N
    1
-   2,R
+   2,R,N
   35
    2,U
   43
-   2,R
+   2,R,N
   28
    1,J
  243
    1,J
-Insert Load, 05-02Load0
+Insert Load, 5-2 Start
 Read, 05-02.tas
 
  504
-   1,L
+   1,L,N
    1
-   2,L
+   2,L,N
   26
-   1,L
+   1,L,N
   33
    2,D
   43
-   2,L
+   2,L,N
   24
    1,J
  218
    1,J
 
 #RNG - Toad House
+Write, 32, RNG, 0x47244A0C
 
-Insert Load, 05-27Load0
+Insert Load, 5-Toad Start
 Read, 05-27.tas
 
  131
    1,J
   64
-   1,R
+   1,R,N
    1
-   2,R
+   2,R,N
   22
    2,U
   43
-   2,R
+   2,R,N
   35
-   1,R
+   1,R,N
   24
-   1,R
+   1,R,N
   95
 #Equip Prop
    1,G
   54
-   1,R
+   1,R,N
    7
    1,J
   11
@@ -149,9 +162,9 @@ Read, 05-27.tas
 #Equip Star
    1,G
   54
-   1,R
+   1,R,N
    7
-   1,R
+   1,R,N
    7
    1,J
   11
@@ -160,18 +173,18 @@ Read, 05-27.tas
    1,J
  353
    1,J
-Insert Load, 05-22Load0
+Insert Load, 5-Tower Start
 Read, 05-22.tas
 
 1535
    1,G
   29
-   2,R
+   2,R,N
  129
 #Equip Penguin
    1,G
   54
-   1,R
+   1,R,N
    7
    1,J
   11
@@ -182,27 +195,29 @@ Read, 05-22.tas
    1,J
 
 #RNG - Raft
+Write, 32, RNG, 0x72CB75B3
 
-Insert Load, 05-04Load0
+Insert Load, 5-4 Start
 Read, 05-04.tas
 
  712
-   2,R
+   2,R,N
   72
    1,J
  395
    1,J
-Insert Load, 05-21Load0
+Insert Load, 5-Ghost Start
 Read, 05-21.tas
 
- 564
- 105,L
-  31,D
-  64
+ 653
+   2,L,N
+  35
+   2,D
+  72
    1,J
  206
    1,J
-Insert Load, 05-36Load0
+Insert Load, 5-Cannon Start
 Read, 05-36.tas
 
  932
@@ -215,8 +230,9 @@ Read, 05-36.tas
    1,J
 
 #RNG - Meteors
+Write, 32, RNG, 0x03810669
 
-Insert Load, 08-01Load0
+Insert Load, 8-1 Start
 Read, 08-01.tas
 
  413
@@ -225,7 +241,7 @@ Read, 08-01.tas
    1,J
  239
    1,J
-Insert Load, 08-02Load0
+Insert Load, 8-2 Start
 Read, 08-02.tas
 
  674
@@ -234,14 +250,19 @@ Read, 08-02.tas
    1,J
  223
    1,J
-Insert Load, 08-07Load0
+Insert Load, 8-7 Start
 Read, 08-07.tas
 
- 806
+#- 4:3 -
+ 690
+
+#- 16:9 - 
+# 806
+
    2,U
  132
    1,J
-Insert Load, 08-38Load0
+Insert Load, 8-Airship Start
 Read, 08-38.tas
 
 1498
@@ -250,9 +271,10 @@ Read, 08-38.tas
    2,U
  152
    1,J
- 230
 
 #RNG - bone platforms
+ 230
+Write, 32, RNG, 0x89FA8CE2
 
-Insert Load, 08-24Load0
+Insert Load, 8-Castle Start
 Read, 08-24.tas

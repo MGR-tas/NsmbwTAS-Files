@@ -1,9 +1,7 @@
 #1-3 Ice
 #Write, 32, RNG, 0xD469D751
   31
-  15,R
-   1,R,J
-  23,R
+  39,R
   25,R,J
    2,R
    1,R,G
@@ -34,8 +32,7 @@
    1,R,D
    1,R,D,J
   12,R,G
-   2,R,J
-  12,R,J
+  14,R,J
   16,R
    3,R,X
   16,R,J
@@ -73,10 +70,7 @@
    1,R,J
    2,R
    1,R,G
-  18,R
-
-##
-   1,R
+  19,R
    9,R,J
    6,R
    1,L,G
@@ -121,9 +115,7 @@
    2,D,J
   10,R,D,J
    1,R,G
-  15,R
-
-   1,R
+  16,R
    1,R,D
    1,L
    1,R
@@ -135,9 +127,7 @@
    1,R,D
    1,L
    1,R,J
-   1,J,G
-
-   1,J,G
+   2,J,G
    1,J
   36
 
@@ -187,7 +177,6 @@
   27,R
    1,R,D
    9,R,J
-
 
    1,R,J,G
   34,R
@@ -261,8 +250,7 @@ EndRepeat
    1,J,G
    8,J
    1,J,G
-   1,J
-   1,J
+   2,J
   24
    1,R,D
    2,R
@@ -270,7 +258,7 @@ EndRepeat
    7,R
 #1909
 #459.560
-Insert Load, 1-3S Pipe
+Insert Load, 1-3 Pipe
 
  105
    3,L,X
@@ -290,8 +278,7 @@ Insert Load, 1-3S Pipe
    1,R,D
   20,R,J
    1,R
-   1,R,J
-   1,R,J
+   2,R,J
   22,R
    1,R,J
   24,R
@@ -303,4 +290,4 @@ Insert Load, 1-3S Pipe
    1,L
 #884
 #452.687
-Insert Load, 1-3S End
+Insert Load, 1-3 End
