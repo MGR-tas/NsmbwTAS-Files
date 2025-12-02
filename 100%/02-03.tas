@@ -1,10 +1,7 @@
-#RNG: 0xA02FA317
-
-#Start 02-03
-  16
-  31,R
+#2-3 Penguin
+  31
+  16,R
    8,R,D
-   1,R
    6,R,J
   28,R
    2,R,D
@@ -19,8 +16,9 @@
   18,R
    3,R,X
   36,R
-  93
-Insert Load, 02-03Load1
+#209
+#597.743
+Insert Load, 2-3 Pipe1
 
  103
   33,R
@@ -272,8 +270,9 @@ Insert Load, 02-03Load1
    2,R
    1,R,J
   23,R
-  93
-Insert Load, 02-03Load2
+#2560
+#543.356
+Insert Load, 2-3 Pipe2
 
  102
    3,R
@@ -306,5 +305,6 @@ Insert Load, 02-03Load2
    1,J
    2
    1,J
- 570
-Insert Load, 02-03Load3
+#791
+#538.559
+Insert Load, 2-3 End
