@@ -1,7 +1,7 @@
-#Write, 32, RNG, 0xA02FA317
 #1-3N Penguin
-  12
-  41,R
+#Write, 32, RNG, 0xA02FA317
+  31
+  22,R
    4,R,D
    3,R,X
   43,R
@@ -82,101 +82,145 @@
   52,R,J
    1,R
 
-   9,R,J
-   1,R
-   2,R,J
-   2,R
-  27,R,J
-   1,R
-
-   1,R,J
-  15,R
-   1,J
-   1,L,J
-   1,R,J
-   1,L,J
-   1,R,J
-   1,R,J,G
    5,R,J
-   1,R,G
-   6,R
-   1,L
-   2,R
-   5,R,D
-  12,R,J
-  29,R
-   3,L
-   1,R
-   1,L
-  19,R
+  26,R
+   1,R,J
 
-   1,L
-   4,R
-   1,D
-  24,R,J
-   2,R
-  23,R,J
-   1,R
-  17,R,J
-   2,R
-  30,R,J
-   1,R
-  17,R,J
-   2,R
-  38,R,J
-   1,R
-  17,R,J
-   2,R
-  18,R,J
-   1,R
-  17,R,J
-   2,R
-   9,R,J
+  30,R,D
+   1,R,D,J
+  17,R,D
 
-  18,R
-   5,J
-   1,J,G
-   2,J
-   7
-   3,L
+  18,R,D,J
+
    1,R,D
-   8,R,J
-   1,R
+   1,D,J
+   1,D
+   6,R,D
 
-   1,R,J
-   1,L,J,G
-  15,L,J
-   3,L
-   4
-   1,L,D
-   4,D
-  14
-  65,R,D
-  14,R,J
+   1,L,D,J
+   1,R,D,J
+   1,R,D
+   1,R,D
+
+   3,R,D
+   1,R,D,J
+   1,R,D
+   1,R,D,J
+   1,D,J
+   6,R,D,J
+
+   3,R,D
+   2,R,D
    1,R
-   1,R,J
-   2,R
-  22,R,J
+   7,R,D
+   9,R
+   1,R,D
+  17
+   5,R,D
+#1232
+#475.350
+Insert Load, 1-3N Pipe1
+
+ 105,J
+   3,L,J,X
+  11,L,J
+   1,L
+   1,L,J
+  14,R,J,G
+   3,R,J,X
+   6,R,J
    3,R
+   1,R,J
+  18,R
+  27,R,J
+   3,R,J,X
+  48,R,J
+   4,R,D
+   1,R,J
+
+  14,R
+  11,R,J
+   1,R
+   1,J
+  13,R
+  24,R,J
+   1,U
+#344
+#470.700
+Insert Load, 1-3N Pipe2
+
+ 116
+  20,R
+   1,R,G
+   3,R
+   1,L,G
+   1,L,J
+   1,R,J
+  13,R,J,G
+   1,R,D,J
+  17,R,D
+   6,R,J
+  37,R,D,J
+   3,R,D
+   9,R,D,J
+   8,R,J,G
+   2,R,G
+   1,R,J,G
+   9,R,J
+   7,J
+  36
+   3,X
+   9,J
+   1,G
+   4
+  16,J
+   1
+  12,J
+   3,J,X
+  22,J
+   1,J,G
+  29,J
+   1
+   1,G
+   5
+   1,G
+  10
+   1,R,D,J
+   3,R
+   1,R,D
+  10,R,D,J
+   1,R,D
+   1,R,D,J
+  16,L,J,G
+   3,L,G
+   4,G
+   8,D,G
+  38,R,D,G
+  38,R,D
+  14,R,D,J
+   1,R,D
+   1,R,D,J
+   2,R,D
+  22,R,D,J
+   2,R,D
+   1,D
    1
   25,R,D
-   5,R,J
-   3,R
-  28,R,J
-   1
-   1,R
+   5,R,D,J
+   3,R,D
+  28,R,D,J
+   1,J
+   1,R,J
   12,R,D
-  17,R,J
-   2,R
-  21,R,J
-   2,R
-  17,R,J
-   2,R
-  30,R,J
-   1,R
-   1,R,J
-  16,R
-   1,R,J
-#2261
-#461.514
+  17,R,D,J
+   2,R,D
+  21,R,D,J
+   2,R,D
+  17,R,D,J
+   2,R,D
+  29,R,D,J
+   2,R,D
+  21,R,D,J
+#1236
+#456.146
 Insert Load, 1-3N End
