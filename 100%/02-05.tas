@@ -1,8 +1,6 @@
-#RNG: 0x72CB75B3
-
-#Start 02-05
-  23
-  12,R
+#2-5 Propeller
+  31
+   4,R
    1,R,J
   11,R
    5,R,J
@@ -101,8 +99,7 @@
    6,L,J
    3,L
    1,L,D
-  92
-Insert Load, 02-05Load1
+Insert Load, 2-5 Special Exit
 
   54
   12,L
@@ -141,8 +138,7 @@ Insert Load, 02-05Load1
    1,J
    5,L,J
    1,U,J
-  89
-Insert Load, 02-05Load2
+Insert Load, 2-5 Pipe
 
  108
   12,R
@@ -156,31 +152,33 @@ Insert Load, 02-05Load2
    1,L
    1,R
   11,L
-   3,L,G
-   3,R,G
-   1,L,G
-  11,R,G
-   3,R,G,X
-  20,R,G
-  45,R,J,G
-   1,R,G
-   1,R,J,G
-  31,R,G
-   1,R,J,G
-  31,R,G
-  21,R,J,G
-  11,R,G
-   8,R,J,G
-   4,R,G
-  54,R,U,G
-  56,R,J,G
-   6,R,G
-  26,R,J,G
-   2,R,G
-   7,J,G
-   3,J,G,X
-  23,J,G
-   6,R,J,G
+Hold, G
+   3,L
+   3,R
+   1,L
+  11,R
+   3,R,X
+  20,R
+  45,R,J
+   1,R
+   1,R,J
+  31,R
+   1,R,J
+  31,R
+  21,R,J
+  11,R
+   8,R,J
+   4,R
+  54,R,U
+  56,R,J
+   6,R
+  26,R,J
+   2,R
+   7,J
+   3,J,X
+  23,J
+   6,R,J
+Hold
    6,R,U,J
    2,R,U
    1,R,U,J
@@ -215,10 +213,8 @@ Insert Load, 02-05Load2
    1,L,D
    1,R,D
    1,R,U
+   1,R,D,X
+   1,L,D
    1,R,D
-   1,L,D,X
-   2,R,D
    1,R,J
-  13,J
- 532
-Insert Load, 02-05Load3
+Insert Load, 2-5 End
