@@ -1,9 +1,9 @@
-#RNG: 0xA02FA317
+#Banner RNG: 0xA02FA317
+#Write, 32, RNG, 0xA02FA317
 
-#Start 02-24
-  22
-  35,R,J
-   8,R
+#2-Castle Propeller
+  61
+   4,R
    1,R,J
   11,R
    7,R,J
@@ -358,242 +358,17 @@
    1,L
    1,L,J
   11,R
+
+Repeat, 73
    1,R,D
    1,R
-   1,R,D
-   1,R
-   1,R,D
-   1,R
-   1,R,D
-   1,R
-   1,R,D
-   1,R
-   1,R,D
-   1,R
-   1,R,D
-   1,R
-   1,R,D
-   1,R
-   1,R,D
-   1,R
-   1,R,D
-   1,R
-   1,R,D
-   1,R
-   1,R,D
-   1,R
-   1,R,D
-   1,R
-   1,R,D
-   1,R
-   1,R,D
-   1,R
-   1,R,D
-   1,R
-   1,R,D
-   1,R
-   1,R,D
-   1,R
-   1,R,D
-   1,R
-   1,R,D
-   1,R
-   1,R,D
-   1,R
-   1,R,D
-   1,R
-   1,R,D
-   1,R
-   1,R,D
-   1,R
-   1,R,D
-   1,R
-   1,R,D
-   1,R
-   1,R,D
-   1,R
-   1,R,D
-   1,R
-   1,R,D
-   1,R
-   1,R,D
-   1,R
-   1,R,D
-   1,R
-   1,R,D
-   1,R
-   1,R,D
-   1,R
-   1,R,D
-   1,R
-   1,R,D
-   1,R
-   1,R,D
-   1,R
-   1,R,D
-   1,R
-   1,R,D
-   1,R
-   1,R,D
-   1,R
-   1,R,D
-   1,R
-   1,R,D
-   1,R
-   1,R,D
-   1,R
-   1,R,D
-   1,R
-   1,R,D
-   1,R
-   1,R,D
-   1,R
-   1,R,D
-   1,R
-   1,R,D
-   1,R
-   1,R,D
-   1,R
-   1,R,D
-   1,R
-   1,R,D
-   1,R
-   1,R,D
-   1,R
-   1,R,D
-   1,R
-   1,R,D
-   1,R
-   1,R,D
-   1,R
-   1,R,D
-   1,R
-   1,R,D
-   1,R
-   1,R,D
-   1,R
-   1,R,D
-   1,R
-   1,R,D
-   1,R
-   1,R,D
-   1,R
-   1,R,D
-   1,R
-   1,R,D
-   1,R
-   1,R,D
-   1,R
-   1,R,D
-   1,R
-   1,R,D
-   1,R
-   1,R,D
-   1,R
-   1,R,D
-   1,R
-   1,R,D
-   1,R
-   1,R,D
-   1,R
-   1,R,D
-   1,R
-   1,R,D
-   1,R
-   1,R,D
-   1,R
-   1,R,D
-   1,R
+EndRepeat
    1,R,D
    1,L
+Repeat, 44
    1,L,D
    3,L
-   1,L,D
-   3,L
-   1,L,D
-   3,L
-   1,L,D
-   3,L
-   1,L,D
-   3,L
-   1,L,D
-   3,L
-   1,L,D
-   3,L
-   1,L,D
-   3,L
-   1,L,D
-   3,L
-   1,L,D
-   3,L
-   1,L,D
-   3,L
-   1,L,D
-   3,L
-   1,L,D
-   3,L
-   1,L,D
-   3,L
-   1,L,D
-   3,L
-   1,L,D
-   3,L
-   1,L,D
-   3,L
-   1,L,D
-   3,L
-   1,L,D
-   3,L
-   1,L,D
-   3,L
-   1,L,D
-   3,L
-   1,L,D
-   3,L
-   1,L,D
-   3,L
-   1,L,D
-   3,L
-   1,L,D
-   3,L
-   1,L,D
-   3,L
-   1,L,D
-   3,L
-   1,L,D
-   3,L
-   1,L,D
-   3,L
-   1,L,D
-   3,L
-   1,L,D
-   3,L
-   1,L,D
-   3,L
-   1,L,D
-   3,L
-   1,L,D
-   3,L
-   1,L,D
-   3,L
-   1,L,D
-   3,L
-   1,L,D
-   3,L
-   1,L,D
-   3,L
-   1,L,D
-   3,L
-   1,L,D
-   3,L
-   1,L,D
-   3,L
-   1,L,D
-   3,L
-   1,L,D
-   3,L
-   1,L,D
-   3,L
+EndRepeat
    1,L,D
    1,L
  234,R
@@ -792,154 +567,60 @@
   52,R
    1,R,N
   37,R
+Repeat, 57
    1,R,N
    2,R
+EndRepeat
+   7,R
    1,R,N
-   2,R
-   1,R,N
-   2,R
-   1,R,N
-   2,R
-   1,R,N
-   2,R
-   1,R,N
-   2,R
-   1,R,N
-   2,R
-   1,R,N
-   2,R
-   1,R,N
-   2,R
-   1,R,N
-   2,R
-   1,R,N
-   2,R
-   1,R,N
-   2,R
-   1,R,N
-   2,R
-   1,R,N
-   2,R
-   1,R,N
-   2,R
-   1,R,N
-   2,R
-   1,R,N
-   2,R
-   1,R,N
-   2,R
-   1,R,N
-   2,R
-   1,R,N
-   2,R
-   1,R,N
-   2,R
-   1,R,N
-   2,R
-   1,R,N
-   2,R
-   1,R,N
-   2,R
-   1,R,N
-   2,R
-   1,R,N
-   2,R
-   1,R,N
-   2,R
-   1,R,N
-   2,R
-   1,R,N
-   2,R
-   1,R,N
-   2,R
-   1,R,N
-   2,R
-   1,R,N
-   2,R
-   1,R,N
-   2,R
-   1,R,N
-   2,R
-   1,R,N
-   2,R
-   1,R,N
-   2,R
-   1,R,N
-   2,R
-   1,R,N
-   2,R
-   1,R,N
-   2,R
-   1,R,N
-   2,R
-   1,R,N
-   2,R
-   1,R,N
-   2,R
-   1,R,N
-   2,R
-   1,R,N
-   2,R
-   1,R,N
-   2,R
-   1,R,N
-   2,R
-   1,R,N
-   2,R
-   1,R,N
-   2,R
-   1,R,N
-   2,R
-   1,R,N
-   2,R
-   1,R,N
-   2,R
-   1,R,N
-   2,R
-   1,R,N
-   2,R
-   1,R,N
-   2,R
-   1,R,N
-   2,R
-   1,R,N
-   2,R
-   1,R,N
-   2,R
-   1,R,N
-  20,R
+  13,R
    1,U
- 333
-Insert Load, 02-24Load1
+Insert Load, 2-Castle Boss Door
 
-  11
-  54,R
-   1,R,J
-  11,R
-   5,R,J
-   1,R,J,N
-   1,R,J
-   3,R,X
- 265,R
- 931
-  42,R
-   1,R,J
-  11,R
-   5,R,J
-   1,R,J,N
-   1,R,J
-   3,R,X
-   5,R
-  25,R,J
+  61
    2,R
-   1,R,D,J
-   3,R,J
-   3,R,J,X
    1,R,J
-  14,J
-   1,D,J
-   4,D
+  11,R
    7,R,J
+   7,R,X
+   1
+   1,R,J
+  23,R
+   1,R,J
+  23,R
+   1,R,J
+  24,R
+   1,R,J
+  24,R
+   1,R,J
+  25,R
+   1,R,J
+  24,R
+   1,R,J
+  24,R
+   1,R,D
+  20,R,J
+   6,R
+   1,R,J
+  23,R
+   1,R,J
+  24,R
+   1,R,J
+ 979
+
+   2,R
+   1,R,J
+  11,R
+   7,R,J
+   7,R,X
+   1
+   2,R
+  12,R
+  18,R,J
+   4,R,J,X
+  15
+   5,D
+   6,R,J
    3,R,J,X
   15,R,J
    3,R
@@ -986,36 +667,10 @@ Insert Load, 02-24Load1
   84,R
    1,R,D
    7,R
+Repeat, 15
    1,R,N
    2,R
-   1,R,N
-   2,R
-   1,R,N
-   2,R
-   1,R,N
-   2,R
-   1,R,N
-   2,R
-   1,R,N
-   2,R
-   1,R,N
-   2,R
-   1,R,N
-   2,R
-   1,R,N
-   2,R
-   1,R,N
-   2,R
-   1,R,N
-   2,R
-   1,R,N
-   2,R
-   1,R,N
-   2,R
-   1,R,N
-   2,R
-   1,R,N
-   2,R
+EndRepeat
    1,R,N
    3,R
    1,R,D
@@ -1053,16 +708,18 @@ Insert Load, 02-24Load1
    7
    3,R
    1
-  40,R
-  11,R,J
-   6,R
+  35,R
    1,R,J
-  31,L
-  65
-   1,J
-  67
-   3,X
-  35
-  28,D
- 493
-Insert Load, 02-24Load2
+ 114,J
+   1
+  21,R,J
+   1,R
+   1,R,J
+  43,L
+   1,L,D
+  27,R,J
+   2,J
+   5,D
+#3048
+#440.067
+Insert Load, 2-Castle End
