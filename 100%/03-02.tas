@@ -1,13 +1,9 @@
-#RNG: 0xA02FA317
-
-#Start 03-02
-   5
-  39,R,J
-   9,R
+#3-2 Penguin
+  31
+  22,R
    4,R,D
    3,R,D,X
-  25,R,D
-  26,R
+  51,R
   26,R,D
   17,R,D,J
    6,R,D
@@ -56,13 +52,17 @@
    1,R,D
   24,R,D,J
   10,R,D
-  17,R
-   1
+
+  12,R
    4,L
-  17,L,J
+   4,R,D
+   1,R,J
+  16,L,J
    7,L
-   1,G
-   6,R
+   1
+   2,R
+   1
+   4,R,G
    1,L
    1,L,J
    1,R
@@ -111,47 +111,52 @@
    4,R
    1,R,G
   72,R,D
- 117
-Insert Load, 03-02Load1
+#1385
+#471.913
+Insert Load, 3-2 Pipe1
 
   92
-  47,R
-  18,L,J
+  46,R
+   1,R,J
+  16,L,J
    1,L
    1,L,J
    1,R,J,G
-   1,J,G
-  11,L,J
+  13,L,J
    1,L,J,G
-  11,L,J
+  10,L,J
    1,L
-  19,L,J
+   1,L
+  12,L,J
+   1,J
+   1,R,J
+   1,J
+   1,R,J
    1,L
    1,L,J
-   3,R,J,G
-   2,R,J
    1,R,J,G
-   2,R,J
-   4,R
+   6,R,J
+   1,R,J,G
+   1,L,J
    1,L
-   1,R
-  11,L
-  21,R
-   1,L
-  28,R
-  23,R,D
-   3,R,U
-   1,R,U,J
-   9,J
-   1,U,J
-   3,J
-  89
-Insert Load, 03-02Load2
+   1,L,J
+   4,L
+   1
+   5,L
+   1
+  45,R
+   1
+  17,R
+  16,R,D
+  10,R,J
+   1,U
+#343
+#467.264
+Insert Load, 3-2 Pipe2
 
- 114
-   2,L
+ 116
   12,L,J
-   2,L
+   2
    1,L,J
    3,R,J,G
   15,R,J
@@ -162,20 +167,19 @@ Insert Load, 03-02Load2
    3,R,J,X
   17,R,J
    1,R,D
-  24,R,D,J
-   2,R,D
-  39,R,D,J
-   3,R,D
-  10,R,D,J
-   2,R,D
-   1,R,D,J
-  45,R,D
+  24,R,J
+   2,R
+  39,R,J
+   3,R
+  10,R,J
+   2,R
+   1,R,J
+  45,R
    1
    1,R,D
-  22,R,D,J
-  43,R,D
-   1,R,D,J
-  23,J
+  22,R,J
+  43,R
+  24,R,J
   41,R
    2,R,J
   26,J
@@ -183,23 +187,16 @@ Insert Load, 03-02Load2
   14,J
   13
    1,D
-  24,D,J
-   2,D
-  38,R,D,J
-   3,R,D
-  17,R,D,J
-   2,R,D
-  61,R,D,J
+  24,R,J
+   2,R
+  38,R,J
+   3,R
+  17,R,J
+   2,R
+  61,R,J
   11,R
    1,R,J
   11,R
- 479
-   1,O
-   1
-   1,O
-   1
-   1,O
-   1
-   1,O
-  46
-Insert Load, 03-02Load3
+#1137
+#454.933
+Insert Load, 3-2 End
