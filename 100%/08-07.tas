@@ -1,9 +1,6 @@
-#RNG: 0x2D3E3026
-
-#Start 08-07
-   5,L
-  23
-  19,R
+#8-7 Penguin
+  31
+  16,R
    2,R,D
   14,R
    6,R,D
@@ -210,48 +207,34 @@
    9
    1,L
   19
-   4,L
-   1
-   1,R,J
-   2,L,J
-   3,L
-   1,L,J
-   8,L
-  13
-  12,D
    1,L
-   3
-   5,L
+   1,L,G
+   2,L
+   1,L
+  18,L,J
+  50,R,J
+  18,R
+   1,R,G
    4,R
-   1,R,J
-  25,R
-   1,R,J
+   1,R,G
+   5,R
+  28,R,J
+   3,R,J,X
+  11,R,J
+   8,R
+   1,R,G
+  16,R
+  14,R,J
   20,R
-  25,R,J
+   1,L
    2,R
+   1
+   6,R
+  35,R,J
    8,R,J
    3,R,J,X
-  24,R,J
-   1,R,J,G
-   9,R
-   6,R,J
-   2,R
-   1,R,J
-   3,R
-   1,R,J
-   7,R
-   2,L
-   3,R
-   1,L
-   3,R
-   1,R,G
-   6,R
-  30,R,J
-   3,R,J,X
-  33,R,J
+  27,R,J
    1,R
-   1,R,G
-   6,R
   13,R,J
    3,L,J
    1,J
@@ -260,8 +243,8 @@
    1,L,J
    1,L,J,G
    2,L,J
-   1,J
    1,R,J
+   1,J
    3,R
    1,R,J
    6,R
@@ -269,16 +252,16 @@
    1,J
    7,R,J
   18,R
-   7,R,D
-   4,R,D,J
-  17,R,D
-   1,R,D,J
-   3,R,D
-   1,R,D,J
-  20,R,D
-  23,R,D,J
-  67,R,D
-   1,R,D,J
+   2,R,D
+   7,R,J
+   2,R
+   1,R,J
+  17,R
+   1,R,J
+  23,R
+  23,R,J
+  67,R
+   1,R,J
   34,D,J
    3,L,J
    1,R,J
@@ -402,24 +385,27 @@
    3,R,J,X
   27,R,J
    3,R,J,X
-  24,R
-  26,R,D
-   1,R,D,J
-   5,R,J
+  25,R
+  25,R,D
+   6,R,J
+   2,R
+   2,R,J
+   1,R
+   4,R,J
    1,R
    1,R,J
-  22,R
-   1
   12,R
-  93
-Insert Load, 08-07Load1
+   1
+  10,R
+#3730
+#418.65
+Insert Load, 8-7 Pipe
 
- 104
-   1,G
-   3,R,J,G
-   1,G
-   1,L,G
-   1,L,J,N
+ 105
+   3,R,J
+   1
+   1,L
+   1,L,J
   18,R,G
    2,R,D,G
    3,R,D,G,X
@@ -603,11 +589,10 @@ Insert Load, 08-07Load1
    1,L,J
   11,R,G
    9,R,J
-  16,R
+  15,R
    1,R,D
-  20,R,D,J
-  20,R,D
-   6,L,G
+  20,R,J
+  26,R
    5,L,J,G
    8,D,J,G
    9,L,U,J,G
@@ -625,8 +610,9 @@ Insert Load, 08-07Load1
   10,L,D,J
    2,L,D
   22,L,D,J
-   3,L,D
-  19,L,D,J
+   2,L,D
+  15,L,D,J
+   5,L
    1,L,D
    1,L,D,J
    1,L,J,G
@@ -738,5 +724,6 @@ Insert Load, 08-07Load1
   27,R,J
    3,R,J,X
   57,R,D,J
- 515
-Insert Load, 08-07Load2
+#3766
+#347.030
+Insert Load, 8-7 End
