@@ -1,6 +1,16 @@
 #3-Toad House Penguin
-  33
-  23,R
+
+#WARNING:
+# This TAS is known to
+# desync, due in part to
+# inconsistencies within
+# TAStudio.lua. Should
+# be careful when using.
+
+#Level RNG
+Write, 32, RNG, 0x03810669
+  30
+  16,R
    2,R,D
    6,R
    1,R,J
@@ -13,12 +23,13 @@
    7,R,D
   11
    1,U
+#189
 Insert Load, 3-Toad Door
 
- 247
+ 237
    1,J
-  15
-   4,R,U
+  18
+   1,R,U
    1,R,U,J
   12,R,U
   35,R,U,G
@@ -36,7 +47,8 @@ Insert Load, 3-Toad Door
   12,R,U,J
    1,U
    1,U,J
-   8,U
+   6
+   2,R
    1,U,G
    6
   32,R,U,G
@@ -45,21 +57,16 @@ Insert Load, 3-Toad Door
    5,R,U
    1,R,U,J
    4,R,J
-   9,R
-   2,R,J
-   1,R
-   3,R,J
-   1,R,J,X
-   2,R
-   2,R
+  14,R
+   5,R,J
    1,R,U,G
   21,R
   33,U
   14,U,J
-   1,L,U
-   2,L,U,J
+   1,U
+   2,U,J
    5,U
-   1,L,U
+   1,U
    1,U,G
   34,U
   21,L
@@ -95,10 +102,8 @@ Insert Load, 3-Toad Door
    4,L
    3,L,J
    5,L
-   4,L,J
-   2,L
-   1,L,J
-   3,L
+   2,L,J
+   8,L
    1,L,U,G
    5
   50,L,U
@@ -106,13 +111,16 @@ Insert Load, 3-Toad Door
    5,R,U,J
    1,R,U
    2,R,U,J
-   6,R,U
+   6,U
   39,L,U,G
   17,L,U
   17,L,U,J
-   9,L,U
+   1,L
+   2,L,J
+   6,L
    1,L,U,G
  393
    1,J,K
   51
+#1626
 Insert Load, 3-Toad End
