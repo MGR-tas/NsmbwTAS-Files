@@ -1,6 +1,6 @@
 #Category: Any%
 #Authors: MGR, Squashh_1, Qr1pt1k
-#Game Version: JPr1
+#Game Version: JP
 
 #Start from power on;
 #before frame 100
@@ -13,6 +13,7 @@ Open LoadDoc, AnyPercentTAS
    1,J
   46
    1,J
+  90
 
 Write, 32, RNG, 0x47244A0C
 #Enforce Legal
@@ -28,6 +29,9 @@ Insert Load, TitleScreen
  127
    1,J
 Insert Load, NewFileSelect
+
+   1
+Insert Load, Movie
 
  720
    2,R,N
