@@ -30,14 +30,12 @@
    7,R
    1,R,J
   24,R
-
 Repeat, 3
    1,R,D
    1,L
    1,R
    1,R,U
 EndRepeat
-
    1,R,D
    1,L
    4,R
@@ -53,14 +51,12 @@ EndRepeat
    6,R
    1,R,J
   18,R
-
 Repeat, 3
    1,R,D
    1,L
    1,R
    1,R,U
 EndRepeat
-
    9,R
    1,R,D
    1,L
@@ -128,14 +124,12 @@ Hold
   14,R
   30
   10,R
-
 Repeat, 4
    1,R,D
    1,L
    1,R
    1,R,U
 EndRepeat
-
   12,R
    1,R,J
   26,J
@@ -145,7 +139,6 @@ EndRepeat
   27,J
    3,J,X
   38,J
-#jump - 1015
    2
    7,J
    3,J,X
@@ -162,47 +155,67 @@ EndRepeat
   27,J
    3,J,X
   24,J
-   7,L
-   1,J
-  18
+   1,L
+   1
+   1,L
+   1
+   1,L
+   1
+   1,L
+   1,L,J
+  15
+   1,L
    3,R
-
-Repeat, 3
+   1
+   1,R
    1,R,D
    1,L
    1,R
    1,R,U
-EndRepeat
-
+   1,R,D
+   1,L
+   1,R
+   1,R,U
+   1,R,U
    1,R
    1,R,D
    1,L,D
-  21,R,D
-   1,R,U
-  10,R,D
-
-   1,R
-   1,R,D
-   4,R,D,J
-   1,R,D
-   7,R,D,J
+  38,R,D
+   1,R,J
+  18
+  15,J
+   2
+   2,J
+  28
+   1,D
+   1,D,J
+   1,R,D,J
+   4,R,D
+   1,R,D,J
+   9,R,D
+  13,R
+  15,R,J
+   2,R
    3,R,J
-  58,R
-   1,R,D
-   3,R,D,J
-   1,R,D
-  11,R,D,J
-  36,R
-  46,R,J
-   1,R
-  18,R,J
-  19,R
-  13,R,J
-   5,R
+  23,R
    4,R,J
+  17,R
+   5,R,J
+   4,R
+   2,R,J
+   6,R
+   4,R,J
+   1,R
+   5,R,J
+  10,R
+   1,R,J
+   6,R
+  16,R,J
+  13,R
+   1,R,J
    3,R
    1,R,J
-  34,R
+  29,R
    6,R,J
    3,R
    1,R,J
@@ -213,57 +226,52 @@ EndRepeat
    3,R,J,X
   24,R,J
   16,R
-
    1,R,D
    1,L
    3,R
    1,R,U
-
 Repeat, 2
    1,R,D
    1,L
    1,R
    1,R,U
 EndRepeat
-
    1,R,D
    1,L,D
   58,R,D
   18,R
-
 Repeat, 3
    1,R,D
    1,L
    1,R
    1,R,U
 EndRepeat
-
    1,R,D
    1,L,D
   25,R,D
    1,R,J
    4,R
-  10,R,J
+   3,R,J
+   2,R
+   6,R,J
    8,R,D
    1,R,U
-   9,R
-
+   7,R
 Repeat, 2
    1,R,D
    1,L
    1,R
    1,R,U
 EndRepeat
-
    1,R,D
    1,L
    7,R,D
    1,R,U
-   3,R
+   4,R
   26,R,J
    2,R
-  11,R,J
-   4,R,J,X
-#2360
-#459.290
+  10,R,J
+   5,R,J,X
+#2358
+#459.335
 Insert Load, 1-1 End
