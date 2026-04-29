@@ -1,42 +1,38 @@
-#RNG: 0x47244A0C
-
-#Start 05-02
-  29
-   6,R
+#5-2 Ice
+  31
+   4,R
    1,R,J
   16,R
    1,R,N
    5,R
    1,R,J
-  25,R
+  23,R
    1,R,J
-  27,R
-   8,R,J
-   2,R
-   1,R,J
-  26,R
+  23,R
+  13,R,J
+  30,R
    1,R,J
   31,R
   11,R,J
   36,R
    1,R,D
-   1,L,D
+   1,L
+   1,R
+   1,R,U
    1,R,D
+   1,L
+   1,R
    1,R,U
    1,R,D
    1,L,D
-   1,R,D
-   1,R,U
-   1,R,D
-   1,L,D
-  10,R,D
-   1,R,D,J
+   9,R,D
+   1,L,J
    1,G
    5
    3,J
-   9,J,G
-   2,R,J,G
-   5,R
+   1,G
+   8
+   8,R
    1,L
    1
    1,R,D
@@ -44,56 +40,64 @@
    3,R,J
   18,R
    9,R,J
-  13,R
-   2,R,D
-   8,R,D,J
-   1,R,D,J,G
-   3,R,D,J
-   1,R,J
-  15,R
-  35,R,J
-   3,R,J,X
-  34,R
-   5,R,J
-   2,R
-   6,R,J
-   1,R
-  37,R,J
-  32,R
+  14,R
    1,R,D
- 121
-Insert Load, 05-02Load1
-
-  97
-   8,L,J
-   3,L,J,X
-  11,L,J
-   1,L
-   1,L,J
-   1,R,G
-  23,R
-  13,R,J
-  22,R
-  36,R,J
-   3,R,J,X
-  24,R,J
-   1,R
-   1,L,J
-   5,R,J
-   1,J
-   4
-   1,L
-  24
-   1,R,G
-  33,L
-   1,J
-  19,L,J
-   1,J
-   5,L,J
-   1,L
-   1,L,J
+   8,R,J
    1,R,J,G
-  33,R
+   4,R,J
+  15,R
+
+
+  28,R,J
+   3,R,J,X
+  13,R,J
+   5,R
+   1,R,J
+  31,R
+  19,R,J
+   1,R
+   2,R,J
+  26,R
+   2,R,J
+   1,R
+  23,R,J
+   1,D
+#565
+#490.331
+Insert Load, 5-2 Pipe1
+
+ 105
+   3,L,X
+   7,L,J
+   2,J
+   1,L,J,N
+   1,J
+   1
+   1,L,J
+   1,R,G
+  24,R
+  14,R,J
+  22,R
+  50,R,J
+   1,R
+   1,R,J
+   2,R
+  13,R,J
+  26
+   1,L
+   3
+   1,R
+  35,L
+  13,L,J
+   3,J
+   1,L,J
+   7,J
+   1,L
+   1,L,J
+   1,R,G
+   9,R,J
+   1,R
+  23,R,J
    1,R,D
   11,R,D,J
   16,R,D
@@ -103,15 +107,15 @@ Insert Load, 05-02Load1
    5,R,J
   24,R
    1,R,D
-   1,L,D
-   1,R,D
+   1,L
+   1,R
    1,R,U
    1,R,D
-   1,L,D
-   1,R,D
+   1,L
+   1,R
    1,R,U
    1,R,D
-   1,L,D
+   1,L
    7,R,D
    1,J
    2,L,J
@@ -119,66 +123,73 @@ Insert Load, 05-02Load1
    6,L,J
    3,L,J,X
    8,L
-   7,D
-  13,L,D
-   3,R,D
-   1,L,D
-  15,R,D
+   5,D
+  14
+   1,L
+   3,R
+   1,L
+  15,R
    1,L,J
-   3,G
-   6
-   4,J,G
+   1,G
+   8
+   1,G
+   8
+   1,G
+
+   3
+  10
+   1,G
+  14
    5,J
-   4,J,G
-  18,G
-   9
-   5,J
-   3,J,X
-  12,J
-  18
-   1,R,D
-   3,R,U
-   2,R
+   3
+   3,X
+  12
+  19,J
+   4,R
    1,R,J
    1,G
    8
-  32,G
-   3
-   5,J
-   3,J,X
-  30,J
-   4
+   1,G
+  33
+   9,J
+   1
+  32,J
+   1
    1,J
-   3,J,G
-   6,J
+   1,J,G
+   8,J
    1,L,J,G
    5,J
    1,J,G
-   8,J
-   1,J,G
-  16,J
-   4
-   5
-   8,R
+   7,J
+   1
+   1,G
+   6
+   3,X
+  24
    1,R,D
-   1,L,D
-   1,R,D
+   1,L
+   1,R
    1,R,U
    1,R,D
-   1,L,D
-   1,R,D
+   1,L
+   1,R
    1,R,U
    1,R,D
-   1,L,D
+   1,L
   19,R,D
    1,L,J
    1,J,G
    8
    1,G
-  13
-   2,R
+   5
+   1,R
+   1,L
+   8
    1,R,J
   20,R
+#cp - 473.14
+#873 - 2479.987
    1,R,D
    1,L,D
    1,R,D
@@ -229,8 +240,8 @@ Insert Load, 05-02Load1
    7,D
   15
    1,U
-   1,U,J
-  20,J
+   1
+  21,J
    1,R,J
   20,J
    5,D,J
@@ -245,57 +256,52 @@ Insert Load, 05-02Load1
    1,J,G
   52,J
    2
+
+
+
    8,J
-   3,J,X
-  22,J
-   1
+   6
+   3,X
+  12
    1,J
+   1,J,G
+   5,J
+   3
+   1,J,G
+   7
+   1
    1,G
-   8
-   1,G
-   9
-   4,R
-   1,R,D
-   1,L,D
-   1,R,D
-   1,R,U
-   1,R,D
-   1,L,D
-   1,R,D
-   1,R,U
-   1,R,D
-   1,L,D
-   8,R,D
-   1,R
-   3,R,X
-   9,R
-  69
-Insert Load, 05-02Load2
+  14
+   1,D
+   9,R,D
+   3,R,D,X
+   3,R
+#1325
+#463.22
+Insert Load, 5-2 SpecialExit
 
-  93
-  71,L,G
-   1,G
-  14,L,G
-   3,L,G,X
-   1,L,G
-  18,R,G
-   7,R,J,G
-   3,R,J,G,X
-  33,R,J,G
-  25,R,J
-  24,L
-   2
+ 110
+  54,L
+   1
+  14,L
+   3,L,X
+Hold, G
    1,L
-   6
-   6,D
-  73
-   6
-   1,K
-  38
-Insert Load, 05-02Load3
+  18,R
+   7,R,J
+   4,R,J,X
+  40,R
+   3,L
+Hold
+   2,L,J
+  44,L
+   1,D
+#360
+#458.93
+Insert Load, 5-2 Pipe2
 
-   8
- 100,R,J
+ 106,J
+   2,R,J
    3,R,J,X
   14,R,J
   22,R
@@ -346,22 +352,30 @@ Insert Load, 05-02Load3
    3,J,X
   28,J
   46
-   1,R,D
-   1,R,D,J
-  17,R,U,J
-  88
-Insert Load, 05-02Load4
+   1,D
+  10,R,J
+   5,R,J
+   1,U
+#541
+#449.789
+Insert Load, 5-2 Pipe3
 
-  56
-  60,L
+ 116
   12,L,J
    1,L
    1,L,J
    1,R,G
- 126,R
-   1,R,J,G
-  18,R
+  34,R
    3,R,X
-  64,R
- 533
-Insert Load, 05-02Load5
+  43,R
+   1,R,J
+  24,R
+  17,R,J
+  28,R
+   1,R,D
+  56,R
+   1,R,J
+   3,R
+#813
+#444.735
+Insert Load, 5-2 End
