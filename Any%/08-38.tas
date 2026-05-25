@@ -27,122 +27,140 @@
    1,R
    2,R,J
    1,R,G
-  22,R
-   1,R,D
-  32,R,J
-  18,R
-   4,J
-   2
-   1,J
-  11
-  25,D
-
-  17,R,J
-   2,R
-  26,R,J
-   1,R
-
-   1,R,J
-  23,R
-   1
-   1,R
-  25,R,D
-
-  17,R,J
-   2,R
-  26,R,J
-   1,R
-
-   1,R,J
-  23,R
-   1
-   1,R
-  25,R,D
-
-  17,R,J
-  25,R
-
-   7,R,J
-  13,R
-   3
-   2,R
-  25,R,D
-  37,R,J
-   6,R
-  82,R,J
-   6,R
-  35,R,J
-Hold, G
-   4,L,J
-  35,L
-   1,L,J
-Hold
-   1,R
-  11,L
-   1
-   1,R
-   1
-Hold, G
-  19,R
-  17,R,J
-   3,R,J,X
-   3,R
-Hold
-   1,R,N
-Hold, G
-  32,R
-   1,R,J
-   1,L,J
-   3,J
-  15
-  25,J
-  18
-  13,J
-   1
-   1,J
-   2
-   1,J
-  14
-   6,R
-Hold
-   1,R,N
-Hold, G
-   3,R,J
-   1,J
-  15,L,J
-   3,L
-  11,R
+  10,R
    1,L
-   2,R
-Hold
-   1,R,N
-Hold, G
-  14,R
-   7,R,J
-  22,R
-  13,R,J
-Hold
-   1,R,J
-   3,R,J,G
-  17,R
-   8,R,G
-   2,R,J
-   6,L,J,G
-  22,L
-   3,L,X
-  10,L,J
-   1
-   2,L,J
-  24,R,J,G
-   3,R,J,X
-  13,R
+   4,R
+   6
+   1,R
   12,R,D
   17,R,J
    2,R
-  47,R,J
+  19,R,J
+   1,R
+   4,J
+   1
+   1,J
+  12
+  25,D
+Repeat, 2
+  17,R,J
+   2,R
+  31,R,J
+   1
+   1,R
+  25,R,D
+EndRepeat
+  49,R,J
+   1
+   1,R
+  25,R,D
+  15,R,J
+  22,R
+   1
+   1,R
+  25,R,D
+  12,R,J
+   1,R
+   1,R,J
+  20,R
+  24,R,J
+   2,R
+  61,R,J
+   1,R
+  18,R,J
+  17,R
+   3,X
+   3,L
+   3,L,J
+   1,L
+   1,L,G
+Hold, G
+  25,L
+   1
+   5,R
+   1,L
+   3
+   1,J
+   7,R,J
+Hold
+   1,R
+Hold, G
+   5,R
+   2
+  17,R
+   7,R,J
+   2,R,J,X
+   1,R,J
+Hold
+   1,R,J
+Hold, G
+   4,R,J
+   2,R
+   2,R,J
+  12,R
+   1,L
+   4
+   7,R
+   1,L,J
+  21,J
+   3,R,J,X
+   2,R
+   7,R,J
+   1,L,J
+  12
+  15,J
+  10
+   1,J
+  20
+Hold
+   1,R
+   4
+   1,J
+  15,R
+   2,L
+   2,R
+   1,L
+   2
+   1,R
+   3
+   1,R
+   1
+   1,J
+   1
+  14,J
+   3,L,J
+   1,R,J
+   1,R,G
+  11,R
+   1,L
+   1,L,J
+   1,R
+   6,R,J
+   1,R
+   2,R,J
+   2,R
+   8,R,J
+   3,R,J,X
+  16,R,J
+   1,L,J,G
+   6,L,J
+   2,R
+   2,R,J
+   1,L,J,G
+  13,L,J
+   1,J
+  22,L
+   2,L,J
+   1,R,J,G
+  12,R,J
+  23,R
+  12,R,D
+  17,R,J
+   2,R
+  49,R,J
    1,D
-#1468
-#472.340
+#1437
+#473.03
 Insert Load, 8-Airship Pipe1
 
  106
@@ -165,11 +183,9 @@ Insert Load, 8-Airship Pipe1
   18
    3,X
   11
-
   14,R
    1,R,N
    6,R,D
-
    1,R,J,N
   23,R,J
    3,R,J,X
@@ -207,9 +223,7 @@ Insert Load, 8-Airship Pipe1
   15,R,J
   16,R
    6,R,J
-  16,R
-   1,R
-
+  17,R
   21,D
   12,R,D,J
    1,R
@@ -221,14 +235,12 @@ Insert Load, 8-Airship Pipe1
   25,R
    1
    1,L,G
-   2,R
-   1,R
-  17,R
+  20,R
    1,L,D
   15,L,D,J
    1,U
 #812
-#457.15
+#457.85
 Insert Load, 8-Airship Pipe2
 
  116
@@ -262,7 +274,6 @@ Insert Load, 8-Airship Pipe2
   34,R
    3,X
    9
-
   17,R
   11,R,D
    1,R,J
@@ -274,7 +285,6 @@ EndRepeat
    1,R
    5,R,J
    1,L,G
-
    1,L,J
    1,J
   28,R,J,G
@@ -284,7 +294,6 @@ EndRepeat
    7,R,J
   30,R
    3,R,X
-
   27
    3,X
   18
@@ -298,7 +307,6 @@ EndRepeat
   22
    3,X
    8
-
   15,R
    4,R,D
    5,R,J
@@ -315,19 +323,15 @@ EndRepeat
    1,R
    1,R,J
   15,R
-
   12,R,D
    4,R,J
   14,R
-
    3,R,X
   27
    3,X
   18
    3,X
    5
-
-
   17,R
    2,R,D
   10,R
@@ -353,14 +357,13 @@ EndRepeat
    2,R
   20,R,J
    1,R
-
   25,R,J
   43,R
    1,R,J
   20
    1,D
 #1255
-#432.92
+#433.61
 Insert Load, 8-Airship Pipe3
 
  979
@@ -373,9 +376,7 @@ Insert Load, 8-Airship Pipe3
 #   6,R,J
 #   2,R
 #   1,R,J
-#  15,R
-
-#   5,R
+#  20,R
 #  19,R,D
 #   1,J
 #   6,R
@@ -403,37 +404,27 @@ Insert Load, 8-Airship Pipe3
    3,R,X
   46,R
    1,R,D
-  23,R,J
-   2,R
-   1,R,J
+  26,R,J
   11,R
-  12,J
-   1
+  14
    2,R,J
    1,L,J,G
   15,L,J
    2,L
-  10,L,J
-   1,L
-   5,L,J
+  16,L,J
    6,L
-   3,L,X
-   3,L,J
+   6,L,X
    5,D
   17,L
    1,R
    6,L
    1,L,J,G
    5,L,J
+   6,R,J
    1,J
-   8,R,J
-   1,R,J
-   5,R,J
-   1,R,J,N
-   1,R,J
+  10,R,J
    1,R,D,J
    4,D,J
-
 Hold, J
   27,R
    3,R,X
@@ -455,11 +446,11 @@ Hold, J
    4,D
    6,R
    1,L
-  17,L,X
-   5,D
+  18,L,X
+   1,L,D
+   4,D
 Hold
-
-  22,L
+  18,L,J
    1,L,D
    4,D
   26
@@ -470,25 +461,21 @@ Hold
    1,R
    1,R,J
   22,L
-
    4,L,J
    4,L
    1,L,D
    4,D
   20,L
    7,R
-   1,L,J,G
-  16,R,J
-   2,J
+   1,L,G
+  17,R,J
+   3,J
    1,R,J
-   1,J
-   3
+   3,J
    5,D
-  34,L
-   1,L,D
-   4,D
-  48,L,D
-
+  39
+   5,D
+  45,L
    2,L,J
    2,L
    1,L,J
@@ -498,8 +485,8 @@ Hold
    1,R,D,J
    4,D
 
-#2097
-#417.737
+#2096
+#418.45
 Insert Load, 8-Airship End
 
    1
