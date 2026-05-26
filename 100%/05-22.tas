@@ -1,8 +1,6 @@
-#RNG: 0xA02FA317
-
-#Start 05-22
-  38
-  32,R
+#5-Tower Ice
+  61
+   9,R
    3,R,X
   44,R
    1,R,D
@@ -315,25 +313,24 @@
    2,L
    1
    1,L
-   4
+   3
    1,D
    1,D,J
-   4,R,D,J
-   3,D,J
-   9,R,J
+  16,R,J
   12,R
    1,R,J
   10,R
    1,R,N
   12,R
-   1,R,J
-  35,R
+   5,R,J
+  31,R
    1,U
- 333
-Insert Load, 05-22Load1
+#2748
+#546.734
+Insert Load, 5-Tower Door
 
- 196
-  84,R
+ 259
+  21,R
    1,R,N
   12,R
   25,R,J
@@ -417,9 +414,8 @@ Insert Load, 05-22Load1
   28,L,J
    3,L,J,X
   18,L,J
-   5,J
-  23,D,J
-   2,J
+   5
+  25,D
    1,R,U,J
    5,R,J
   29,R
@@ -469,11 +465,7 @@ Insert Load, 05-22Load1
    1,D
    1,D,J
    5,D
-  13,J
-  33,J
-   2,J,X
-   1
-  29
-  69,J
- 682
-Insert Load, 05-22Load2
+  78,J
+#2099
+#520.83
+Insert Load, 5-Tower End
