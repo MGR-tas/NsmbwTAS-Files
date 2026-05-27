@@ -1,0 +1,82 @@
+#5-Toad Ice
+#Penguin, Prop, Star
+Write, 32, RNG, 0x72CB75B3
+  31
+  21,R
+   1,R,N
+  25,R
+   1,R,J
+  23,R
+   1,U
+#195
+Insert Load, 5-Toad Door
+
+ 238
+   1,J
+  18
+   1,R,U
+   1,R,J
+  12,R
+   1,R,U,G
+  54
+   1,R,U
+  18,R,J
+   1,R
+   1,R,J
+   2,R
+   4,R,J
+   1,R
+   9,R,J
+   6,R
+   3,R,X
+   1,R
+   1,R,U,G
+  54
+   1,R,U
+  31,R,J
+   1,R
+   1,R,U,G
+  54
+   1,L,U,N
+  13,R,J
+   5,R
+   4
+   1,U,G
+  54
+   1,L,D
+   1,L,J
+  11,L
+   1,L,J
+  11,L
+   1,L,U,G
+  54
+   1,L,D
+   3,L,J
+  38,L
+   1,L,U,G
+  54
+   1,L,U
+  31,L,J
+   3,L,X
+  21,L
+   6
+   1,L
+   7
+   1,U,G
+  54
+
+   1,R,U
+  13,R,J
+  11,R
+   1,U,G
+ 393
+
+#if US
+#  This is either 1 or 7.
+#  I have no clue what makes
+#  it one or the other
+#   1
+
+   1,J,K
+#1334
+Insert Load, 5-Toad End
