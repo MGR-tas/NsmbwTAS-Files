@@ -1,10 +1,11 @@
 #5-Toad Ice
+#Penguin, Prop, Star
+Write, 32, RNG, 0x03810669
+
   31
   21,R
    1,R,N
-   1,R
-   1,R,J
-  23,R
+  25,R
    1,R,J
   23,R
    1,U
@@ -15,52 +16,59 @@ Insert Load, 5-Toad Door
    1,J
   18
    1,L,U
-   2,L,U,J
+   2,L,J
+   1,L
+   4,L,J
+  10,L
+   1,L,U,G
+  54
    1,L,U
-   4,L,U,J
-   9,L,U
-   1,L,U,N
-  48,L,U,G
-   2
-   6,L,G
-  22,L,J,G
-  31,L,G
-   1,L,N
-  56,L,U,G
-  16,L,U,J,G
-   3,L,U,G
+  22,L,J
+  32,L
+   1,L,U,G
+  54
+   1,L,U
+  15,L,J
+   7,L
+   1
+   1,L
    1,U,G
-   4,R,U,G
-   1,R,U,N
-  56,R,U,G
-   2,R,U,J,G
-   1,R,J,G
-   4,R,G
-   1,R,J,G
-  15,R,G
-   1,R,N
-  56,R,U,G
-  12,R,U,J,G
-   2,L,U,J,G
-   1,U,G
-   7,R,U,G
-   1,R,U,N
-  56,R,U,G
-  22,R,J,G
-  46,R,G
-   1,R,N
-  56,R,U,G
-   9,R,U,J,G
-   5,R,J,G
-   9,R,G
-   1,R,N
-  21,R,U,G
-  34
+  54
+   1,R,U
+   3,R,J
+   1,R
+   1,R,J
+  19,R
+   1,R,U,G
+  54
+   1,R,U
+  10,R,J
+   3,J
+   9,R
+   1,R,U,G
+  54
+   1,R,U
+  21,R,J
+   9,R
+   2,R,J
+  37,R
+   1,R,U,G
+  54
+   1,R,U
+  14,R,J
+  10,R
+   1,R,U,G
+  54
    1,J
    7,D
   24
    1,U
    1,U,G
  393
+
+#if US
+#   1
+
    1,J,K
+#1329
 Insert Load, 5-Toad End
