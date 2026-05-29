@@ -1,0 +1,113 @@
+#3-Toad House Penguin
+#Level RNG
+Write, 32, RNG, 0x03810669
+  31
+  16,R
+   2,R,D
+   6,R
+   1,R,J
+   6,R
+
+#   1,R,G
+   1,R
+
+  15,R
+   7,R,D
+  11
+   1,U
+#189
+Insert Load, 3-Toad Door
+
+ 238
+   1,J
+  18
+   1,R,U
+   1,R,J
+  12,R
+   1,U,G
+  54
+   1,R,U
+  11,R,J
+   1,R
+   2,R,J
+  24,R
+   1,U,G
+  54
+   1,R,U
+  12,R,J
+   1
+   1,J
+   6
+   2,R
+   1,U,G
+  54
+   1,R,U
+   5,R,J
+  14,R
+   5,R,J
+   1,U,G
+  54
+  14,J
+   1
+   2,J
+   5
+   1
+   1,U,G
+  54
+   1,L
+   1,L,J
+  11,L
+   1,L,J
+  11,L
+   1,U,G
+  54
+   1,L
+  11,L,J
+   6,L
+  10,L,J
+  14,L
+   1,U,G
+  54
+   1,L,D
+   1,L,J
+  42,L
+   1,U,G
+  54
+   1,J
+  14,L
+  18
+   1,R
+   3
+   1,U,G
+  54
+   1,L,D
+   1,L,J
+   5,L
+   3,L,J
+   5,L
+   2,L,J
+   8,L
+   1,U,G
+  54
+   1,L,U
+  12,L,J
+   5,R,J
+   1,R
+   2,R,J
+   6
+   1,U,G
+  54
+   1,L,U
+  17,L,J
+   1,L
+   2,L,J
+   6,L
+   1,U,G
+ 393
+
+#if US
+#   1
+
+   1,J,K
+#1626
+Insert Load, 3-Toad End
