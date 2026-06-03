@@ -140,7 +140,7 @@ Insert Load, 8-2 Pipe1
   20,R,J
   12,R
    1,L
-  25,R
+  24,R
    1,D
   24,R,J
    2,R
@@ -152,8 +152,7 @@ Insert Load, 8-2 Pipe1
    1,J
   10
    3,X
-  10
-   1,G
+  11
   47,J
    3,J,X
    7,J
@@ -165,33 +164,34 @@ Insert Load, 8-2 Pipe1
   16,R,J
   15,R
    1,R,J
-  30,R
+
+  15,R
+   1,R,J
+
+  14,R
   14,R,J
    3,R
   41,R
    7,R,J
+   2,R
    1,R,J
-   1,R
-   1,R
-  13,R
+  12,R
    2,J
    1
    1,J
    1
    5,D
   14
-   7,R
-   1,L
+   6,R
+  37,L
    1,R
-  34,L
-   1,R
-   5,L
+   4,L
    1,D
-  34,L,D
+  35,L,D
    1
   10,L
-#1789
-#458.27
+#1787
+#458.32
 Insert Load, 8-2 Pipe2
 
  106
@@ -248,7 +248,7 @@ Insert Load, 8-2 Pipe2
    5,R,J
    1,U
 #580
-#448.307
+#448.35
 Insert Load, 8-2 Pipe3
 
  116
@@ -274,5 +274,5 @@ Insert Load, 8-2 Pipe3
   39,R
   27,R,J
 #845
-#442.534
+#442.57
 Insert Load, 8-2 End
