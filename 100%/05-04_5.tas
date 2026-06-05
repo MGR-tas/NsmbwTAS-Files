@@ -1,5 +1,5 @@
 #5-4 Penguin
-Write, 32, RNG, 0x47244A0C
+Write, 32, RNG, 0x38973B7F
   31
   22,R
    4,R,D
@@ -35,7 +35,9 @@ Hold, D
   17,R,J
    2,R
    7,R,J
-   7,R
+   2,R
+   1,R,J
+   4,R
    1,R,J
    2,R
   15,R,J

@@ -259,10 +259,11 @@ Hold
   27,R
    3,R,X
   23,R
-   1,R,J
-  78,R
-   1,R,J
- 100,R
+
+   4,R
+   1,R,X
+
+ 176,R
    1,U
 #2259
 #515.40
@@ -273,7 +274,10 @@ Insert Load, 3-Castle BossDoor
   42,R
    3,R,X
   96,R
-   5,R,J
+
+#   5,R,J
+   5,R
+
   79,R
    1,R,J
    4,R

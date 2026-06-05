@@ -106,7 +106,10 @@ Insert Load, 3-Tower Door1
 Insert Load, 3-Tower Door2
 
   61
-   3,R,J
+
+   3,R,J,G
+#   3,R,J
+
    1,J
    1,L
    1,L,J
@@ -145,8 +148,7 @@ Insert Load, 3-Tower Door2
   26,L,D
   13,L,N
    8,L
-   5
-   1
+   6
    1,J
    4,L
    1,L,J
@@ -186,7 +188,7 @@ Insert Load, 3-Tower Door2
    9,R,J
    6,L,J
   10,L
-  23,L,J
+  23,L,J,G
    1,R
    1,R,J
    5,L,J,G
@@ -214,7 +216,7 @@ Insert Load, 3-Tower Door2
    1,L,J
    7,R,J
    9,R
-  32,R,J
+  32,R,J,G
    1,R
    1,R,J
    1,L,J
@@ -301,7 +303,7 @@ Insert Load, 3-Tower Door2
   22,L,J,G
    3,L,J,G,X
   13,L,J,G
-   1,L,G
+   1,L
   15,L,J,G
   13,J
    2,L,J,G
@@ -545,7 +547,7 @@ Insert Load, 3-Tower Boss Door
 
   10
    5,L
-   2,L,J
+   2,L,J,G
   12,L
    1,L,D,J
    4,D,J

@@ -1,13 +1,26 @@
 #Category: 100%
 #Authors: MGR, Qr1pt1k, Squashh_1, Mizumaririn, Roblox8192, Cads, Inforcer
 #Game Version: JPr1
+#Aspect Ratio: 16:9
 
-#Start from pre-title screen load
-#Open LoadDoc, HundoTAS
+#Start from power on;
+#before frame 100
+Manual, 100
+Open LoadDoc, HundoTAS
+
+   3
+   1,J
+  94
+   1,J
+  46
+   1,J
+  90
+
 Write, 32, RNG, 0x47244A0C
 Enforce Legal
 
-#Start
+Insert Load, START
+
  144
    1,J
 Insert Load, TitleScreen
@@ -17,6 +30,9 @@ Insert Load, TitleScreen
  127
    1,J
 Insert Load, NewFileSelect
+
+   1
+Insert Load, Movie
 
  720
    2,R,N
@@ -42,6 +58,10 @@ Read, 01-02.tas
    1,J
  244
    1,J
+
+#RNG - Hammer Bros
+Write, 32, RNG, 0x89FA8CE2
+
 Insert Load, 1-3S Start
 Read, 01-03S.tas
 
@@ -71,9 +91,10 @@ Insert Load, 5-1 Start
 Read, 05-01N.tas
 
 #RNG - Juan
+   1
 Write, 32, RNG, 0x89FA8CE2
 
- 827
+ 826
    2,R,N
   26
    2,U
@@ -115,8 +136,9 @@ Read, 05-02.tas
    1,J
  218
    1,J
+#RNG - Toad House
 Insert Load, 5-Toad Start
-Read, 05-27.tas
+Read, 05-27_45s_A.tas
 
  131
    1,J
@@ -146,32 +168,7 @@ Read, 05-22.tas
   29
    2,R,N
  129
-#Equip mini
-   1,G
-  54
-   1,R,N
-   7
-   1,R,N
-   7
-   1,R,N
-   7
-   1,J
-  11
-   1,J,K
-  33
-   1,J
- 233
-   1,J
 
-#RNG - Raft
-Write, 32, RNG, 0x89FA8CE2
-
-Insert Load, 5-4 Start
-Read, 05-04.tas
-
- 712
-   2,R,N
-  71
 #Equip penguin
    1,G
   54
@@ -183,6 +180,20 @@ Read, 05-04.tas
   11
    1,J,K
   33
+
+   1,J
+ 233
+   1,J
+
+#RNG - Raft
+Write, 32, RNG, 0x89FA8CE2
+
+Insert Load, 5-4 Start
+Read, 05-04_5.tas
+
+ 712
+   2,R,N
+  72
    1,J
  395
    1,J
@@ -216,7 +227,7 @@ Read, 05-36.tas
    1,J
 
 #RNG - Meteors
-Write, 32, RNG, 0x2D3E3026
+Write, 32, RNG, 0x03810669
 
 Insert Load, 8-1 Start
 Read, 08-01.tas
@@ -262,18 +273,25 @@ Read, 08-38.tas
  230
 
 #RNG - bone platforms
-Write, 32, RNG, 0x89FA8CE2
+Write, 32, RNG, 0x03810669
 Insert Load, 8-Castle Start
 Read, 08-24.tas
 
+   1
 #RNG - credits
 Write, 32, RNG, 0x72CB75B3
+Insert Load, BalloonScene
+
 Read, 01-42.tas
+   1
+Insert Load, KoopaScene
 
 #World 9 Cutscene
  348
    1,J
-Insert Load, Reset
+Insert Load, ResetPt1
+   1
+Insert Load, ResetPt2
 
 #Title Screen
  144
@@ -318,9 +336,10 @@ Insert Load, 1-4 Start
 Read, 01-04.tas
 
 #RNG - Fred
+   1
 Write, 32, RNG, 0x89FA8CE2
 
- 587
+ 586
    2,R,N
   71
    2,R,N
@@ -334,9 +353,10 @@ Insert Load, 1-6 Start
 Read, 01-06.tas
 
 #RNG - Fred #2
+   1
 Write, 32, RNG, 0xA02FA317
 
- 427
+ 426
    1,L,N
    1
    2,L,N
@@ -442,6 +462,8 @@ Read, 02-05.tas
 
 Insert Load, 2-Castle Start
 Read, 02-24.tas
+
+   1
 Insert Load, World2 Exit
 
  525
@@ -465,9 +487,10 @@ Insert Load, 3-2 Start
 Read, 03-02.tas
 
 #RNG - Ice bros
+   1
 Write, 32, RNG, 0x89FA8CE2
 
- 798
+ 797
    2,R,N
   84
    2,R,N
@@ -479,9 +502,10 @@ Insert Load, 3-3 Start
 Read, 03-03.tas
 
 #RNG - Ice bros #2
-Write, 32, RNG, 0xD469D751
+   1
+Write, 32, RNG, 0xA02FA317
 
- 398
+ 397
    2,R,N
   26
    1,R,N
@@ -508,7 +532,7 @@ Write, 32, RNG, 0x89FA8CE2
 #Write, 32, RNG, 0xD469D751
 
 Insert Load, 3-Toad Start
-Read, 03-27.tas
+Read, 03-27_3455s.tas
 
  131
    1,J
@@ -524,6 +548,7 @@ Read, 03-27.tas
    1,J
 
 #RNG - Toad Spawn (3-3)
+Write, 32, RNG, 0x38973B7F
 
 Insert Load, 3-Tower Start
 Read, 03-22.tas
@@ -605,9 +630,9 @@ Read, 03-04N.tas
 Insert Load, 3-Castle Start
 Read, 03-24.tas
 
-#RNG - Ted spawn
-Write, 32, RNG, 0x47244A0C
-
+   1
+#RNG - Ted spawn (middle)
+Write, 32, RNG, 0xA02FA317
 Insert Load, World3 Exit
 
  431
@@ -690,7 +715,7 @@ Read, 04-01.tas
  400
 
 #RNG - Ted and 4-2 Fish
-Write, 32, RNG, 0x89FA8CE2
+Write, 32, RNG, 0x2D3E3026
 
  100
    2,U
@@ -740,9 +765,10 @@ Read, 04-36_5.tas
 Insert Load, World4 Select2
 
 #RNG - Ted
+   1
 Write, 32, RNG, 0x47244A0C
 
-  17
+  16
    2,U
   26
    1,U
@@ -875,9 +901,10 @@ Insert Load, 5-5 Start
 Read, 05-05.tas
 
 #RNG - Julio
+   1
 Write, 32, RNG, 0x47244A0C
 
- 434
+ 433
 #Equip star
    1,G
   54
@@ -979,9 +1006,9 @@ Read, 06-24.tas
 Insert Load, 6-Airship Start
 Read, 06-38.tas
 
+   1
 #RNG - Ned Spawn
 Write, 32, RNG, 0xA02FA317
-
 Insert Load, World6 Exit
 
  398
@@ -993,10 +1020,11 @@ Insert Load, World6 Exit
 Insert Load, 7-1 Start
 Read, 07-01.tas
 
+   1
 #RNG - Sc3 Chain Chomp
 Write, 32, RNG, 0x47244A0C
 
- 408
+ 407
    2,R,N
   49
    1,J
@@ -1057,9 +1085,10 @@ Insert Load, 7-GhostN Start
 Read, 07-21N.tas
 
 #RNG - Ned
+   1
 Write, 32, RNG, 0x89FA8CE2
 
- 723
+ 722
    2,R,N
   49
    2,R,N
@@ -1127,7 +1156,7 @@ EndRepeat
    1,J
    2
 #RNG - Kamek and Toad Spawn
-Write, 32, RNG, 0x38973B7F
+Write, 32, RNG, 0x47244A0C
 
 Insert Load, 8-Tower Start
 Read, 08-22_5.tas

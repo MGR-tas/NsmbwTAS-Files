@@ -212,14 +212,26 @@ Insert Load, 3-GhostN Door3
    2,L
   32,L,J
    5,L
-   1,L,J,G
+
+#   1,L,J,G
+   1,L,J
+
   10,L
   15,R
-   1,R,J,G
+
+#   1,R,J,G
+   1,R,J
+
   25,R
-   1,R,J,G
+
+#   1,R,J,G
+   1,R,J
+
   25,R
+
    1,R,J,G
+#   1,R,J
+
   11,R
    1,R,J
    9,R

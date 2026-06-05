@@ -4,9 +4,11 @@
   16,R
    2,R,D
    6,R
-   3,R,J
+   1,R,J
+   1,R,J,G
+   1,R,J
   17,R
-  26,R,J
+  26,R,J,G
    3,L,J
    1,J
    1,R
@@ -14,20 +16,20 @@
    1,L,J,G
    1,L,J
   18,L
-   4,L,J
+   4,L,J,G
    1,R,J
    1,J
    3,R,J
    3,R
    1,R,J
    7,R
-   7,R,J
+   7,R,J,G
    2,L,J
    1,L
    2,L
    3,L,J
    5,L
-  12,R,J
+  12,R,J,G
    5,J
    3,R,J
    1,J

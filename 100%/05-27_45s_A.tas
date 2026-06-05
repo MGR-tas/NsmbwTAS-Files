@@ -1,11 +1,13 @@
 #5-Toad Ice
 #Penguin, Prop, Star
-Write, 32, RNG, 0x03810669
+Write, 32, RNG, 0x2D3E3026
 
   31
   21,R
    1,R,N
-  25,R
+   1,R
+   1,R,J
+  23,R
    1,R,J
   23,R
    1,U
