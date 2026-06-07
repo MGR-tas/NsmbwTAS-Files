@@ -2,9 +2,9 @@
  114
   11,R
    8,R,D
-  15,R,J
-  31,R
-   1,L
+  15,R,D,J
+  31,R,D
+   1,L,D
    1,L,J
    1,R
    1,R,G
@@ -21,9 +21,9 @@ Repeat, 22
    1
 EndRepeat
    1,D
-Hold, G
    1,R,J
    3,R
+Hold, G
   28,L
    1,L,J
   15,L
@@ -120,13 +120,16 @@ Hold
    1,L,J
    6,J
   13
-  15,R,J
+  15,R,J,G
    1,L,J
   32,J
    1
    5,J
   10
-  38,D
+   5,D
+  14
+   4,R
+  15,L
    1,L,U
    2,L,J
    1,R,J,G
