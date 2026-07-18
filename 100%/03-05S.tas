@@ -1,8 +1,4 @@
 #3-5S Propeller
-
-#RNG During Level Init
-#Write, 32, RNG, 0x38973B7F
-
   28
    3,X
   39,L
@@ -101,10 +97,6 @@
    1,R
    1
   53,R
-
-#RNG - Prop Blocks
-#Write, 32, RNG, 0x2D3E3026
-
 #814
 #384.177
 Insert Load, 3-5S Pipe1
@@ -120,180 +112,180 @@ Insert Load, 3-5S Pipe1
   17,J
    3,J,X
    1,J
-  76
+   6,L
+  70,R
    1,J
-   4,R,J
-   6,R
-   1,L
-   1
-   2,L
-   3,L,X
-Hold, G
-   2,L
-   6
-  11,L
-   1,L,J
-  10,L
-   1,L,J
-   2,L
-   9,L,J
-   3,L,J,X
-   3,L,J
-  13,L
-  20,L,J
-   1,J
-   8
-   1,J
-   5
-   3,X
-  77
-   5,L
-   4,L,J
-   3,L
-   2,L,X
-   1,R
-   8,R,J
-   5,D
-   1,R
-   4,R,J
-   9,J
-   3,J,X
-  29,J
-  21,R
-   4
-   5,D
-   1
-  13,R,J
-   1,L,J
-   6,R,J
-   8,R
-   2,R,J
-   1,L,J
-   3,J
-   1,R,J
-   8,J
-   1,L,J
-   9,J
-   2
-   2,J
-   1,R,J
-   3,J
-   1,L,J
-   1,J
-   1,R,J
-   5,J
-  29
-   3,X
-   3
-   1,R
-  43
-   1,R
-   1
-  20,R
-   7
-   7,L
-   1
-   3,L
-   2,L,J
-Hold
-   1,R,J
-Hold, G
-  38,L
-   3,L,J
-   2,L
-  10,L,J
-Hold
-   1,R
-  13,L
-   4,R
-   3,R,X
-   1,R
-   1
-  45,R
-   1
-  29,R
-   1,R,J
-  14,R
-   3,R,X
-   1,R,J,G
-Hold, G
-  18,R
-   5,R,J
-   1,R
-   2,R,J
-   2,R,J,X
    5,R
+   4,L
+
+#grab the prop block
+   1,L,X
+   1
    1,L
+   1,L,J,G
+
+Hold, G
+  18,L
+   8,L,J
+   1,L
+   1,L,J
+   2,L
+   1,L,J
+   9,L
+   2,L,J
+   1,J
+  14,R
+   1
+  13,R
+   2,R,X
+  22,R
+   6,L
+
+#instantland with ice block
    1,L,D
    4,D
-   3
-   1,J
    1
-  18,L
-   1
-   4,L
+  12,L,J
    2,R,J
-  16,J
-   1
-   2,J
-   1
-  11,J
-  11
-   3,X
-  11
-   9,L
-   1,R
-   2,L
-   1,R
-   1
-   1,L
-   2
-   2,R
-   3
-   1,L
-   7
-   2,L
-   1
-   1,R
-   1
-   2,R
-   1,L
-   3,R
+   3,R,J,X
+   1,R,J
+  20
    3,L
-   5,R,J
+   1
+   5,R
+  18,R,J
+
+#jumping off the koopa
+# -> first ice midair
+   1,R,J
+   4,L,J
    1,J
-  10,L,J
-   1,J
+   5,L,J
+  21,L
+   1,R
+   1
+
+#jump off ice block
+  11,R,J
+   3,R,X
+  15,R
+   1
+  12,L
+
+#sc2 instantland
+   1,L,D
+   4,D
+   1
    3,L,J
-   3,L
-   1,L,J
-  15,L
-   2,R
-  15,R,J
-   9,J
-   4,J,X
-   6,L
-  34
-   1,L
-   6
-  14,J
-   3,L,J
+   7,J
+   4,R,J
+   5,L,J
    3,L,J,X
-   5,D,J
-Hold
-  14
-   1,R,U
-  21,R,J
-   1,R,D,J
-   2,D,J,X
-   2,D,J
-   3
+   1,L,J
+   1,R,J
+  24,J
+  15,R,J
+  18,L,J
+
+#Second koopa jump
+# -> ice midair
+  10,L,J
+   1,R,J
+   1,L,J
+   2,J
+   1,R,J
    1,R
-  10
-  53,R
+   1,R,J
+   6,R
+   3,R,J
+   4,R
+   1
+   8,R
+   1
+   1,L
+
+#jump off oce block
+   2,L,J
+   8,L
+   4,L,J
+   1,L
+   8,L,J
+   3,L,J,X
+  10,L
+  18,R
+
+#instantland with green koopa
+   1,R,D
+   4,D
+   1
+  14,J
+   3,J,X
+
+#drop the first ice block
+   1,L,D,J
+   4,D
+   1
+   5,L,J
+   1,L
+  16,R
+#jump off of it
+   1,R,J
+  18,L,J
+
+#pause buffer to stop dance
+#remove on vanilla?
+   1,L,J
+
+#   1,L,J,P
+#  18
+#   1,P
+#  10
+
+  38,L,J
+   2,L
+  29,L,J
+
+#sc3 koopas
+  24,L,J
+  56,R,J
+   9,R
+   5,R,J
+   3,R
+   6,R,J
+   5,L,J
+
+#final jump off sc3 koopas
+  22,L,J
+   3,L,J,X
+   1,L,J
+  37,R,J
+  26,L,J
+
+#prop block gone
+Hold
+   1,J
+   2,L,J,X
+   1,L
+   1,J
+  20,L
+
+#prop block midair
+   1,L,D
+   8,L,J
+  14,R,J
+   1,J
+   7,R,J
+   5,J
+   1,L,J
+  28,J
+
+#spin to the pipe
+   4,J,X
+   3
+  28,L
    1,U
-#1388
-#356.572
+#1215
+#360.436
 Insert Load, 3-5S Pipe2
 
  105
@@ -330,5 +322,5 @@ EndRepeat
   18
    1,J
 #811
-#351.316
+#355.17
 Insert Load, 3-5S End
