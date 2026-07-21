@@ -60,8 +60,7 @@
   16,L
    1
   47,R
-  17,D
-   1
+  18,D
   12,L,J
    2,R,J
    3,R,J,X
@@ -71,8 +70,7 @@
    2,R
    1,L
    3
-   6,D
-   1
+   7,D
    7,L,J
    2,L,J,X
   22,L
@@ -233,7 +231,7 @@ Hold, G
   18,L,J
 
 #pause buffer to stop dance
-#remove on vanilla?
+#when not on vanilla
    1,L,J
 
 #   1,L,J,P
