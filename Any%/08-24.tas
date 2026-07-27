@@ -1,11 +1,15 @@
 #8-Castle Penguin
-
+#Write, 32, RNG, 0x89FA8CE2
   61
   22,R
+
+#fast accel
    4,R,D
-   5,R,X
-  41,R
-   9,R,D
+   3,R,X
+  43,R
+
+#off to the races
+   9,D
   15,R,J
    1,R
    1,R
@@ -20,11 +24,14 @@
    1,J
    6,R,J
   16,R
+
+#get 10 slide timer
   42,D
    3,R,J
    2,R
    2,R,J
    2,R
+#what's up firebar
   20,R,J
    1,R
   17,R,J
@@ -33,6 +40,8 @@
    1,R
   13,R,J
   17,R
+
+#yayyy a reslide opportunity
    1
    1,R
   25,R,D
@@ -46,6 +55,8 @@
    2,R
    1,R,J
   18,R
+
+#high jump over the wall
    1
    1,R
    1,R,D
@@ -54,11 +65,15 @@
   15,R,J
    1,R
    7,R,J
+
+#cb
   51,R
   26,R,J
   11,R
    1,R,J
   24,R
+
+#jump out of penguin (gross)
    1,J
    9,R,J
    9,R
@@ -71,9 +86,10 @@
    1,R
    5,R,J
   22,R
+
+#god platforms
    1,J
    1,R,J
-
    6,L,J
    1,L
    1,L,J
@@ -85,10 +101,17 @@
    1,L,J
   10,R,J
    9,R
+
+#jump over mt kilimanjaro
   24,R,J
    2,R
    1,R,J
   17,R
+
+#subpixel and speed manip
+#to do this penguin slide
+#with as much speed as
+#possible (~3.65)
    1,L
    4,R
    2
@@ -97,11 +120,18 @@
    3,R
    1,R,J
   48,R
+
+#get out of here we're slow
    3,R,X
   25,R
+
+#first full slide timer
+#manip in the level :fire:
   23,R,D
   28,R,J
   26,R
+
+#gotta have good rng here
    1
    1,R
    1,R,D
@@ -120,49 +150,103 @@
    2,R
   15,R,J
    1,R
-   4,R,J
-  46,R
-  20
-  12,L
- 103
-  16,L
-   1,L,D
-  19,L
-  20,R
-   1
+
+#y-subpixel manip to be
+# <1 unit about the ground
+#so we snap to the platform
+#and activate it 4f earlier
+#than normal
+   1,R,J
+  11,R
+   2,R,J
+   7,R
+   6,R,J
+   7,R
+   1,R
+
+#have to go back left
+#in order to despawn
+#the next fire bubble
+   1,R,J
+   1,L,G
+  28,L
+   1,R
+   1,L
+
+#now just swag until
+#the platform leaves
+  41,R
+   1,R,J
+  10,R
+  14,L
+  11,R,D
+   1,R,J
    3,R
+   1,R,D
+   4,D
+  14
+   1,U
+   1,G
+   4
+   1,G
+   4
+   1,G
+   4
+   1,G
+
+   4,L
+   1,L,G
+   9,L
+
+#low speed skid.
+#also set up subpixels
+#during the skid so we
+#don't have to let go of
+#right later
+   1,R,D
+  10
+   8,L
    1
-  12,R
+  36,R
   14,R,D
    3,R,X
   23,R
-   1,R,D
-  15,R,J
 
+#don't have to deal with
+#rng for this part since
+#we leave the platforms
+#after 1 frame
+   1,D
+  18,R,J
+   1,R
+   1,R,J
    9,R
    9,R,J
-   1,R
-   2,R,J
-   2,R
-  35,R,J
-   1,R
-   7,R,J
-   2,R
-   1,R,J
-   9,R
+   4,R
    6,R,J
-   1,R
-   1,R,J
+  27,R
+
+#land a bit early here
+#so we don't bonk
+   6,R,J
   11,R
+   7,R,J
+   3,R
+   1,R,J
+   8,R
    1,D
 
 #RNG - Bone Platforms
-Write, 32, RNG, 0x1CFE1FE6
+#Write, 32, RNG, 0xD469D751
 
 #1663
 #666.343
 Insert Load, 8-Castle Pipe1
 
+#Falling Lava Room
+
+#Can't do much here so
+#just swag for most of it
  106
   16,R
    1
@@ -220,8 +304,8 @@ Insert Load, 8-Castle Pipe1
    1,R,J,G
   16,R
    1,R,D
-  21,R,J
-  16,R
+  22,R,J
+  15,R
    1,R,J
   38,L
   17,R,D
@@ -265,31 +349,28 @@ EndRepeat
    1,R,J,N
   10,L,J,G
    1,R,J,N
-  39,L,J,G
-  14,L,D,J
-   1,L,D
+   1,J,G
+  38,L,J
+  19,L,D
    3,L,D,X
    4,L,D
   11,L
    1,L,J,N
   37,R,G
-  33,R,D
-  20,L
+  44,R,D
+   9,L
    9,L,D
    1,D
    3,L,D
    8,R,D
-   1,R,D,J,N
-  18,R,D,J,G
-   3,R,J
-   1,R
-   2,R,J
-   6,R,D,J
-   6,R,D
-   3,R,D,X
-   9,R,D
+  24,R,J
+   2,R
    5,R,J
-   1,J
+   6,R,D
+   3,R,D,J,X
+   9,R,D,J
+   4,R,J
+   1,R,J
    5,D,J
   17,R,U
    1,R,J
@@ -297,10 +378,12 @@ EndRepeat
    3,R,J,G
    6,R
    1
-  28,R
-   2
+  11,R
+   3,R,X
+  14,R
+   2,R
    3,R
-   1
+   1,R
    3,R
    5
    6,R
@@ -321,77 +404,88 @@ EndRepeat
    1,R
    1,R,J
    1,L,N
-  12,G
-  44,L
+   2,J,G
+  10
+  44,L,J
    3,L,X
    1,L
-  20,L,D
+  18,L
+   1,L,D
    5,L,D,J
-  25,L,J
-   3,J
-  39
+  18,J
+  47
    1,L,J
    1,L,J,N
   10,R,J,G
   32,R
    1,R,D
-  14,R,D,J
+  15,R,D,J
    1,R,D
-  27,R,D,J
-   6,R,D
-   1,R,D,J
-  30,R,D
-   2,R,D,J,N
-  17,L,G
-   3,L,X
-  15,L
-   1
-   8,D
-   9,R,U
-   4,R
-   4,R,J
+  17,R,J
+   2,R
+  11,R,J
+   1,R
+   1,R,J
+  30,R
+
+#now get to the platform
+#for the ending strat
+   2,R,J
+   1,L,G
+   1,L
+  14,L,J
+   2,L
    1,L,J
+  24,L
+  15,L,J
+   6,L,J
+   1,L
+   3,L,J
   17,L
-   1,L,D
-  43,L
-  22,L,J
-  38,L
-   2,J
+  16,L,J
+  11
+   5,D
+  14
+  23
+   1,L
+   2,L,X
+   1,L,U
+  23,L,J
+   1,L
+
+#corridor rng manip
+   1,L,J
+  26,L,J
+   1,L
+   1,L,J
+   1,R,J,G
+  17,R,J
+   2,R
+  27,R,J
+   3,R,J,X
+  14,R,J
+  10,R,D
+   1,R,J
+  38,R
+  22,J
    1
    1,R,J
-  19,J
-  37,R,J
-   4,R
-   1,R,N
-   1,R,G
-  35,R,J
-   3,R,J,X
-  19,R,J
-   8,D,J
-  12,U
-   8,D
-   8
-   4,U
-  16,D
-   4,U
-   8,D
-  12,U
-  10,D
-  10,L,U
-   7,D
-  13,L,U
-   8,D
-  12,L,U
-   6,D
-  14,U
-   7,D
-  10,U
-   3,U,X
-   5
-  11,D,G
+   1,L,J,G
+  10,L,J
+  45,L
+   3,L,X
+  13,L,J
+   5,D
+  16
 
-#2267
-#619.130
+#corridor rng manip #2
+   1,J
+  26
+   1,J
+  27
+   1,D
+#2264
+#619.30
 Insert Load, 8-Castle Pipe2
 
  106
@@ -411,66 +505,66 @@ Insert Load, 8-Castle Pipe2
    1,R,J
   20,R
    1,U
-
 #488
-#616.637
-Insert Load, 8-Castle Pipe3
+#616.81
+Insert Load, 8-Castle Door
 
   61
-#RNG - Fireballs #1
-Write, 32, RNG, 0x38D83BC0
 
+#Fireballs #1
+#any of these work
+Write, 32, RNG, 0xD469D751
+#Write, 32, RNG, 0x38973B7F
+#Write, 32, RNG, 0x2D3E3026
   22,R
    4,R,D
-   3,R,D,X
-  68,R,D
-   7,R,D,J
-  23,R,D
-  15,R,D,J
-  21,R,D
-   2,R
-   6,R,D
+   3,R,X
+  43,R
+  25,R,D
+   7,R,J
+  23,R
+  15,R,J
+  29,R
    1
    1,R
   25,R,D
-#RNG - Fireballs #2
-Write, 32, RNG, 0x38D83BC0
 
-  17,R,D,J
-   2,R,D
-  23,R,D,J
-   4,R,D
-   7,R,D,J
-   2,R,D
-   1,R,D,J
-  25,R,D
+#Fireballs #2
+  17,R,J
+   2,R
+  23,R,J
+   4,R
+   7,R,J
+   2,R
+   1,R,J
+  25,R
    1
    1,R
   25,R,D
-  17,R,D,J
-   2,R,D
-  22,R,D,J
-   9,R,D
+  17,R,J
+   2,R
+  22,R,J
+   9,R
    1
    1,R
   25,R,D
-  17,R,D,J
-   2,R,D
-  24,R,D,J
-   7,R,D
+  17,R,J
+   2,R
+  24,R,J
+   7,R
    1
    1,R
   25,R,D
-  17,R,D,J
-   2,R,D
-  26,R,D,J
-   5,R,D
+  17,R,J
+   2,R
+  26,R,J
+   5,R
    1
    1,R
   12,R,D
-  17,R,D,J
-   2,R,D
-  25,R,D,J
+  17,R,J
+   2,R
+  25,R,J
    2,R
    1,R,J
    6,J
@@ -480,244 +574,311 @@ Write, 32, RNG, 0x38D83BC0
    1,G
    6
    1,R,J
+#602.84
 
-#602.666
-#close - 846
- 440
-  39,R
+#Bowser 1st Phase
+ 463
+  16,R
    2,R,D
-   9,R
-   1,R,N
+  10,R
    1,R,G
   44,R,J
-   1,R,D
-   1,R,D,J
-  30,R,D
-   1,R,D,J
-   7,R,D
-   4,R
-   3,L,X
-   4,L
-
-#599.903
-2153
+   1,R
+   1,R,J
   22,R
-   4,R,D
+   8,R,D
+   1,R,J
+  10,R
+   3,R,X
+   1,L
+#600.08
+
+#Escape
+2157
+
+#Swag for a minute while
+#we wait for bowser
+   6,L,J
+  19,L
+   1
+   5,R
+  11,L,D
+  25,L,J
+   1,L,J,X
+  12,R,J
+   1,L,D,J
+   4,D,J
+  12
+   2,X
+   1,R,U
+   1,R,D
+   4,D
+  14
+   1,R,U
+   1,R,D
+   4,D
+  12
+   2,X
+   1,R,U
+  27,R,J
    3,R,X
   12,R
-   1,R,J
-  36,L,G
-  31,L,J
-   3,L,J,X
-   9,L,J
-   7,D,J
-  11,R,U,J
-   3,R,U,J,X
-  27,R,U,J
-   3,R,J,X
-  12,R,J
-  15,R
-   2,R,J,N
-  18,R,J,G
+   2,R,J
+   1,R,J,G
+  17,R,J
    1,R
-   1,R,J,N
-   5,R,J,G
-  38,R,D,J
-   4,R,D
-  15,R,D,J
-   1,R,D
-   1,R,D,J,N
-  22,R,D,J,G
-   1,R,D
-   1,R,D,J,N
-  23,R,D,J,G
-   3,D,J,X
-  10,D,J
-   1,D
-   1,R,D,J,N
-  28,R,D,J,G
-   3,R,D,J,X
-  20,R,D,J
-   3,R
    1,R,J
-   1,R,J,N
-  32,R,J,G
-
-   3,R,J,X
-   7,R,J
-   1,R,J,N
    2,R,J,G
-  10,R
-   1,R,J
-   1,R,J,N
-  28,R,J,G
-   3,R,J,X
-  21,R
-   5,J
    8,R
-   2,R,J,N
-  28,R,J,G
-   3,R,J,X
-  14,R,J
-  12,R,D
-   7,L,D
+   3,R,X
+   8,R
+   1,R,D
+  36,R,J
+   1,R
+   2,R,J
+   1,R,J,G
+  17,R,J
+   1,R
+   1,R,J
+   1,R,J,G
+  17,R,J
+   1,R
+   1,R,J
+  13,L
+   1,L,J
+  40,L
+   1,L,D
+   4,D
+  14
+   1,R,U,X
+
+#fireball shot
+  14,R
+   1,R,D
+   4,D
+  14
+   1,U
+Repeat, 1
    1,D
-   3,R,D
-   7,R,D,J
-   3,R,D,X
-   5,R,D,J
-   5,R
-   1,R,D
-   1,R,D,J
-   2,R,D
-   1,R,D,J
-   2,R,D
-   1,R,D,J
-   2,R,D
-   1,R,D,J
-   2,R,D
-   1,R,D,J
-   2,R,D
-   1,R,D,J
-   2,R,D
-  22,R
-   5,R,D
-   3,R,D,X
-  61,R,D
-  35,R,D,J
-   5,R,D
    1
-   1,R
-  25,R,D
-  39,R,D,J
-   1,R,D
+EndRepeat
+
+#set up speed to get
+#into the gap fast
+   8,R
+  20,L
+  11,L,D
+Hold, D
+   3,L,J
+  19,R,J
+  31,R
+   3,J
+   2,L,J
+   9,R,J
+  17,R
    1
+  14,R
+Hold
+
+#crouch jump
+   2,R,J
    1,R
-  25,R,D
-  40,R,D,J
-   1
+
+#weird clip into the
+#floor to get fully
+#clipped 1f faster
+   1,R,J
    1,R
-  25,R,D
-  39,R,D,J
-   1,R,D
-   1
-   1,R
-  12,R,D
-  30,R,D,J
-   1,R,D
-  39,R,D,J
-  55,R
-   1,R,N
-   8,R,G
-   3,R,X
-   3,R
-  24,R,J
-   1,R
-   3,R,X
-  30,R
-   3,R,X
+
+#in the wall yayyyy
+Repeat, 9
+   1,R,G
+   1,R,J
    2,R
-  30,R,D
-   1,R,D,J
-  20,R,D
+   1,R,J
+EndRepeat
+   1,R,G
+   1,R,J
+
+#Above the Castle
+#gogogogogo
+  26,R
+   5,R,D
+   3,R,X
+  36,R
+
+#3.8256 avg speed optimally
+Repeat, 2
+  25,R,D
+  17,R,J
+   2,R
+  17,R,J
+   1,R
+   1,R,J
+  23,R
    1
    1,R
-  12,R,D
-  25,R,D,J
-  36,R,D
-   1,R,D,J
-  37,R,D
-   5,R,D,J
-  21,R,D
-   3,R,D,X
-  23,R,D
-   8,R,D,J
-  29,R,D
-   2
+EndRepeat
+
+  25,R,D
+  17,R,J
+   2,R
+  17,R,J
+   5,R
+   1
+   1,R
+
+#wall pull time
+  25,R,D
+  17,R,J
+   2,R
+  16,R,J
+   1,R
+   1,R,J
+  13,R
+   1
+   1,R
+   1,R,D
+  18,R,J
+Repeat, 33
+   1,R
+   1,R,J
+EndRepeat
+
+#we're out WWW
+  68,R
+  13,R,J
+  16,R
+   1,J
+  55,D,J
+   1,R
+  17,R,J
+   2,R
+  34,R,J
+   1,R
+  11,R,J
+  26,R
+
+#Reslide on the thing
+   1
+   1,R
+  17,R,D
+  10,R,J
+  32,R
+
+#keep >3 speed as
+#long as we can
   24,J
-   3,J,X
-  12,L,D,J
-   9,L,J
-   6,R,D
-  20,R,D,J
-   1,R,D
-   4,R,D,J
-  19,R,D
-   5,R,D,J
-   1,L,D,J
-   3,R,D,J
-   3,R,D,J,X
-   9,R,D,J
-   1,R,D
-   1,R,D,J
-   1,R,D
-   1,R,D,J
-   1,R,D
-   1,R,D,J
-   1,R,D
-   1,R,D,J
-   1,R,D
-   1,R,D,J
-   1,R,D
-   1,R,D,J
-   1,R,D
+   1,L,J,X
+   1,R,J
+  16,L,J
+   1
+   3,L
+
+   8,R,D
+Hold, D
+  20,R,J
+  17,R
+   1,L
+   3
+  11,R
+   3,R,X
+  12,R
+
+#crouch jump spam
    1,R,J
    1,R
    1,R,J
-   1,R,D,J
+   1,R
    1,R,J
-   1,R,D
-  48,R,D,J
-   4,R,D
-   1,R,D,J
-   3,R,D
-   3,R,D,J
-  19,R,D
-   5,D,J
-   5,R,D
-  13,R,D,J
-   1,R,D
-   2,R,D,J
-  18,R,D
-  11,L
-   4,L,J
-  12,L
-  15,L,J
+   1,R
+   1,R,J
+   1,R
+   1,R,J
+   1,R
+   1,R,J
+Hold
+   1,R
+   1,R,J
+   2,R
+   1,D
+  24,R,J
+   2,R
+  13,R,J
+  13,R
+   1,R,J
+  34,R
+  14,R,J
+
+#double penguin cancel
+  29,R
+   1,J
+   1,R
+   5,L
+   1,L,D
+   1,J
+   6,L
+   2,L,D
+   1,R,J
+  12,L,J
+   1,J
+   1,L,J
    1,L
-   1,L,J,N
-  18,R,J,G
-  18,R
+
+#wj (0.999 sub :eyes:)
+   1,L,J
+   1,R,J,G
+  15,R,J
+  10,R
+
+#get 4 speed
+  10,R
+
+#no manip since we just
+#need to spawn the last
+#platform as soon as
+#possible
   12,R,D
-  68,R,D,J
-   3,R,D
-  10,R,D,J
-  28,R,D
-   8,R,D,J
+  68,R,J
+   3,R
+  10,R,J
+   4,R
+
+#platform spawned, now
+#swag a bit while we
+#wait for it to do our
+#bidding
+  24,R
+   8,R,J
   42,L
    4,L,D
-  11,L,D,J
-  28,L,D
-   9,L,D,J
-  47,R,D,J
-   6,R,D
-   1,R,D,J
-  24,R,D
-  20,R,D,J
-  25,R,D
-   1,R,D,J
+Hold, D
+  11,L,J
+  28,L
+   8,L,J
+  26,R,J
+  27,R
+   1,R,J
+  24,R
+  19,R,J
+  24,R
+   1,R,J
+Repeat, 5
    1,R
    1,R,J
+EndRepeat
+Hold
+   1,R,G
+   2
    1,R
-   1,R,J
-   1,R,N
-  18,R,G
+   1
+   9,R
   10,R,J
-   8,R,D
-   4,R
+  11,R
    1,R,D
-  27,R,D,J
-   5,J
-  29
-
-#9031
-#549.793
+  24,R,J
+   2,R
+   7,R,J
+  25,R
+#5600 switch
+#551.23
