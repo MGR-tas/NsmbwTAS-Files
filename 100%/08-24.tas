@@ -1,7 +1,7 @@
 #8-Castle Penguin
 #must have perfect RNG
 #to be optimal!
-Write, 32, RNG, 0x47244A0C
+#Write, 32, RNG, 0x47244A0C
   61
   22,R
    4,R,D
@@ -544,7 +544,6 @@ Insert Load, 8-Castle Door
 2153
 #599.027
 
-
 #please dont ever improve
 #this section...
 
@@ -557,51 +556,53 @@ Insert Load, 8-Castle Door
 #so you kinda gotta try
 #random shit until it works.
 
-#There goes 4 hours of my
+#There goes 6 hours of my
 #life resyncing rng here
 
-
    3,X
-  26,L
-  36,R
-   1,R,J
-   4,R,J,G
-  14,R,J
-   2,R
-   9,R,J
-   3,R,J,X
-  21,R,J
-   1,R
-   1,R,J
-   1,L,J
-   3,L,J,G
-  15,L,J
-   2,L
-   4,L,J
-   8,D,J
-   1,R,J
-   8,R,U,J
-   3,R,U,J,X
-  27,R,U,J
-   3,R,J
-   5,D,J
-  11,R,U,J
-   5,R,U
-   2,R,U,J
-   1,R,U,J,G
-  16,R,J
-   1,R
+  25,L
+  18,R
    1,R,J
    1,R,J,G
-   1,R,J
+   5,R,J
+   1,R
+   7,R,J
+   2,R
+   8,R,J
+   3,R,J,X
+  25,R,J
    4,R
    1,R,J
-   3,R,J,X
-   6,R,J
-  15,R
-   6,R,D
-   3,R,X
-  16,R
+  23,R
+   1,L,J
+  13,J
+   5,D,J
+  37
+   1,L
+Repeat, 22
+   1,D
+   1
+EndRepeat
+   1,D
+   1,R
+Repeat, 8
+   1,G
+   4
+EndRepeat
+   3
+   1,G
+   8,J
+   2
+   1,J
+   1
+   1,J
+   1
+   4,L
+   1,R
+   1,R,J
+
+#wj anim - 290/3719
+# 3988.52, -672.53
    1,R,J
    1,R,J,G
   21,R,J
@@ -708,7 +709,8 @@ EndRepeat
    4,R
 
 #RNG manip: shoot ice (-1)
-   4,R
+   3,R
+   1,R,G
 
    1,L,J
    1,L
@@ -864,12 +866,21 @@ EndRepeat
   10,R,J
   32,R
 
-#keep >3 speed as
-#long as we can
-  17,J
+#MANIP RNG HERE BY
+#SHOOTING THE ICE BALL
+#AT DIFFERENT TIMES
+#(or being at a slightly
+#different pos or smth idk)
+
+#keep >3 speed as long
+#as we can, but don't
+#need to be perfect
+  15,J
    1,J,G
    6,J
-   1,L,J,X
+   1,L,J
+   1,J
+   1,J,X
    1,R,J
   14,L,J
    1,J
@@ -908,10 +919,29 @@ Hold
   13,R
    1,R,J
   34,R
+
+
+#The RNG call that happens
+#during this jump is the
+#one that determines if
+#bowser will swipe (bad) or
+#shoot a fire ball (good)
+
+#good
+#Write, 32, RNG, 0x47244A0C
+#Write, 32, RNG, 0x89FA8CE2
+#Write, 32, RNG, 0x72CB75B3
+
+#bad
+#Write, 32, RNG, 0xD469D751
+#Write, 32, RNG, 0x38973B7F
+#Write, 32, RNG, 0x2D3E3026
+#Write, 32, RNG, 0x03810669
+#Write, 32, RNG, 0xA02FA317
   14,R,J
+  29,R
 
 #double penguin cancel
-  29,R
    1,J
    1,R
    5,L
@@ -1036,6 +1066,6 @@ Hold
 
 #Working Credits RNG:
 #72CB75B3
-#A02FA317
+#A02FA317 (current)
 #47244A0C
 Insert Load, 8-Castle End
