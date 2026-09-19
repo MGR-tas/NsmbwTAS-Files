@@ -5,8 +5,8 @@
 
 #Start from power on;
 #before frame 100
-Manual, 100
 Open LoadDoc, HundoTAS
+Manual, 100
 
    3
    1,J
@@ -339,7 +339,7 @@ Read, 01-04.tas
    1
 Write, 32, RNG, 0x89FA8CE2
 
- 586
+ 558
    2,R,N
   71
    2,R,N
@@ -597,11 +597,9 @@ Read, 03-05N.tas
  252
    1,J
 
-#RNG nightmare - Prop blocks
-Write, 32, RNG, 0x38973B7F
-
 Insert Load, 3-5S Start
 Read, 03-05S.tas
+#post 3-5 rng: 0x03810669
 
  343
    2,L,N

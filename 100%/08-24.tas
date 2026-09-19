@@ -1,7 +1,7 @@
 #8-Castle Penguin
 #must have perfect RNG
 #to be optimal!
-#Write, 32, RNG, 0x47244A0C
+Write, 32, RNG, 0x47244A0C
   61
   22,R
    4,R,D
@@ -775,7 +775,8 @@ EndRepeat
    2,R
 
 #RNG manip: jump (+1)
-   9,R
+   1,R,J
+   8,R
    1,R,G
    8,R
    1
@@ -875,13 +876,12 @@ EndRepeat
 #keep >3 speed as long
 #as we can, but don't
 #need to be perfect
-  15,J
+  17,J
    1,J,G
-   6,J
+   5,J
    1,L,J
+   1,R,J,X
    1,J
-   1,J,X
-   1,R,J
   14,L,J
    1,J
    1,L,J
@@ -952,9 +952,11 @@ Hold
    1,R,J
    6,L,J
 
-   1,L,J,G
+#end rng manip:
+#do or don't shoot ice
+   1,L,J
    4,L,J
-   1,L,J,G
+   1,L,J
    1,J
    1,L,J
    1,L
@@ -1027,8 +1029,8 @@ Hold
 #Get the camera as far right
 #as possible asap so bowser
 #lands further right
+   1,L,J
    1,R,J
-   1,R,J,G
    9,R,J
   10,R
    1,D
@@ -1066,6 +1068,6 @@ Hold
 
 #Working Credits RNG:
 #72CB75B3
-#A02FA317 (current)
+#A02FA317 (not ideal)
 #47244A0C
 Insert Load, 8-Castle End

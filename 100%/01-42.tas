@@ -1,7 +1,12 @@
 #Working RNG:
 #Write, 32, RNG, 0x72CB75B3
-#Write, 32, RNG, 0xA02FA317
 #Write, 32, RNG, 0x47244A0C
+
+#currently desyncs near
+#room frame #8900
+#because Toad jumps on
+#luigi for too long fsr
+#Write, 32, RNG, 0xA02FA317
 
 #Start 01-42
   61
@@ -31,32 +36,6 @@
 
 
 ## RNG 0xA02FA317 ##
-   1,R,D
-   1,D,J
-   1,R,D,J
-  10,R,D
-   1,R,D,J
-  12,R,D
-   1,L,D
-   1,L,J
-  27,R
-   1,R,J
-  23,R
-   1,L,J
-  16
-   8,R
-   1,R,J
-  25,R
-   1,R,D
-   4,R,D,J
-  11,R,D
-   3,R,D,X
-   1,R,J,G
-  15,G
-## End RNG 0xA02FA317 ##
-
-
-## RNG 0x47244A0C ##
 #   1,R,D
 #   1,D,J
 #   1,R,D,J
@@ -66,19 +45,49 @@
 #   1,L,D
 #   1,L,J
 #  27,R
-#   1,R
+#   1,R,J
 #  23,R
 #   1,L,J
-#  14
-#  10,R
+#  15
+#   2,R
+#   1
+#   1,R
+#   3
+#   2,R
 #   1,R,J
 #  25,R
 #   1,R,D
-#   3,R,D,J
-#  12,R,D
+#   4,R,D,J
+#  11,R,D
 #   3,R,D,X
 #   1,R,J,G
 #  15,G
+## End RNG 0xA02FA317 ##
+
+
+## RNG 0x47244A0C ##
+   1,R,D
+   1,D,J
+   1,R,D,J
+  10,R,D
+   1,R,D,J
+  12,R,D
+   1,L,D
+   1,L,J
+  27,R
+   1,R
+  23,R
+   1,L,J
+  14
+  10,R
+   1,R,J
+  25,R
+   1,R,D
+   3,R,D,J
+  12,R,D
+   3,R,D,X
+   1,R,J,G
+  15,G
 ## End RNG 0x47244A0C ##
 
 
